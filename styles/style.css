@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background-color: #000;
+}
+
+.wrapper{
+    background-color: black;
+}
+
+.navbar{
+    background-color: #000 !important;
+    padding: 0;
+}
+
+.navbar a{
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 2rem;
+    color: orangered;
+}
+
+.dropdown-menu{
+    background-color: black;
+}
+
+.dropdown-menu a{
+    font-size: 1.4rem;
+}
+
+.carousel-item{
+    height: 36rem;
+    background: #777;
+    color: orangered;
+    font-weight: 800;
+    position: relative;
+    background-position: top;
+    background-size: cover;
+}
+
+.carousel-item a{
+    background-color: orangered;
+    color: black;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+#calum-carousel{
+    background-position: center;
+}
+
+#same-carousel{
+    background-position: center;
+}
+
+#cards{
+    position: relative;
+    background-color: black;
+}
+
+#join{
+    display: inline-block;
+}
+
+footer{
+    background-color: black;
+}
+
+#join h3{
+    color: orangered;
+}
+
+#join button{
+    background-color: orangered;
+}
+
+footer a{
+    color: orangered;
+}
+
+.artist-main{
+    display: flex;
+}
+
+.twitter{
+   background-color: black;
+}
+
+.video-single img{
+    width: 100%;
+}
+
+.bandcamp{
+    margin: auto;
+}
