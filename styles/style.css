@@ -101,3 +101,49 @@ footer a{
 .bandcamp{
     margin: auto;
 }
+
+.artist-grid{
+    height: 250vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    border-style: solid;
+    border-color: orangered;
+}
+
+.artist-photo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-style: solid;
+    border-color: orangered;
+}
+
+.artist-bc{
+    grid-column: 3/4;
+    grid-row: 1/3;
+    border-style: solid;
+    border-color: orangered;
+}
+
+.artist-bio{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-style: solid;
+    border-color: orangered;
+}
+
+.artist-releases{
+    grid-column: 3/4;
+    grid-row: 3/6;
+    border-style: solid;
+    border-color: orangered;
+}
+
+.artist-videos{
+    grid-column: 1/3;
+    grid-row: 2/6;
+    border-style: solid;
+    border-color: orangered;
+}
+
+
