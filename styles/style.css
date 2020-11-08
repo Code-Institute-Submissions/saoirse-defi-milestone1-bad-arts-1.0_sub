@@ -259,10 +259,31 @@ footer a{
 }
 
 .artist-releases{
-    grid-column: 3/4;
-    grid-row: 3/6;
+    grid-column: 1/4;
+    grid-row: 6/7;
     border-style: solid;
     border-color:rgb(35, 51, 24);
+}
+
+.releases{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.releases1{
+    grid-column: 1/2;
+}
+
+.releases2{
+    grid-column: 2/3;
+}
+
+.releases3{
+    grid-column: 3/4
+}
+
+.releases4{
+    grid-column: 4/5;
 }
 
 .artist-video1{
