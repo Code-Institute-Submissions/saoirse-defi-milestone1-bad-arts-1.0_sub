@@ -239,6 +239,10 @@ footer a{
     border-color: rgb(35, 51, 24);
 }
 
+.artist-photo img{
+    margin-left: 18px;
+}
+
 .artist-bc{
     grid-column: 3/4;
     grid-row: 1/3;
