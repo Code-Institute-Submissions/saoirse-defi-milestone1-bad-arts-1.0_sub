@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+div:empty{
+    display: none;
+}
+
 .body{
     background-color: #000;
 }
@@ -21,12 +25,17 @@ h2{
     background-color: #000 !important;
     padding: 0;
     margin-left: 155px;
+    height: 92px;
 }
 
 .navbar a{
     font-family: 'Grenze Gotisch', cursive;
     font-size: 2rem;
     color: orangered;
+}
+
+.navbar a:hover{
+    color: rgb(35, 51, 24);
 }
 
 .dropdown-menu{
@@ -50,6 +59,20 @@ h2{
 .carousel-item a{
     background-color: orangered;
     color: black;
+    margin-left: 75px;
+}
+
+.carousel-item a:hover{
+    background-color: rgb(35, 51, 24);
+    color: orangered;
+}
+
+#carousel-main h1{
+    margin-left: 75px;
+}
+
+#carousel-main p{
+    margin-left: 75px;
 }
 
 .container{
@@ -88,6 +111,7 @@ footer a{
 .footer{
     height: 400px;
     position: relative;
+    margin-top: 50px;
 }
 
 .footer-top{
@@ -98,16 +122,28 @@ footer a{
 }
 
 .footer-bio{
-    grid-column: 1/2;
+    grid-column: 2/3;
     text-align: center;
+}
+
+.footer-bio p{
+    color: rgb(35, 51, 24);
 }
 
 .social-icons{
     text-align: center;
 }
 
+.social-icons i{
+    color: orangered;
+}
+
+.social-icons i:hover{
+    color: rgb(35, 51, 24);
+}
+
 .footer-links{
-    grid-column: 3/4;
+    grid-column: 1/2;
 }
 
 .footer-links h3{
@@ -119,8 +155,16 @@ footer a{
     text-align: center;
 }
 
+.footer-links ul li a{
+    color: orangered;
+}
+
+.footer-links ul li a:hover{
+    font-size: 1.2rem;
+}
+
 .footer-contact{
-    grid-column: 2/3;
+    grid-column: 3/4;
 }
 
 .footer-contact h3{
@@ -131,11 +175,23 @@ footer a{
     text-align: center;
 }
 
+.footer-contact input{
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.footer-contact button{
+    background-color: orangered;
+    color: black;
+}
+
 .footer-copy{
     height: 50px;
     width: 100%;
     position: absolute;
     text-align: center;
+    color: rgb(35, 51, 24);
 
 }
 
@@ -157,7 +213,6 @@ footer a{
 
 .twitter{
    background-color: black;
-   margin-left: 210px;
 }
 
 .bandcamp{
