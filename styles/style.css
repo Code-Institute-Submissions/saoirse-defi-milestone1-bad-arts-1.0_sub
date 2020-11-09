@@ -171,6 +171,7 @@ footer a{
     padding: 10px;
     margin: 5px 0;
     border-radius: 10px;
+    background-color: rgb(35, 51, 24);
 }
 
 .footer-contact button{
@@ -479,6 +480,7 @@ footer a{
 
     .video-grid{
         width: 100%;
+        margin: 0px auto;
     }
 
     .video-single iframe{
@@ -486,27 +488,26 @@ footer a{
     }
 
     .event-feed{
-    display: block;
-    justify-items: center;
-}
+        display: block;
+        justify-items: center;
+    }
 
-.event-single{
-    height: 50vh;
-    width: 100%;
-}
+    .event-single{
+        height: 50vh;
+        width: 100%;
+    }
 
-.twitter{
-   
-   margin: 0px auto;
-}
+    .twitter{
+        margin: 0px auto;
+    }
 
-#footer-twitter{
-    margin: 0px auto;
-}
+    #footer-twitter{
+        margin: 0px auto;
+    }
 
-.merch-text p{
-    font-size: 1.75rem;
-}
+    .merch-text p{
+        font-size: 1.75rem;
+    }
 
 
 }
