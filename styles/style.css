@@ -24,6 +24,10 @@ h2{
     height: 92px;
 }
 
+.navbar-collapse {
+   background: #000;
+}
+
 .navbar a{
     font-family: 'Grenze Gotisch', cursive;
     font-size: 2rem;
