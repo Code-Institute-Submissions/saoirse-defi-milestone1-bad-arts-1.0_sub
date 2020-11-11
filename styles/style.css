@@ -284,14 +284,11 @@ footer a{
     grid-row: 2/4;
     border-style: solid;
     border-color: rgb(35, 51, 24);
-    position: relative;
 }
 
 .artist-video1 iframe{
     width: 850px;
     height: 525px;
-    position: absolute;
-    right: 5px;
 }
 
 .artist-video2{
@@ -299,14 +296,11 @@ footer a{
     grid-row: 4/6;
     border-style: solid;
     border-color: rgb(35, 51, 24);
-    position: relative;
 }
 
 .artist-video2 iframe{
     width: 850px;
     height: 525px;
-    position: absolute;
-    right: 5px;
 }
 
 .merch-gallery{
@@ -336,7 +330,7 @@ footer a{
 
 .merch-text p{
     font-family: 'Grenze Gotisch', cursive;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .merch-img{
@@ -464,10 +458,6 @@ footer a{
     .artist-video2 iframe{
         width: 100%;
         height: 100%;
-    }
-
-    .artist-releases{
-        display: none;
     }
 
     .video-grid{
