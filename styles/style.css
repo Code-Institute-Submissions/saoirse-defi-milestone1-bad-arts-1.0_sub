@@ -284,11 +284,14 @@ footer a{
     grid-row: 2/4;
     border-style: solid;
     border-color: rgb(35, 51, 24);
+    position: relative;
 }
 
 .artist-video1 iframe{
     width: 850px;
     height: 525px;
+    position: absolute;
+    right: 5px;
 }
 
 .artist-video2{
@@ -296,11 +299,14 @@ footer a{
     grid-row: 4/6;
     border-style: solid;
     border-color: rgb(35, 51, 24);
+    position: relative;
 }
 
 .artist-video2 iframe{
     width: 850px;
     height: 525px;
+    position: absolute;
+    right: 5px;
 }
 
 .merch-gallery{
@@ -438,6 +444,7 @@ footer a{
 
     .artist-grid{
         display: block;
+        height: 200vh;
     }
 
     .artist-photo img{
@@ -447,17 +454,18 @@ footer a{
 
     .artist-bc iframe{
       width: 100%;
-      height: 500px;
+      height: 525px;
     }
 
     .artist-video1 iframe{
         width: 100%;
-        height: 100%;
+        height: 250px;
     }
 
     .artist-video2 iframe{
         width: 100%;
-        height: 100%;
+        height: 250px;
+        margin-top: 250px;
     }
 
     .video-grid{
@@ -477,6 +485,7 @@ footer a{
     .event-single{
         height: 50vh;
         width: 100%;
+        display: block;
     }
 
     .twitter{
