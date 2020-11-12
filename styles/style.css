@@ -97,6 +97,11 @@ h2{
     background-color: black;
 }
 
+.card{
+    background-color: rgb(35, 51, 24);
+    color: orangered;
+}
+
 footer{
     background-color: black;
 }
@@ -110,6 +115,9 @@ footer a{
     position: relative;
     margin-top: 50px;
 }
+
+/* Credit: https://www.youtube.com/watch?v=wfXz8rW_fUs&list=PLOPo1bGrV4htxbQCS3CPZ59O1kpPdE7PK
+Code was not taken directly from this video but the knowledge provided allowed me to create grid of my own */
 
 .footer-top{
     height: 350px;
@@ -178,6 +186,7 @@ footer a{
     margin: 5px 0;
     border-radius: 10px;
     background-color: transparent;
+    color: orangered;
 }
 
 .footer-contact button{
@@ -200,22 +209,6 @@ footer a{
 
 }
 
-#join h3{
-    color: orangered;
-}
-
-#join p{
-    color: orangered;
-}
-
-#join button{
-    background-color: orangered;
-}
-
-.artist-main{
-    display: flex;
-}
-
 .twitter{
    background-color: black;
    margin-left: 210px;
@@ -230,9 +223,8 @@ footer a{
     margin: auto;
 }
 
-.wrapper-a10sin{
-    background-color: black;
-}
+/* Credit: https://www.youtube.com/watch?v=wfXz8rW_fUs&list=PLOPo1bGrV4htxbQCS3CPZ59O1kpPdE7PK
+Code was not taken directly from this video but the knowledge provided allowed me to create grid of my own */
 
 .artist-grid{
     height: 210vh;
@@ -309,6 +301,9 @@ footer a{
     right: 5px;
 }
 
+/* Credit: https://www.youtube.com/watch?v=wfXz8rW_fUs&list=PLOPo1bGrV4htxbQCS3CPZ59O1kpPdE7PK
+Code was not taken directly from this video but the knowledge provided allowed me to create grid of my own */
+
 .merch-gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -318,6 +313,9 @@ footer a{
     position: relative;
     overflow: hidden;
 }
+
+/*  Credit: code for the hover text animation taken from https://www.youtube.com/watch?v=ltxxNidblts 
+        and slightly modified.  */
 
 .merch-text{
     position: absolute;
@@ -343,12 +341,17 @@ footer a{
     width: 100%;
 }
 
+/*  Credit: code for the hover text animation taken from https://www.youtube.com/watch?v=ltxxNidblts 
+        and slightly modified.  */
 
 .merch:hover .merch-text{
     transform: translateY(0);
     text-decoration: none;
     color: orangered;
 }
+
+/* Credit: https://www.youtube.com/watch?v=wfXz8rW_fUs&list=PLOPo1bGrV4htxbQCS3CPZ59O1kpPdE7PK
+Code was not taken directly from this video but the knowledge provided allowed me to create grid of my own */
 
 .video-grid{
     display: grid;
@@ -360,6 +363,9 @@ footer a{
     width: 400px;
     height: 250px;
 }
+
+/* Credit: https://www.youtube.com/watch?v=wfXz8rW_fUs&list=PLOPo1bGrV4htxbQCS3CPZ59O1kpPdE7PK
+Code was not taken directly from this video but the knowledge provided allowed me to create grid of my own */
 
 .event-feed{
     display: grid;
@@ -474,7 +480,7 @@ footer a{
     }
 
     .video-single iframe{
-        width: 85%;
+        width: 100%;
     }
 
     .event-feed{
@@ -486,6 +492,16 @@ footer a{
         height: 50vh;
         width: 100%;
         display: block;
+    }
+
+    .event-photo img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .event-text{
+        text-align: center;
     }
 
     .twitter{
