@@ -3,14 +3,6 @@
     margin: 0;
 }
 
-div:empty{
-    display: none;
-}
-
-.artist-video1:empty{
-    display: none;
-}
-
 .body{
     background-color: #000;
 }
@@ -112,10 +104,6 @@ h2{
     color: orangered;
 }
 
-.text-primary{
-    color: white;
-}
-
 .text-primary i{
     color: white;
 }
@@ -150,8 +138,7 @@ Code was not taken directly from this video but the knowledge provided allowed m
 }
 
 .footer-bio p{
-    color: rgb(35, 51, 24);
-    font-weight: bold;
+    color: white;
 }
 
 .social-icons{
@@ -219,12 +206,12 @@ Code was not taken directly from this video but the knowledge provided allowed m
 }
 
 .footer-copy{
-    height: 50px;
+    height: 25px;
     width: 100%;
     position: absolute;
     text-align: center;
     color: rgb(35, 51, 24);
-
+    bottom: 75px;
 }
 
 .twitter{
@@ -307,6 +294,10 @@ Code was not taken directly from this video but the knowledge provided allowed m
     height: 525px;
     position: absolute;
     right: 5px;
+}
+
+#same-photo{
+    margin-left: 40px;
 }
 
 /* Credit: https://www.youtube.com/watch?v=wfXz8rW_fUs&list=PLOPo1bGrV4htxbQCS3CPZ59O1kpPdE7PK
