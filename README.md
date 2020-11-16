@@ -82,6 +82,8 @@ Features Left to Implement
 
 Working backend needs to be created for the contact form and merchandise page.
 
+Would like to make the footer collapsable so when there is no content, the footer moves up to meet the last visible piece of content.
+
 
 
 Technologies Used
@@ -123,7 +125,14 @@ Bugs Discovered:
 
 Bug #1: Navbar on mobile - The navbar dropdown tile works on every page besides index.html
 
+Bug #1: [FIXED] Dropdown on index.html - After asking help from the tutor team at Code Institute, we found that the issue was arrising due to the z-index of the navbar in relation to the carousel. The navbar has now been given a z-index:10
+
 Bug #2: Navbar on mobile - The navbar dropdown menu had a transparent background and was not pleasing to the eye of the viewer.
+
+Bug #2: [FIXED] Mobile navbar transparent background
+
+Bug #3: Mobile event feed - Cannot get event-single elements to display as block which I believe will look more pleasing on mobile.
+
 
 
 
