@@ -591,9 +591,23 @@ Code was not taken directly from this video but the knowledge provided allowed m
         height: 200vh;
     }
 
+    .artist-photo{
+        margin-right: 30px;
+    }
+
     .artist-photo img{
+        width: 90%;
+        margin-left: 40px;
+    }
+
+    .artist-bio-p{
         width: 100%;
-        margin-left: 0px;
+        text-align: center;
+    }
+
+    .artist-bio-h2{
+        font-size: 3rem;
+        text-decoration: underline;
     }
 
     .artist-bc iframe{
