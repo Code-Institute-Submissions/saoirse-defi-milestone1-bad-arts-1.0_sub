@@ -3,39 +3,41 @@
     margin: 0;
 }
 
-.body{
-    background-color: #000;
+
+body{
+    padding-top: 92px;
+    background-image: repeat(url(assets/img/pattern1.jpg));
 }
 
-h2{
+.wrapper{
+    position:relative;
+    background-image: repeat(url(assets/img/pattern1.jpg));
+}
+
+h2, h3{
     color: orangered;
     font-family: 'Grenze Gotisch', cursive;
     text-align: center;
 }
 
-.wrapper{
-    background-color: black;
+span{
+    color: orangered;
+    font-family: 'Grenze Gotisch', cursive;
+    text-align: center;
 }
 
 .navbar{
-    background-color: #000 !important;
-    padding: 0;
-    margin-left: 75px;
     height: 92px;
 }
 
-.navbar-collapse {
-   background: #000;
+.navbar-brand img{
+    border-radius:45%;
 }
 
 .navbar a{
     font-family: 'Grenze Gotisch', cursive;
     font-size: 2rem;
     color: orangered;
-}
-
-.navbar a:hover{
-    color: rgb(35, 51, 24);
 }
 
 .nav-mobile-header{
@@ -50,36 +52,27 @@ h2{
     font-size: 1.4rem;
 }
 
+footer{
+    position:absolute;
+    left:0;
+    right:0;
+    down:0;
+    color:orangered;
+    margin-top: 100px;
+}
+
+.fab{
+    color:orangered;
+}
+
 .carousel-item{
     height: 36rem;
-    background: #777;
     color: white;
     font-weight: 800;
     position: relative;
     background-position: center;
     background-size: cover;
-}
-
-.carousel-item a{
-    background-color: rgb(35, 51, 24);
-    color: orangered;
-    margin-left: 75px;
-    font-weight: bold;
-    border-style: solid;
-    border-color: orangered;
-}
-
-.carousel-item a:hover{
-    background-color: orangered;
-    color: rgb(35, 51, 24);
-}
-
-#carousel-main h1{
-    margin-left: 75px;
-}
-
-#carousel-main p{
-    margin-left: 75px;
+    font-family: 'Grenze Gotisch', cursive;
 }
 
 .container{
@@ -88,6 +81,12 @@ h2{
     left: 0;
     right: 0;
     padding-bottom: 50px;
+    text-align: center;
+}
+
+.carousel-item a h1{
+    font-size: 4rem;
+    color: orangered;
 }
 
 #calum-carousel{
@@ -100,122 +99,28 @@ h2{
 
 #cards{
     position: relative;
-    background-color: black;
 }
 
 .card{
-    background-color: rgb(35, 51, 24);
+    background-color: orangered;
+    color: black;
+    height: 400px;
+    padding-top: 10px;
+}
+
+.card-footer h3{
+    color: black;
+}
+
+.form-group{
     color: orangered;
+    font-family: 'Grenze Gotisch', cursive;
+    width: 33%;
+    margin: 0 auto;
 }
 
 .text-primary i{
-    color: white;
-}
-
-footer{
-    background-color: black;
-}
-
-footer a{
     color: orangered;
-}
-
-.footer{
-    height: 400px;
-    position: relative;
-    margin-top: 50px;
-}
-
-/* Credit: https://www.youtube.com/watch?v=wfXz8rW_fUs&list=PLOPo1bGrV4htxbQCS3CPZ59O1kpPdE7PK
-Code was not taken directly from this video but the knowledge provided allowed me to create grid of my own */
-
-.footer-top{
-    height: 350px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 350px;
-}
-
-.footer-bio{
-    grid-column: 2/3;
-    text-align: center;
-}
-
-.footer-bio p{
-    color: white;
-}
-
-.social-icons{
-    text-align: center;
-}
-
-.social-icons i{
-    color: orangered;
-}
-
-.social-icons i:hover{
-    color: rgb(35, 51, 24);
-}
-
-.footer-links{
-    grid-column: 1/2;
-}
-
-.footer-links h3{
-    text-align: center;
-}
-
-.footer-links ul li{
-    list-style: none;
-    text-align: center;
-}
-
-.footer-links ul li a{
-    color: orangered;
-}
-
-.footer-links ul li a:hover{
-    font-size: 1.2rem;
-}
-
-.footer-contact{
-    grid-column: 3/4;
-}
-
-.footer-contact h3{
-    text-align: center;
-}
-
-.footer-contact form{
-    text-align: center;
-}
-
-.footer-contact input{
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 10px;
-    background-color: transparent;
-    color: orangered;
-}
-
-.footer-contact button{
-    background-color: orangered;
-    color: black;
-    font-weight: bold;
-}
-
-.footer-contact button:hover{
-    background-color: rgb(35, 51, 24);
-    color: orangered;
-}
-
-.footer-copy{
-    height: 25px;
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    color: rgb(35, 51, 24);
-    bottom: 75px;
 }
 
 .twitter{
