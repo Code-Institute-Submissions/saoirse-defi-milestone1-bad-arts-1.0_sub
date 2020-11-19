@@ -137,6 +137,10 @@ Bug #4: All cards not behaving the same #accordion - BMD and Field don't have th
 
 Bug #5: Connecting 2 carousels together not working video.html
 
+Bug #5: [FIXED] Wrote a JS script to connect carousel-video to carousel-video-info
+
+Bug #6: Cant stop the carousel automatically transitioning
+
 
 Credit
 

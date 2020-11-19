@@ -41,43 +41,48 @@
     </div>
 </nav>
 
-<h2>Contact Us</h2>
-<h3>Whether you're a promoter looking to book an artist or a fan, we would love to hear from you</h3>
+<h3>Keep in touch, you filthy animals!</h3>
 
+<div class="container">
+<div class="row">
+<div class="col-md-6" id="contact-img">
+    <img src="assets/img/group2.jpg" alt="contact img"/>
+</div>
+<div class="col-md-6" id="contact-form">
 <form>
     <div class="form-group">
         <label for="exampleFormControlSelect1">Nature of enquiry</label>
         <select class="form-control" id="exampleFormControlSelect1">
-        <option>Book an artist</option>
         <option>Fan message</option>
         <option>Collaboration request</option>
+        <option>Book an artist</option>
         <option>Merchandise question</option>
         </select>
     </div>
     <div class="form-group">
-        <label for="exampleFormControlInput1">Name</label>
         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
     </div>
     <div class="form-group">
-        <label for="exampleFormControlInput2">Email address</label>
         <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
     </div>
-    <div class="form-group">
-        <label class="control-label" for="date">Meeting Date</label>
-        <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+    <div class="td">
+    <div class="form-group" id="form-date">
+        <input class="form-control" id="date" name="date" placeholder="Date & Time" type="text"/>
       </div>
-    <div class="form-group">
-        <label class="control-label" for="time">Meeting Time</label>
-        <input class="form-control" id="time" name="time" placeholder="HH:MM:ss" type="text"/>
+    <div class="form-group" id="form-time">
+        <input class="form-control" id="time" name="time" type="text"/>
       </div>
+    </div>
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Message:</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message..." rows="3" style="width:150%;"></textarea>
   </div>
     <div class="form-group">
         <button type="submit" class="btn btn-primary">Send</button>
     </div>
 </form>
+</div>
+</div>
+</div>
 
 
 <!-- Footer -->
@@ -85,19 +90,23 @@
   <!-- Footer Elements -->
   <div class="container" style="background: url(assets/img/pattern1.jpg);">
     <!--Grid row-->
-    <div class="row">
+    <div class="row" style="background: url(assets/img/pattern1.jpg);">
       <!--Grid column-->
-      <div class="col-md-6 mb-4">
+      <div class="col-md-6 mb-4" id="left-col">
+        <h3>Bad Arts Entertainment</h3>
         <p>An independent hip hop label based in Limerick City.</p>
+        <a href="https://twitter.com/BadArtsEnterta1?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @BadArtsEnterta1</a>
       </div>
       <!--Grid column-->
-      <div class="col-md-6 mb-4">
+      <!--Grid column-->
+      <div class="col-md-6 mb-4" id="right-col">
+        <h3>Find us on:</h3>
         <a class="fb-ic">
             <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
           <!-- Twitter -->
           <a class="tw-ic">
-            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
           <!-- Google +-->
           <a class="yt-ic">
@@ -149,5 +158,6 @@
 <script src="https://kit.fontawesome.com/cfd5bd64a2.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ==" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
