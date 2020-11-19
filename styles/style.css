@@ -14,7 +14,7 @@ body{
     background-image: repeat(url(assets/img/pattern1.jpg));
 }
 
-h2, h3{
+h2, h3, h5{
     color: orangered;
     font-family: 'Grenze Gotisch', cursive;
     text-align: center;
@@ -63,18 +63,28 @@ footer{
     margin-top: 100px;
 }
 
+#left-col{
+    text-align: center;
+}
+
+#right-col{
+    text-align: center;
+}
+
+#right-col a{
+    margin-left: 50px;
+}
+
+#right-col a i:hover{
+    color: purple;
+}
+
 .fab{
     color:orangered;
 }
 
-.carousel-item{
-    height: 36rem;
-    color: white;
-    font-weight: 800;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    font-family: 'Grenze Gotisch', cursive;
+#carousel-video, #carousel-video-info{
+    width: 50%;
 }
 
 .carousel-item a h1{
@@ -139,6 +149,10 @@ footer{
     content: '';
     position: absolute;
     z-index: 1;
+}
+
+.card-body video{
+    width: 100%;
 }
 
 .card-title h3{
