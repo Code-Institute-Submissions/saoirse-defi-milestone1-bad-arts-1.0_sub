@@ -14,11 +14,13 @@ body{
     background-image: repeat(url(assets/img/pattern1.jpg));
 }
 
-h2, h3{
+h2, h3, h5{
     color: orangered;
     font-family: 'Grenze Gotisch', cursive;
     text-align: center;
 }
+
+
 
 span{
     color: orangered;
@@ -61,27 +63,28 @@ footer{
     margin-top: 100px;
 }
 
+#left-col{
+    text-align: center;
+}
+
+#right-col{
+    text-align: center;
+}
+
+#right-col a{
+    margin-left: 50px;
+}
+
+#right-col a i:hover{
+    color: purple;
+}
+
 .fab{
     color:orangered;
 }
 
-.carousel-item{
-    height: 36rem;
-    color: white;
-    font-weight: 800;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    font-family: 'Grenze Gotisch', cursive;
-}
-
-.container{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 50px;
-    text-align: center;
+#carousel-video, #carousel-video-info{
+    width: 50%;
 }
 
 .carousel-item a h1{
@@ -101,11 +104,60 @@ footer{
     position: relative;
 }
 
+#accordion-h2{
+    font-size: 5rem;
+    text-decoration: underline;
+}
+
 .card{
-    background-color: orangered;
-    color: black;
-    height: 400px;
-    padding-top: 10px;
+    background-color: black;
+    color: orangered;
+    position: relative;
+}
+
+.card-img{
+    float: left;
+}
+
+.card-title{
+    float: right;
+    left: 250px;
+    position: absolute;
+}
+
+.card-icons a i:hover{
+    color: purple;
+}
+
+.btn-link{
+    width: 100%;
+    height: 60px;
+    color: orangered;
+
+}
+
+.btn-link:after{
+    content: '\2212';
+    position: absolute;
+}
+
+.btn-link-collapsed:after{
+    content: '\002B';
+}
+
+.btn-link:before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+}
+
+.card-body video{
+    width: 100%;
+}
+
+.card-title h3{
+    font-size: 3rem;
+    overflow: hidden;
 }
 
 .card-footer h3{

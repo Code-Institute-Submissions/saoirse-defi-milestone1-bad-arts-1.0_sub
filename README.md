@@ -133,7 +133,9 @@ Bug #2: [FIXED] Mobile navbar transparent background
 
 Bug #3: Mobile event feed - Cannot get event-single elements to display as block which I believe will look more pleasing on mobile.
 
+Bug #4: All cards not behaving the same #accordion - BMD and Field don't have the expand icon.
 
+Bug #5: Connecting 2 carousels together not working video.html
 
 
 Credit
