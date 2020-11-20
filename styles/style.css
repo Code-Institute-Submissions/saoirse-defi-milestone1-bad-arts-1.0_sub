@@ -83,19 +83,6 @@ footer{
     color:orangered;
 }
 
-.carousel-item a h1{
-    font-size: 4rem;
-    color: orangered;
-}
-
-#calum-carousel{
-    background-position: center;
-}
-
-#same-carousel{
-    background-position: center;
-}
-
 #cards{
     position: relative;
 }
@@ -147,6 +134,10 @@ footer{
     z-index: 1;
 }
 
+.release-card{
+    height: 400px;
+}
+
 .card-body video{
     width: 100%;
 }
@@ -156,10 +147,9 @@ footer{
     overflow: hidden;
 }
 
-.card-footer h3{
-    color: black;
+.card-footer{
+    text-align: center;
 }
-
 
 .text-primary i{
     color: orangered;
@@ -244,7 +234,7 @@ footer{
 }
 
 #contact-h3{
-    padding: 25px;
+    padding: 15px;
 }
 
 .contact-container{
@@ -258,7 +248,7 @@ footer{
 .form-group{
     color: orangered;
     font-family: 'Grenze Gotisch', cursive;
-    width: 33%;
+    width: 50%;
 
 }
 
