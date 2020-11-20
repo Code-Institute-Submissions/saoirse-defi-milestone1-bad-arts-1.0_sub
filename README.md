@@ -139,7 +139,7 @@ Bug #5: Connecting 2 carousels together not working video.html
 
 Bug #5: [FIXED] Wrote a JS script to connect carousel-video to carousel-video-info
 
-Bug #6: Cant stop the carousel automatically transitioning
+Bug #6: Cant stop the video-info carousel automatically transitioning even though "slides" was removed from class name
 
 
 Credit
