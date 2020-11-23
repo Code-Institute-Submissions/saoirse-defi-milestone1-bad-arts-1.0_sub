@@ -30,6 +30,9 @@ span{
 
 .navbar{
     height: 92px;
+    width: 45%;
+    margin: 0 auto;
+    border-radius: 25px;
 }
 
 .navbar-brand img{
@@ -85,6 +88,11 @@ footer{
 
 #cards{
     position: relative;
+    padding-bottom: 20px;
+}
+
+#cards a i:hover{
+    color: purple;
 }
 
 #accordion-h2{
@@ -135,7 +143,12 @@ footer{
 }
 
 .release-card{
-    height: 400px;
+    height: 420px;
+    border: 1px solid orangered;
+}
+
+#release-h2{
+    padding: 10px;
 }
 
 .card-body video{
