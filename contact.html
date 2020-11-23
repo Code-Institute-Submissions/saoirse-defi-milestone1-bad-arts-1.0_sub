@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&family=Syne+Mono&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <title>Contact</title>
 </head>
-<body style="background: url(assets/img/fence.jpg);">
+<body style="background: url(assets/img/pattern3.jpg);">
 <div class="wrapper">
 <nav class="navbar navbar-expand-lg fixed-top" style="background: url(assets/img/pattern3.jpg);">
         <h2 class="nav-mobile-header">Bad Arts Entertainment</h2>
@@ -45,42 +47,88 @@
 
 <div class="container">
 <div class="row">
-<div class="col-md-8" id="contact-img">
-    <img src="assets/img/group3.jpg" alt="contact img"/>
+<div class="col-md-4" id="contact-img">
+   <img src="assets/img/group-contact.jpg" alt="group contact"/> 
 </div>
-<div class="col-md-4" id="contact-form">
-<form>
-    <div class="form-group">
-        <label for="exampleFormControlSelect1">Nature of enquiry</label>
-        <select class="form-control" id="exampleFormControlSelect1">
-        <option>Fan message</option>
-        <option>Collaboration request</option>
-        <option>Book an artist</option>
-        <option>Merchandise question</option>
-        </select>
+<div class="col-md-8" id="contact-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary">Send</a>
+                </div>
+                <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0" id="contact-icons">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>De Island Field, Limerick</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>badartsentertainment<br>
+                    @gmail.com</p>
+                </li>
+            </ul>
+        </div>
+            </div>
+        </div>
     </div>
-    <div class="form-group">
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
-    </div>
-    <div class="form-group">
-        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
-    </div>
-    <div class="td">
-    <div class="form-group" id="form-date">
-        <label for="date">Proposed meeting time:</label>
-        <input class="form-control" id="date" name="date" placeholder="Date & Time" type="text"/>
-      </div>
-    <div class="form-group" id="form-time">
-        <input class="form-control" id="time" name="time" type="text"/>
-      </div>
-    </div>
-  <div class="form-group">
-    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message..." rows="3" style="width:150%;"></textarea>
-  </div>
-    <div class="form-group">
-        <button type="submit" class="btn btn-primary">Send</button>
-    </div>
-</form>
 </div>
 </div>
 </div>

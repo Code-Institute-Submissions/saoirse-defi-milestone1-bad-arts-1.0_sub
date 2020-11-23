@@ -45,6 +45,10 @@ span{
     color: orangered;
 }
 
+.navbar a:hover{
+    color: #4a25aa;
+}
+
 .nav-mobile-header{
     display: none;
 }
@@ -79,7 +83,7 @@ footer{
 }
 
 #right-col a i:hover{
-    color: purple;
+    color: #4a25aa;
 }
 
 .fab{
@@ -92,7 +96,7 @@ footer{
 }
 
 #cards a i:hover{
-    color: purple;
+    color: #4a25aa;
 }
 
 #accordion-h2{
@@ -117,7 +121,7 @@ footer{
 }
 
 .card-icons a i:hover{
-    color: purple;
+    color: #4a25aa;
 }
 
 .btn-link{
@@ -165,17 +169,7 @@ footer{
 }
 
 .text-primary i{
-    color: orangered;
-}
-
-.twitter{
-   background-color: black;
-   margin-left: 210px;
-   margin-top: 10px;
-}
-
-#footer-twitter{
-    margin-right: 210px;
+    color: #ff4500;
 }
 
 .bandcamp{
@@ -197,12 +191,31 @@ footer{
 }
 
 #carousel-video-info{
-    margin-top: 75px;
+    margin-top: 25px;
+}
+
+#carousel-video-info h3{
+    font-family: 'Grenze', serif;
+    font-size: 2rem;
+    color: #4a25aa;
+}
+
+#carousel-video-info h5{
+    font-family: 'Grenze', serif;
+    font-size: 2rem;
+    color: #4a25aa;
+}
+
+.merch-h2{
+    font-family: 'Grenze', serif;
+    font-size: 3rem;
+    text-decoration: underline;
 }
 
 .merch-gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 0 75px;
 }
 
 .merch{
@@ -229,8 +242,8 @@ footer{
 }
 
 .merch-text p{
-    font-family: 'Grenze Gotisch', cursive;
-    font-size: 2rem;
+    font-family: 'Grenze', serif;
+    font-size: 2.5rem;
 }
 
 .merch-img{
@@ -247,7 +260,7 @@ footer{
 }
 
 #contact-h3{
-    padding: 15px;
+    padding: 30px;
 }
 
 .contact-container{
@@ -258,11 +271,18 @@ footer{
 
 }
 
+#contact-form{
+    color: orangered;
+}
+
 .form-group{
     color: orangered;
     font-family: 'Grenze Gotisch', cursive;
-    width: 50%;
 
+}
+
+#contact-icons li p, #contact-icons li i{
+    color: orangered;
 }
 
 #event-container{
@@ -279,7 +299,7 @@ footer{
 }
 
 .card-event{
-    border: 3px solid orangered;
+    border: 3px solid #4a25aa;
     margin-top: 10px;
 }
 
