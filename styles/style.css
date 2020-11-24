@@ -30,7 +30,7 @@ span{
 
 .navbar{
     height: 92px;
-    width: 45%;
+    width: 600px;
     margin: 0 auto;
     border-radius: 25px;
 }
@@ -47,10 +47,6 @@ span{
 
 .navbar a:hover{
     color: #4a25aa;
-}
-
-.nav-mobile-header{
-    display: none;
 }
 
 .dropdown-menu{
@@ -99,9 +95,19 @@ footer{
     color: #4a25aa;
 }
 
+.h2-box{
+    background-color: orangered;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 25px;
+    align-items: center;
+}
+
 #accordion-h2{
     font-size: 5rem;
     text-decoration: underline;
+    color: black;
 }
 
 .card{
@@ -120,14 +126,27 @@ footer{
     position: absolute;
 }
 
+.card-icons{
+    text-align: center;
+}
+
 .card-icons a i:hover{
     color: #4a25aa;
+}
+
+.btn-primary{
+    background-color: orangered;
+}
+
+.btn-primary:hover{
+    background-color : #4a25aa;
 }
 
 .btn-link{
     width: 100%;
     height: 60px;
     color: orangered;
+    text-align: left;
 
 }
 
@@ -192,24 +211,44 @@ footer{
 
 #carousel-video-info{
     margin-top: 25px;
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px;
 }
 
 #carousel-video-info h3{
     font-family: 'Grenze', serif;
     font-size: 2rem;
-    color: #4a25aa;
+    color: orangered;
 }
 
 #carousel-video-info h5{
     font-family: 'Grenze', serif;
     font-size: 2rem;
+    color: orangered;
+}
+
+.carousel-item p{
     color: #4a25aa;
+    font-family: "Grenze", serif;
+    font-size: 1.25rem;
+}
+
+.h2-merch-box{
+    width: 325px;
+    background-color: orangered;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 25px;
+    align-items: center;
 }
 
 .merch-h2{
     font-family: 'Grenze', serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-decoration: underline;
+    color: black;
+    padding-top: 10px;
 }
 
 .merch-gallery{
@@ -263,14 +302,6 @@ footer{
     padding: 30px;
 }
 
-.contact-container{
-
-}
-
-.contact-img{
-
-}
-
 #contact-form{
     color: orangered;
 }
@@ -278,7 +309,11 @@ footer{
 .form-group{
     color: orangered;
     font-family: 'Grenze Gotisch', cursive;
+}
 
+#contact-details{
+    font-family: "Grenze", serif;
+    font-size: 1.25rem;
 }
 
 #contact-icons li p, #contact-icons li i{
@@ -286,12 +321,14 @@ footer{
 }
 
 #event-container{
-    width: 66%;
+    width: 700px;
+    padding: 10px;
 }
 
 .event-year{
     text-decoration: underline;
-    font-size: 3rem;
+    font-size: 4rem;
+    color: black;
 }
 
 .event-title{
@@ -299,12 +336,77 @@ footer{
 }
 
 .card-event{
-    border: 3px solid #4a25aa;
+    border: 2px solid orangered;
     margin-top: 10px;
+    padding: 15px;
 }
 
 .card-block{
     text-align: center;
+    font-family: "Grenze", serif;
+}
+
+.ticket{
+    text-decoration: underline;
+}
+
+.ticket:hover{
+    color: orangered;
+}
+
+@media screen and (max-width: 1200px){
+
+.artist-title h3{
+    font-size: 2rem;
+}
+
+}
+
+@media screen and (max-width: 1000px){
+
+    #accordion-row{
+        display: block;
+        margin: 0 auto;
+    }
+
+    #left-col{
+    text-align: none;
+}
+
+    #right-col{
+        text-align: none;
+    }
+
+}
+
+@media screen and (max-width: 770px){
+
+    .wrapper{
+        width: 100%;
+    }
+
+    .navbar{
+        margin: 0px auto;
+        height: 100px;
+        z-index: 10;
+    }
+
+    .navbar-toggler{
+        margin-right: 20px;
+        background-color: orangered;
+        color: black;
+    }
+
+    .navbar-toggler-icon{
+        font-size: 1rem;
+        margin: 0px auto;
+        color: black;
+    }
+
+    .dropdown-backdrop {
+        position: static;
+    }
+
 }
 
 
@@ -336,138 +438,5 @@ footer{
         position: static;
     }
 
-       .nav-mobile-header{
-        display: none;
-    }
-
-    .card{
-        margin-top: 10px;
-    }
-
-    .footer{
-        height: 800px;
-        position: relative;
-    }
-
-    .footer-top{
-        display: block;
-        position: absolute;
-    }
-
-    .footer-copy{
-        position: absolute;
-        top: 700px;
-    }
-
-    .merch-text p{
-        font-size: 1.75rem;
-    }
-
-    #event-container{
-    width: 100%;
 }
 
-    .card-event{
-        width: 100%;
-    }
-
-
-}
-
-
-@media screen and (max-width: 770px){
-
-    .wrapper{
-        width: 100%;
-    }
-
-    .navbar{
-        margin: 0px auto;
-        height: 100px;
-        z-index: 10;
-    }
-
-    .navbar-toggler{
-        margin-right: 20px;
-        background-color: orangered;
-        color: black;
-    }
-
-    .navbar-toggler-icon{
-        font-size: 1rem;
-        margin: 0px auto;
-        color: black;
-    }
-
-    .dropdown-backdrop {
-        position: static;
-    }
-
-    .nav-mobile-header{
-        display: block;
-        font-size: 3rem;
-    }
-
-
-     .row{
-        display: block;
-    }
-
-    .card{
-        
-    }
-
-    .merch-gallery{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-}
-
-.merch{
-    position: relative;
-    overflow: hidden;
-}
-
-/*  Credit: code for the hover text animation taken from https://www.youtube.com/watch?v=ltxxNidblts 
-        and slightly modified.  */
-
-.merch-text{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    font-size: 18px;
-    transform: translateY(-100%);
-    transition: 0.2s;
-}
-
-.merch-text p{
-    font-family: 'Grenze Gotisch', cursive;
-    font-size: 2rem;
-}
-
-.merch-img{
-    width: 100%;
-}
-
-/*  As touch screens don't have use hover, another solution is needed.  */
-
-.merch:hover .merch-text{
-    transform: translateY(0);
-    text-decoration: none;
-    color: orangered;
-}
-
-  #event-container{
-    width: 100%;
-}
-
-.card-event{
-    width: 100%;
-}
-
-}
