@@ -150,23 +150,53 @@ footer{
 
 }
 
-.btn-link:after{
-    content: '\2212';
-    position: absolute;
+#releases{
+    width: 1500px;
+    padding-bottom: 20px;
 }
 
-.btn-link-collapsed:after{
-    content: '\002B';
+.card-wrapper{
+    height: 350px;
+    width: 350px;
 }
 
-.btn-link:before{
-    content: '';
+.content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card-wrapper:hover .content{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+
+.face-front, .face-back{
     position: absolute;
-    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: orangered;
+}
+
+.face-back{
+    transform: rotateY(180deg);
+}
+
+#releases-2row{
+    padding-top: 20px;
+}
+
+.card-body a i:hover{
+    color: #4a25aa;
 }
 
 .release-card{
     height: 420px;
+    width: 250px;
     border: 1px solid orangered;
 }
 
@@ -197,7 +227,7 @@ footer{
 
 #container-video{
     text-align: center;
-    margin: 50px 50px;
+    margin-top: 50px;
 }
 
 #carousel-video{
@@ -207,13 +237,6 @@ footer{
 
 .video-fluid{
     width: 100%;
-}
-
-#carousel-video-info{
-    margin-top: 25px;
-    background-color: black;
-    border-radius: 25px;
-    padding: 10px;
 }
 
 #carousel-video-info h3{
@@ -357,7 +380,15 @@ footer{
 @media screen and (max-width: 1200px){
 
 .artist-title h3{
-    font-size: 2rem;
+    font-size: 2.5rem;
+}
+
+#contact-img{
+    display: none;
+}
+
+#contact-details{
+    margin: 0 auto;
 }
 
 }
@@ -369,14 +400,14 @@ footer{
         margin: 0 auto;
     }
 
-    #left-col{
-    text-align: none;
-}
-
-    #right-col{
-        text-align: none;
+    #right-col a{
+        display: block;
+        padding: 5px;
     }
 
+    #cards{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 770px){
@@ -405,6 +436,10 @@ footer{
 
     .dropdown-backdrop {
         position: static;
+    }
+
+    #contact-icons{
+        margin-top: 50px;
     }
 
 }
