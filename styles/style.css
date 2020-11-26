@@ -20,7 +20,9 @@ h2, h3, h4, h5{
     text-align: center;
 }
 
-
+.mobile-header{
+    display: none;
+}
 
 span{
     color: orangered;
@@ -86,28 +88,20 @@ footer{
     color:orangered;
 }
 
-#cards{
-    position: relative;
-    padding-bottom: 20px;
-}
-
-#cards a i:hover{
-    color: #4a25aa;
-}
 
 .h2-box{
-    background-color: orangered;
-    width: 200px;
-    height: 100px;
+    background-color: black;
+    width: 300px;
+    height: 70px;
     margin: 0 auto;
-    border-radius: 25px;
     align-items: center;
 }
 
-#accordion-h2{
-    font-size: 5rem;
+.title-h2{
+    font-size: 3rem;
     text-decoration: underline;
-    color: black;
+    color: orangered;
+    overflow: hidden;
 }
 
 .card{
@@ -151,7 +145,6 @@ footer{
 }
 
 #releases{
-    width: 1500px;
     padding-bottom: 20px;
 }
 
@@ -377,14 +370,20 @@ footer{
     color: orangered;
 }
 
+@media screen and (min-width: 1400px){
+    #accordion1{
+       width: 600px;
+    }
+
+    #accordion2{
+       width: 600px;
+    }
+}
+
 @media screen and (max-width: 1200px){
 
 .artist-title h3{
     font-size: 2.5rem;
-}
-
-#contact-img{
-    display: none;
 }
 
 #contact-details{
@@ -395,19 +394,7 @@ footer{
 
 @media screen and (max-width: 1000px){
 
-    #accordion-row{
-        display: block;
-        margin: 0 auto;
-    }
-
-    #right-col a{
-        display: block;
-        padding: 5px;
-    }
-
-    #cards{
-        display: block;
-    }
+   
 }
 
 @media screen and (max-width: 770px){
@@ -423,7 +410,6 @@ footer{
     }
 
     .navbar-toggler{
-        margin-right: 20px;
         background-color: orangered;
         color: black;
     }
@@ -438,8 +424,46 @@ footer{
         position: static;
     }
 
+    .mobile-header{
+        display: block;
+        position: relative;
+        left: -80px;
+        color: orangered;
+        font-size: 2.25rem;
+        margin: 0 auto;
+    }
+
+    #contact-img{
+        margin: 0 10%;
+    }
+
     #contact-icons{
         margin-top: 50px;
+    }
+
+    .card-wrapper{
+        margin: 0 auto;
+    }
+
+    #event-container{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .event-year{
+        text-decoration: underline;
+        font-size: 4rem;
+        color: black;
+    }
+
+    .event-title{
+        text-align: center;
+    }
+
+    .card-event{
+        border: 2px solid orangered;
+        margin-top: 10px;
+        padding: 15px;
     }
 
 }
@@ -458,7 +482,6 @@ footer{
     }
 
     .navbar-toggler{
-        margin-right: 20px;
         background-color: orangered;
         color: black;
     }
@@ -472,6 +495,8 @@ footer{
     .dropdown-backdrop {
         position: static;
     }
+
+  
 
 }
 
