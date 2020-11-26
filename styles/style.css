@@ -320,6 +320,7 @@ footer{
 
 #contact-form{
     color: orangered;
+    margin-top: 20px;
 }
 
 .form-group{
@@ -327,9 +328,27 @@ footer{
     font-family: 'Grenze Gotisch', cursive;
 }
 
+
 #contact-details{
     font-family: "Grenze", serif;
     font-size: 1.25rem;
+    width: 75%;
+}
+
+#contact-img{
+    width: 75%;
+}
+
+#contact-img img{
+    margin: 0 auto;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+#contact-icons{
+    margin-top: 20px;
 }
 
 #contact-icons li p, #contact-icons li i{
@@ -394,7 +413,7 @@ footer{
 
 @media screen and (max-width: 1000px){
 
-   
+
 }
 
 @media screen and (max-width: 770px){
@@ -420,6 +439,18 @@ footer{
         color: black;
     }
 
+    .nav{
+        display: inline-block;
+    }
+
+    .navbar-collapse .nav{
+        background-color: black;
+    }
+
+    #logo{
+        display: none;
+    }
+
     .dropdown-backdrop {
         position: static;
     }
@@ -431,10 +462,6 @@ footer{
         color: orangered;
         font-size: 2.25rem;
         margin: 0 auto;
-    }
-
-    #contact-img{
-        margin: 0 10%;
     }
 
     #contact-icons{
@@ -466,6 +493,22 @@ footer{
         padding: 15px;
     }
 
+    #contact-img{
+        width: 100%;
+    }
+
+    #contact-img img{
+        margin: 0 auto;
+    }
+
+    .img-fluid{
+        width: 100%;
+    }
+
+    .card-event{
+        margin-right: 20px;
+    }
+
 }
 
 
@@ -475,28 +518,90 @@ footer{
         width: 100%;
     }
 
-    .navbar{
-        margin: 0px auto;
-        height: 100px;
-        z-index: 10;
-    }
-
-    .navbar-toggler{
-        background-color: orangered;
-        color: black;
-    }
-
-    .navbar-toggler-icon{
-        font-size: 1rem;
-        margin: 0px auto;
-        color: black;
-    }
-
     .dropdown-backdrop {
         position: static;
     }
 
-  
+    #artists{
+        margin: 0 auto;
+    }
+
+    .card{
+        background-color: black;
+        color: orangered;
+        position: relative;
+    }
+
+    .card-header{
+        height:625px;
+    }
+
+    .card-img{
+        float: none;
+    }
+
+    .card-img img{
+        width: 100%;
+    }
+
+    .artist-title{
+        left: 0px;
+        position: absolute;
+    }
+
+    .artist-title h3{
+        font-size: 4rem;
+    }
+
+    .card-icons{
+        text-align: center;
+    }
+
+    .card-icons a i:hover{
+        color: #4a25aa;
+    }
+
+    .btn-primary{
+        background-color: orangered;
+    }
+
+    .btn-primary:hover{
+        background-color : #4a25aa;
+    }
+
+    .btn-link{
+        width: 100%;
+        height: 60px;
+        color: orangered;
+        text-align: left;
+
+    }
+
+    .card-body{
+        text-align: center;
+    }
+
+    #carousel-video-info h3{
+        font-size: 1.5rem;
+    }
+
+     #carousel-video-info h5{
+       font-size: 1.5rem; 
+    }
+
+     #carousel-video-info p{
+        font-size: 1rem;
+    }
+    
+    .merch-gallery{
+        
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .event-img{
+        
+    }
 
 }
 

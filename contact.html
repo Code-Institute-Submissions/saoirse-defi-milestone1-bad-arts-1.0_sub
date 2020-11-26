@@ -20,7 +20,7 @@
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="fas fa-bars fa-1x"></i></span>
     </button>
-    <h2 class="mobile-header">Bad Arts Entertainment</h2>
+    <a class="mobile-header" href="index.html"><h2>Bad Arts Entertainment</h2></a>
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
         <ul class="nav">
         <li class="nav-item">
@@ -29,7 +29,7 @@
         <li class="nav-item">
             <a class="nav-link" href="events.html">Events <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item active" id="logo">
             <a class="navbar-brand" href="index.html"><img src="assets/img/logo4.jpg" alt="bad arts"/></a>
         </li>
         <li class="nav-item">
@@ -44,15 +44,14 @@
 
 <h3 id="contact-h3">Keep in touch, you filthy animals!</h3>
 
-<div class="container-fluid">
-<div class="row">
-<div class="col-md-4" id="contact-img">
-   <img src="assets/img/group-contact.jpg" class="img-fluid rounded mx-auto" alt="group contact"/> 
+<div class="container-fluid" id="contact-img">
+   <img class="img-fluid" src="assets/img/contact1.jpg" alt="group contact"/> 
 </div>
-<div class="col-md-8" id="contact-details">
-    <div class="container">
+
+
+    <div class="container-fluid" id="contact-details">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-8">
                 <form id="contact-form" name="contact-form" action="mail.php" method="POST">
                 <!--Grid row-->
                 <div class="row">
@@ -113,7 +112,7 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <ul class="list-unstyled mb-0" id="contact-icons">
                 <li><i class="fas fa-map-marker-alt fa-2x"></i>
                     <p>De Island Field, Limerick</p>
@@ -127,11 +126,6 @@
         </div>
             </div>
         </div>
-    </div>
-</div>
-</div>
-</div>
-
 
 <!-- Footer -->
 <footer class="page-footer font-small pt-4" style="background: url(assets/img/pattern3.jpg);">
