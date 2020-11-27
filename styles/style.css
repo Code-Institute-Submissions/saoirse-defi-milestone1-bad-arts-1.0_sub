@@ -148,6 +148,10 @@ footer{
     padding-bottom: 20px;
 }
 
+.artist-releases-title{
+    text-decoration: underline;
+}
+
 .card-wrapper{
     height: 350px;
     width: 350px;
@@ -594,14 +598,21 @@ footer{
     }
     
     .merch-gallery{
-        
         margin-left: 0px;
         margin-right: 0px;
     }
 
-    .event-img{
-        
+    .merch-text p{
+        font-size: 1.75rem;
     }
+
+    .event-img img{
+        padding: 0 75px;
+    }
+
+    #contact-details{
+    width: 100%;
+}
 
 }
 
