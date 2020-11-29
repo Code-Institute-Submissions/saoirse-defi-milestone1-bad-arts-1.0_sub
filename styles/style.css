@@ -9,7 +9,7 @@
 
 nav{
     background-color: black;
-    height: 92px;
+    height: 100px;
 }
 
 .nav{
@@ -21,14 +21,21 @@ nav{
 }
 
 .nav-title{
-    font-family: "Grenze Gotisch", sans-serif;
+    font-family: "Grenze", sans-serif;
     color: orangered;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
-.jumbotron{
-    background-image: url("assets/img/group.jpg");
-    height: 450px;
+.nav-link{
+    font-family: "Grenze", sans-serif;
+    color: orangered;
+    font-size: 2rem;
+    border: 1px solid orangered;
+}
+
+.nav-link:hover{
+    background-color: orangered;
+    color: black;
 }
 
 #logo a img{
@@ -37,10 +44,22 @@ nav{
     top: -25px;
 }
 
-.carousel-container{
-    
+.jumbotron{
+    height: 600px;
+    margin-bottom: 0px;
+    background-image: url("../assets/img/1.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+#carousel-releases{
+    margin-bottom: 0px;
+}
+
+#carousel-slide{
+    margin-top: 0px;
+}
 .carousel-item{
     height: 450px;
 

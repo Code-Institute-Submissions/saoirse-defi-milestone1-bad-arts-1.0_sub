@@ -24,7 +24,7 @@
             <a class="navbar-brand" href="index.html"><img src="assets/img/logo4.jpg" alt="bad arts logo"/></a>
         </li>
         <li class="nav-item">
-            <h2 class="nav-title">Bad Arts Entertainment</h2>
+            <a class="navbar-brand" href="index.html"><h2 class="nav-title">Bad Arts Entertainment</h2></a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="videos.html">Videos <span class="sr-only">(current)</span></a>
@@ -44,35 +44,14 @@
 </header>
 
 <div class="wrapper">
-<div class="carousel-container">
-  <div id="carousel-main" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-main" data-slide-to="1"></li>
-      <li data-target="#carousel-main" data-slide-to="2"></li>
-      <li data-target="#carousel-main" data-slide-to="3"></li>
-      <li data-target="#carousel-main" data-slide-to="4"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/img/A.jpg" class="d-block w-100" alt="1">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div>
-      </div>
-    <a class="carousel-control-prev" href="#carousel-main" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carousel-main" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h3 class="display-4">Fresh Beats Every Week</h3>
+        <p class="lead">Bad Arts Entertainment is an independent hip hop label based in Limerick City.</p>
+    </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid" id="carousel-releases">
     <h2 class="text-center">New Releases</h2>
     <div id="carousel3" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -260,6 +239,34 @@
     </div>
 </div>
 
+<div class="carousel-container" id="carousel-slide">
+  <div id="carousel-main" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-main" data-slide-to="1"></li>
+      <li data-target="#carousel-main" data-slide-to="2"></li>
+      <li data-target="#carousel-main" data-slide-to="3"></li>
+      <li data-target="#carousel-main" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/A.jpg" class="d-block w-100" alt="1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+    <a class="carousel-control-prev" href="#carousel-main" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-main" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
 <div class="container-fluid" id="artists">
     <div class="h2-box">
         <h2 class="title-h2 text-center">Artist Roster</h2>
@@ -421,13 +428,6 @@
 </div>
 </div>
 
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h3 class="display-4">Fresh Beats Every Week</h3>
-        <p class="lead">Bad Arts Entertainment is an independent hip hop label based in Limerick City.</p>
-    </div>
-</div>
-
 </div>
 
 <!-- Footer -->
@@ -437,14 +437,21 @@
     <!--Grid row-->
     <div class="row" style="background: url(assets/img/pattern3.jpg);">
       <!--Grid column-->
-      <div class="col-md-6 mb-4" id="left-col">
+      <div class="col-md-4 mb-4 text-center" id="left-col">
+        <h3>Join our mailing list</h3>
+        <form id="mailing" name="mailing" action="mailing.php" method="POST">
+            <input type="text" placeholder="Email Address">
+            <button type="submit">Join</button>
+        </form>
+      </div>
+      <!--Grid column-->
+      <div class="col-md-4 mb-4 text-center" id="center-col">
         <h3>Bad Arts Entertainment</h3>
         <p>An independent hip hop label based in Limerick City.</p>
         <a href="https://twitter.com/BadArtsEnterta1?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @BadArtsEnterta1</a>
       </div>
       <!--Grid column-->
-      <!--Grid column-->
-      <div class="col-md-6 mb-4" id="right-col">
+      <div class="col-md-4 mb-4 text-center" id="right-col">
         <h3>Find us on:</h3>
         <a class="fb-ic">
             <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
