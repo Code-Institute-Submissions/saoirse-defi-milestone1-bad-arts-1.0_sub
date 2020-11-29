@@ -3,105 +3,51 @@
     margin: 0;
 }
 
-
-body{
-    padding-top: 92px;
-    background-image: repeat(url(assets/img/pattern1.jpg));
-}
-
 .wrapper{
-    position:relative;
-    background-image: repeat(url(assets/img/pattern1.jpg));
+   
 }
 
-h2, h3, h4, h5{
-    color: orangered;
-    font-family: 'Grenze Gotisch', cursive;
-    text-align: center;
-}
-
-.mobile-header{
-    display: none;
-}
-
-span{
-    color: orangered;
-    font-family: 'Grenze Gotisch', cursive;
-    text-align: center;
-}
-
-.navbar{
+nav{
+    background-color: black;
     height: 92px;
-    width: 600px;
-    margin: 0 auto;
-    border-radius: 25px;
 }
 
-.navbar-brand img{
-    border-radius:45%;
+.nav{
+    padding-top: 50px;
 }
 
-.navbar a{
-    font-family: 'Grenze Gotisch', cursive;
-    font-size: 2rem;
+.nav ul{
+    float: left;
+}
+
+.nav-title{
+    font-family: "Grenze Gotisch", sans-serif;
     color: orangered;
-}
-
-.navbar a:hover{
-    color: #4a25aa;
-}
-
-.dropdown-menu{
-    background-color: black;
-}
-
-.dropdown-menu a{
-    font-size: 1.4rem;
-}
-
-footer{
-    position:absolute;
-    left:0;
-    right:0;
-    down:0;
-    color:orangered;
-    margin-top: 100px;
-}
-
-#left-col{
-    text-align: center;
-}
-
-#right-col{
-    text-align: center;
-}
-
-#right-col a{
-    margin-left: 50px;
-}
-
-#right-col a i:hover{
-    color: #4a25aa;
-}
-
-.fab{
-    color:orangered;
-}
-
-
-.h2-box{
-    background-color: black;
-    width: 300px;
-    height: 70px;
-    margin: 0 auto;
-    align-items: center;
-}
-
-.title-h2{
     font-size: 3rem;
-    text-decoration: underline;
-    color: orangered;
-    overflow: hidden;
+}
+
+.jumbotron{
+    background-image: url("assets/img/group.jpg");
+    height: 450px;
+}
+
+#logo a img{
+    border-radius: 55%;
+    position: relative;
+    top: -25px;
+}
+
+.carousel-container{
+    
+}
+
+.carousel-item{
+    height: 450px;
+
+}
+
+.carousel-item img{
+    
 }
 
 .card{
@@ -110,51 +56,13 @@ footer{
     position: relative;
 }
 
-.card-img{
-    float: left;
-}
-
-.artist-title{
-    float: right;
-    left: 250px;
-    position: absolute;
-}
-
-.card-icons{
-    text-align: center;
-}
-
-.card-icons a i:hover{
-    color: #4a25aa;
-}
-
-.btn-primary{
-    background-color: orangered;
-}
-
-.btn-primary:hover{
-    background-color : #4a25aa;
-}
-
-.btn-link{
-    width: 100%;
-    height: 60px;
-    color: orangered;
-    text-align: left;
-
-}
-
-#releases{
-    padding-bottom: 20px;
-}
-
 .artist-releases-title{
     text-decoration: underline;
 }
 
 .card-wrapper{
-    height: 350px;
-    width: 350px;
+    width: 300px;
+    height: 300px;
 }
 
 .content{
@@ -183,436 +91,5 @@ footer{
     transform: rotateY(180deg);
 }
 
-#releases-2row{
-    padding-top: 20px;
-}
 
-.card-body a i:hover{
-    color: #4a25aa;
-}
-
-.release-card{
-    height: 420px;
-    width: 250px;
-    border: 1px solid orangered;
-}
-
-#release-h2{
-    padding: 10px;
-}
-
-.card-body video{
-    width: 100%;
-}
-
-.card-title h3{
-    font-size: 3rem;
-    overflow: hidden;
-}
-
-.card-footer{
-    text-align: center;
-}
-
-.text-primary i{
-    color: #ff4500;
-}
-
-.bandcamp{
-    margin: auto;
-}
-
-#container-video{
-    text-align: center;
-    margin-top: 50px;
-}
-
-#carousel-video{
-   width: 100%;
-   height: auto;
-}
-
-.video-fluid{
-    width: 100%;
-}
-
-#carousel-video-info h3{
-    font-family: 'Grenze', serif;
-    font-size: 2rem;
-    color: orangered;
-}
-
-#carousel-video-info h5{
-    font-family: 'Grenze', serif;
-    font-size: 2rem;
-    color: orangered;
-}
-
-.carousel-item p{
-    color: #4a25aa;
-    font-family: "Grenze", serif;
-    font-size: 1.25rem;
-}
-
-.h2-merch-box{
-    width: 325px;
-    background-color: orangered;
-    height: 100px;
-    margin: 0 auto;
-    border-radius: 25px;
-    align-items: center;
-}
-
-.merch-h2{
-    font-family: 'Grenze', serif;
-    font-size: 3.5rem;
-    text-decoration: underline;
-    color: black;
-    padding-top: 10px;
-}
-
-.merch-gallery{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    margin: 0 75px;
-}
-
-.merch{
-    position: relative;
-    overflow: hidden;
-}
-
-/*  Credit: code for the hover text animation taken from https://www.youtube.com/watch?v=ltxxNidblts 
-        and slightly modified.  */
-
-.merch-text{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    font-size: 18px;
-    transform: translateY(-100%);
-    transition: 0.2s;
-}
-
-.merch-text p{
-    font-family: 'Grenze', serif;
-    font-size: 2.5rem;
-}
-
-.merch-img{
-    width: 100%;
-}
-
-/*  Credit: code for the hover text animation taken from https://www.youtube.com/watch?v=ltxxNidblts 
-        and slightly modified.  */
-
-.merch:hover .merch-text{
-    transform: translateY(0);
-    text-decoration: none;
-    color: orangered;
-}
-
-#contact-h3{
-    padding: 30px;
-}
-
-#contact-form{
-    color: orangered;
-    margin-top: 20px;
-}
-
-.form-group{
-    color: orangered;
-    font-family: 'Grenze Gotisch', cursive;
-}
-
-
-#contact-details{
-    font-family: "Grenze", serif;
-    font-size: 1.25rem;
-    width: 75%;
-}
-
-#contact-img{
-    width: 75%;
-}
-
-#contact-img img{
-    margin: 0 auto;
-}
-
-.img-fluid{
-    width: 100%;
-}
-
-#contact-icons{
-    margin-top: 20px;
-}
-
-#contact-icons li p, #contact-icons li i{
-    color: orangered;
-}
-
-#event-container{
-    width: 700px;
-    padding: 10px;
-}
-
-.event-year{
-    text-decoration: underline;
-    font-size: 4rem;
-    color: black;
-}
-
-.event-title{
-    text-align: center;
-}
-
-.card-event{
-    border: 2px solid orangered;
-    margin-top: 10px;
-    padding: 15px;
-}
-
-.card-block{
-    text-align: center;
-    font-family: "Grenze", serif;
-}
-
-.ticket{
-    text-decoration: underline;
-}
-
-.ticket:hover{
-    color: orangered;
-}
-
-@media screen and (min-width: 1400px){
-    #accordion1{
-       width: 600px;
-    }
-
-    #accordion2{
-       width: 600px;
-    }
-}
-
-@media screen and (max-width: 1200px){
-
-.artist-title h3{
-    font-size: 2.5rem;
-}
-
-#contact-details{
-    margin: 0 auto;
-}
-
-}
-
-@media screen and (max-width: 1000px){
-
-
-}
-
-@media screen and (max-width: 770px){
-
-    .wrapper{
-        width: 100%;
-    }
-
-    .navbar{
-        margin: 0px auto;
-        height: 100px;
-        z-index: 10;
-    }
-
-    .navbar-toggler{
-        background-color: orangered;
-        color: black;
-    }
-
-    .navbar-toggler-icon{
-        font-size: 1rem;
-        margin: 0px auto;
-        color: black;
-    }
-
-    .nav{
-        display: inline-block;
-    }
-
-    .navbar-collapse .nav{
-        background-color: black;
-    }
-
-    #logo{
-        display: none;
-    }
-
-    .dropdown-backdrop {
-        position: static;
-    }
-
-    .mobile-header{
-        display: block;
-        position: relative;
-        left: -80px;
-        color: orangered;
-        font-size: 2.25rem;
-        margin: 0 auto;
-    }
-
-    #contact-icons{
-        margin-top: 50px;
-    }
-
-    .card-wrapper{
-        margin: 0 auto;
-    }
-
-    #event-container{
-        width: 100%;
-        padding: 10px;
-    }
-
-    .event-year{
-        text-decoration: underline;
-        font-size: 4rem;
-        color: black;
-    }
-
-    .event-title{
-        text-align: center;
-    }
-
-    .card-event{
-        border: 2px solid orangered;
-        margin-top: 10px;
-        padding: 15px;
-    }
-
-    #contact-img{
-        width: 100%;
-    }
-
-    #contact-img img{
-        margin: 0 auto;
-    }
-
-    .img-fluid{
-        width: 100%;
-    }
-
-    .card-event{
-        margin-right: 20px;
-    }
-
-}
-
-
-@media screen and (max-width: 480px){
-
-    .wrapper{
-        width: 100%;
-    }
-
-    .dropdown-backdrop {
-        position: static;
-    }
-
-    #artists{
-        margin: 0 auto;
-    }
-
-    .card{
-        background-color: black;
-        color: orangered;
-        position: relative;
-    }
-
-    .card-header{
-        height:625px;
-    }
-
-    .card-img{
-        float: none;
-    }
-
-    .card-img img{
-        width: 100%;
-    }
-
-    .artist-title{
-        left: 0px;
-        position: absolute;
-    }
-
-    .artist-title h3{
-        font-size: 4rem;
-    }
-
-    .card-icons{
-        text-align: center;
-    }
-
-    .card-icons a i:hover{
-        color: #4a25aa;
-    }
-
-    .btn-primary{
-        background-color: orangered;
-    }
-
-    .btn-primary:hover{
-        background-color : #4a25aa;
-    }
-
-    .btn-link{
-        width: 100%;
-        height: 60px;
-        color: orangered;
-        text-align: left;
-
-    }
-
-    .card-body{
-        text-align: center;
-    }
-
-    #carousel-video-info h3{
-        font-size: 1.5rem;
-    }
-
-     #carousel-video-info h5{
-       font-size: 1.5rem; 
-    }
-
-     #carousel-video-info p{
-        font-size: 1rem;
-    }
-    
-    .merch-gallery{
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-    .merch-text p{
-        font-size: 1.75rem;
-    }
-
-    .event-img img{
-        padding: 0 75px;
-    }
-
-    #contact-details{
-    width: 100%;
-}
-
-}
 
