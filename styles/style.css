@@ -3,12 +3,19 @@
     margin: 0;
 }
 
-.wrapper{
-   
+h1, h2, h3, h4, h5, h6{
+    font-family: "Grenze", serif;
+    color: orangered;
+}
+
+p{
+    font-family: "Grenze", serif;
+    color: orangered; 
 }
 
 nav{
     background-color: black;
+    background-image: url("../assets/img/pattern3.jpg");
     height: 100px;
 }
 
@@ -44,6 +51,10 @@ nav{
     top: -25px;
 }
 
+footer{
+    color: orangered;
+}
+
 .jumbotron{
     height: 600px;
     margin-bottom: 0px;
@@ -51,6 +62,17 @@ nav{
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    color: orangered;
+    font-family: "Grenze", serif;
+}
+
+.jumbotron .container{
+    background-color: black;
+    width: 40%;
+    border: 2px solid orangered;
+    position: relative;
+    left: -300px;
+    top: -60px;
 }
 
 #carousel-releases{
@@ -72,7 +94,6 @@ nav{
 .card{
     background-color: black;
     color: orangered;
-    position: relative;
 }
 
 .artist-releases-title{
@@ -110,6 +131,15 @@ nav{
     transform: rotateY(180deg);
 }
 
+.accordion .artist-title .btn-link::after{
+    font-family: 'FontAwesome';
+    content: "\f067";
+}
+
+.accordion .artist-title .btn-link .collapsed::after{
+    font-family: 'FontAwesome';
+    content: "\f068";
+}
 
 #contact-h3{
     margin: 50px 0px;
@@ -117,4 +147,48 @@ nav{
 
 #contact-details{
     margin-bottom: 50px;
+}
+
+#video-body{
+    
+}
+
+#video-wrapper{
+    width: 90%;
+    column-count: 4;
+    margin: 0 auto;
+}
+
+.grid-item img{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+}
+
+
+@media only screen and (max-width: 1080px){
+   .nav-title{
+    font-family: "Grenze", sans-serif;
+    color: orangered;
+    font-size:1.75rem;
+    }
+
+    .nav-link{
+    font-family: "Grenze", sans-serif;
+    color: orangered;
+    font-size: 1.25rem;
+    border: 1px solid orangered;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #video-wrapper{
+        column-count: 2;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #video-wrapper{
+        column-count: 1;
+    }
 }
