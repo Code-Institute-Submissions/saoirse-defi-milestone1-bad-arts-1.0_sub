@@ -45,6 +45,10 @@ nav{
     color: black;
 }
 
+.other-item{
+   
+}
+
 #logo a img{
     border-radius: 55%;
     position: relative;
@@ -53,6 +57,35 @@ nav{
 
 footer{
     color: orangered;
+}
+
+#mailing-button{
+    background-color: orangered;
+    color: black;
+}
+
+#mailing-button:hover{
+    background-color: #0275d8;
+    color: white;
+}
+
+.footer-icons{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 125px;
+}
+
+.footer-links{
+    color: orangered;
+}
+
+.footer-links:hover{
+    color: #0275d8;
+}
+
+#mailing-email{
+    width: 55%;
 }
 
 .jumbotron{
@@ -87,8 +120,14 @@ footer{
 
 }
 
-.carousel-item img{
-    
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  outline: white;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: orangered;
 }
 
 .card{
@@ -179,12 +218,15 @@ footer{
     font-size: 1.25rem;
     border: 1px solid orangered;
     }
+
+    #video-wrapper{
+        column-count: 2;
+        width: 75%;
+    }
 }
 
 @media only screen and (max-width: 768px){
-    #video-wrapper{
-        column-count: 2;
-    }
+    
 }
 
 @media only screen and (max-width: 450px){

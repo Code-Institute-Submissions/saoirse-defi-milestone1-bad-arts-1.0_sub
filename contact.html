@@ -56,11 +56,11 @@
                 <form id="contact-form" name="contact-form" action="mail.php" method="POST">
                 <!--Grid row-->
                 <div class="row">
-                    <p id="contact-p">Whether you're a promoter looking to book an act or a fan wanting to get in touch, please send us an email. We would love to hear from you.</p>
+                    <p class="text-center" id="contact-p">Whether you're a promoter looking to book an act or a fan wanting to get in touch, please send us an email.<br>We would love to hear from you.</p>
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Name" autocomplete="off" required>
                             <label for="name" class="">Your name</label>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control" placeholder="Email">
+                            <input type="text" id="email" name="email" class="form-control" placeholder="Email" autocomplete="off" required>
                             <label for="email" class="">Your email</label>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" autocomplete="off" required>
                             <label for="subject" class="">Subject</label>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                     <div class="col-md-12">
 
                         <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Message..."></textarea>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Message..." autocomplete="off" required></textarea>
                             <label for="message">Your message</label>
                         </div>
 
@@ -162,18 +162,40 @@
 </div>
 <script>
     function initMap(){
-        var disland = {lat: 52.675525, lng: -8.626681};
+        const dIsland = {lat: 52.675525, lng: -8.626681};
         var map = new google.maps.Map(document.getElementById("map"),{
             zoom: 14,
-            center: disland
+            center: dIsland,
+            mapId: "1c5ba11b36cd67b9"
         });
+
+        const disland =
+        '<div id="disland">' +
+        '<h1 id="firstHeading" class="firstHeading">De Island Field</h1>' +
+        '<div id="bodyContent">' +
+        "<p>St. Mary's Park is one of the more impoverished areas in Limerick city and has suffered from high crime rates including gun and knife violence." +
+        "</div>" +
+        "</div>";
+
+        const infowindow = new google.maps.InfoWindow({
+                            content: disland,
+                            maxWidth: 250
+                            });
+
         var marker = new google.maps.Marker({
-            position: disland,
-            map: map
-        })
+            position: dIsland,
+            map: map,
+            animation: google.maps.Animation.DROP
+        });
+
+        marker.addListener("click", () => {
+        infowindow.open(map, marker);
+        });
     }
+
+
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMnlvVbjHUS7caLo2H_Kwm3cLPgp_tF1s&callback=initMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMnlvVbjHUS7caLo2H_Kwm3cLPgp_tF1s&map_ids=1c5ba11b36cd67b9&callback=initMap"></script>
 <script>
     $(document).ready(function(){
       var date_input=$('input[name="date"]'); //our date input has the name "date"
