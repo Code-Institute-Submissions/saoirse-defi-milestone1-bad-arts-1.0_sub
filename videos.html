@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Syne+Mono&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Grenze&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Syne+Mono&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <title>Bad Arts</title>
 </head>
-<body id="video-body">
+<body>
 <header>
     <nav class="navbar navbar-expand-md sticky-top">
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,24 +25,39 @@
             <a class="navbar-brand" href="index.html"><img src="assets/img/logo4.jpg" alt="bad arts logo"/></a>
         </li>
         <li class="nav-item">
-            <a class="navbar-brand" href="index.html"><h2 class="nav-title">Bad Arts Entertainment</h2></a>
+            <a class="navbar-brand" href="test.html"><h2 class="nav-title">Bad Arts Entertainment</h2></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item other-item">
             <a class="nav-link" href="videos.html">Videos <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="events.html">Events <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
+        <li class="nav-item other-item">
             <a class="nav-link" href="shop.html">Shop <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item other-item">
+            <a class="nav-link" href="..." data-toggle="modal" data-target="#hackerModal">X X X<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item other-item">
             <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
         </li>
         </ul>
     </div>
 </nav>
 </header>
+
+<div class="modal fade" id="hackerModal" tabindex="-1" role="dialog" aria-labelledby="hackerModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/hacker.gif" alt="hacker"/>
+      </div>
+    </div>
+  </div>
+</div>
 
 <h2 class="text-center" id="video-h2">Video Releases</h2>
 <div class="container" id="video-wrapper">
@@ -74,51 +89,48 @@
     </div>
 </div>
 
-<!-- Footer -->
 <footer class="page-footer font-small pt-4" style="background: url(assets/img/pattern3.jpg);">
-  <!-- Footer Elements -->
   <div class="container-fluid" style="background: url(assets/img/pattern3.jpg);">
-    <!--Grid row-->
     <div class="row" style="background: url(assets/img/pattern3.jpg);">
-      <!--Grid column-->
       <div class="col-md-4 mb-4 text-center" id="left-col">
         <h3>Join our mailing list</h3>
         <form id="mailing" name="mailing" action="mailing.php" method="POST">
-            <input type="text" placeholder="Email Address">
-            <button type="submit">Join</button>
+            <label for="email">Please enter your email address:</label><br>
+            <input type="text" id="mailing-email" name="email" placeholder="Email Address" autocomplete="off" required><br>
+            <label for="age">Are you over 18?</label>
+            <input type="radio" name="age" value="yes"/>Yes
+            <input type="radio" name="age" value="no"/>No<br>
+            <button class="btn btn-sm" id="mailing-button" type="submit">Join</button>
         </form>
       </div>
-      <!--Grid column-->
+
       <div class="col-md-4 mb-4 text-center" id="center-col">
+        <br>
         <h3>Bad Arts Entertainment</h3>
         <p>An independent hip hop label based in Limerick City.</p>
         <a href="https://twitter.com/BadArtsEnterta1?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @BadArtsEnterta1</a>
       </div>
-      <!--Grid column-->
+
       <div class="col-md-4 mb-4 text-center" id="right-col">
         <h3>Find us on:</h3>
-        <a class="fb-ic">
-            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic">
+        <div class="footer-icons">
+        <a class="footer-links">
             <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
-          <!-- Google +-->
-          <a class="yt-ic">
+          <a class="footer-links">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <a class="footer-links">
             <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
+        </div>
       </div>
-      <!--Grid column-->
     </div>
-    <!--Grid row-->
   </div>
-  <!-- Footer Elements -->
-  <!-- Copyright -->
   <div class="footer-copyright text-center py-3">
   Copyright &#169; Bad Arts Entertainment 2020
   </div>
-  <!-- Copyright -->
+
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

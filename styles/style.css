@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+    background-color: black;
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: "Grenze", serif;
     color: orangered;
@@ -45,14 +49,19 @@ nav{
     color: black;
 }
 
-.other-item{
-   
+.other-item button{
+   width: 100px;
+   height: 66px;
 }
 
 #logo a img{
     border-radius: 55%;
     position: relative;
     top: -25px;
+}
+
+.modal-content{
+    background-color: black;
 }
 
 footer{
@@ -109,15 +118,19 @@ footer{
 }
 
 #carousel-releases{
-    margin-bottom: 0px;
+    margin-top: 35px;
+}
+
+#carousel-releases img{
+    width:100%;
+    height:100%;
 }
 
 #carousel-slide{
     margin-top: 0px;
 }
 .carousel-item{
-    height: 450px;
-
+    height: 365px;
 }
 
 .carousel-control-prev-icon,
@@ -170,6 +183,10 @@ footer{
     transform: rotateY(180deg);
 }
 
+#artists{
+    margin-top: 50px;
+}
+
 .accordion .artist-title .btn-link::after{
     font-family: 'FontAwesome';
     content: "\f067";
@@ -180,12 +197,123 @@ footer{
     content: "\f068";
 }
 
+.h2-box h2{
+    text-decoration: underline;
+}
+
+#event-container .event-title{
+    font-size: 1.75rem;
+    text-decoration: underline;
+}
+
+#event-container .card-date{
+    font-size: 1.5rem;
+}
+
+.card-block .card-title, .card-block .card-date, .card-block .card-text{
+    text-align: center;
+    color: black;
+}
+
+.card-block .ticket{
+    margin: 0 auto;
+
+}
+
+.card-block .card-date{
+    border: 1px solid black;
+    border-left: 1px solid orangered;
+    border-right: 1px solid orangered;
+}
+
+.card-event{
+    margin-bottom: 10px;
+    background-color: orangered;
+    border: 2px solid black;
+}
+
+
+.merch-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 5px;
+    margin: 0 75px;
+}
+
+.merch{
+    position: relative;
+    overflow: hidden;
+}
+
+/*  Credit: code for the hover text animation taken from https://www.youtube.com/watch?v=ltxxNidblts 
+        and slightly modified.  */
+
+.merch-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 18px;
+    transform: translateY(-100%);
+    transition: 0.2s;
+}
+
+.merch-text p{
+    font-family: 'Grenze', serif;
+    font-size: 2.5rem;
+}
+
+.merch-img{
+    width: 100%;
+}
+
+/*  Credit: code for the hover text animation taken from https://www.youtube.com/watch?v=ltxxNidblts 
+        and slightly modified.  */
+
+.merch:hover .merch-text{
+    transform: translateY(0);
+    text-decoration: none;
+    color: orangered;
+}
+
+#merch-cd{
+    margin: 0 300px;
+}
+
 #contact-h3{
-    margin: 50px 0px;
+    margin: 30px 0px;
+}
+
+#contact-form{
+    width: 75%;
+}
+
+#contact-form label{
+    color: orangered;
 }
 
 #contact-details{
     margin-bottom: 50px;
+}
+
+#message{
+    height: 150px;
+}
+
+#contact-button{
+    background-color: orangered;
+    color: black;
+}
+
+#contact-button:hover{
+    background-color: black;
+    color: orangered;
+    border: 1px solid orangered;
 }
 
 #video-body{
@@ -204,6 +332,12 @@ footer{
     margin: 5px;
 }
 
+@media only screen and (max-width: 1250px){
+    #carousel-releases img{
+        height: 250px;
+        width: 250px;
+    }
+}
 
 @media only screen and (max-width: 1080px){
    .nav-title{
