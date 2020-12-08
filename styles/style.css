@@ -169,6 +169,10 @@ footer{
     border-top: 1px solid orangered;
 }
 
+#mailing{
+    color: orangered;
+}
+
 #mailing-button2{
     background-color: orangered;
     color: black;
@@ -360,7 +364,7 @@ footer{
 
 #twitter-container{
     width:100%;
-    height: 500px;
+    height: 150%;
 }
 
 
@@ -395,8 +399,8 @@ footer{
 }
 
 .merch-text p{
-    font-family: 'Grenze', serif;
-    font-size: 2.5rem;
+    font-family: 'Kanit', serif;
+    font-size: 1.5rem;
 }
 
 .merch-img{
