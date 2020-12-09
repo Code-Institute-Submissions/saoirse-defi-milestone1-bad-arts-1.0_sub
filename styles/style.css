@@ -216,6 +216,7 @@ footer{
 .mailing-email{
     width: 55%;
     background-color: black;
+    color: white;
     box-sizing: border-box;
     border-radius: 25px;
 }
@@ -246,6 +247,7 @@ footer{
 
 .display-4{
     font-size: 1.75rem;
+    color: white;
 }
 
 .lead{
@@ -253,7 +255,7 @@ footer{
 }
 
 #carousel-releases{
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 #carousel-releases img{
@@ -284,7 +286,7 @@ footer{
 }
 
 .artist-releases-title{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #r2{
@@ -325,7 +327,11 @@ footer{
 }
 
 #artists{
-    margin-top: 50px;
+    margin-top: 0px;
+}
+
+.artist-h3{
+    font-size: 2.75rem;
 }
 
 .accordion .artist-title .btn-link::after{
@@ -359,17 +365,18 @@ footer{
 }
 
 .h2-box h2{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #event-container .event-title{
     font-size: 1.25rem;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #event-container .card-date{
     font-size: 1rem;
     border: 1px solid black;
+    color: white;
 }
 
 .card-block .card-title, .card-block .card-date, .card-block .card-text{

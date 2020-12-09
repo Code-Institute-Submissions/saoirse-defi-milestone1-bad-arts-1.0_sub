@@ -28,7 +28,7 @@
                 <a class="navbar-brand" href="index.html"><img src="assets/img/logo4.jpg" alt="bad arts logo"/></a>
             </li>
             <li class="nav-item">
-                <a class="navbar-brand" href="test.html"><h2 class="nav-title">Bad Arts Entertainment</h2></a>
+                <a class="navbar-brand" href="index.html"><h2 class="nav-title">Bad Arts Entertainment</h2></a>
             </li>
         </ul>
         <ul class="nav ml-lg-auto" id="other-items">
@@ -39,31 +39,12 @@
                 <a class="nav-link" href="shop.html">Shop <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="..." data-toggle="modal" data-target="#hackerModal">XXX<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
             </li>
         </ul>
     </div>
 </nav>
 </header>
-
-<div class="modal fade" id="hackerModal" tabindex="-1" role="dialog" aria-labelledby="hackerModal" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 class="modal-title" id="hacker-title">Forbidden</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <img src="assets/img/hacker.gif" alt="hacker"/>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="wrapper">
 
@@ -83,7 +64,7 @@
       <div class="modal-body">
         <p class="mailing-p">Keep up to date by subscribing to our newsletter.<br>This will let you know of any future tour dates or releases.</p>
         <form class="mailing" name="mailing" action="mailing.php" method="POST">
-            <label for="email"><u>Please enter your email address:</u></label><br>
+            <label for="email">Please enter your email address:</label><br>
             <input type="text" class="mailing-email" name="email" placeholder=" Email Address" autocomplete="off" required><br>
             <label for="age">Are you over 18?</label>
             <input type="radio" name="age" value="yes"/>Yes
@@ -330,9 +311,6 @@
 </div>
 
 <div class="container-fluid" id="artists">
-    <div class="h2-box">
-        <h2 class="title-h2 text-center">Artist Roster</h2>
-    </div>
 <div class="row" id="accordion-row">
     <div class="col-md-4">
         <div class="accordion" id="accordion1">
@@ -343,12 +321,12 @@
                 </div>
                 <div class="card-title artist-title">
                     <div class="card-icons">
-                        <h3>SiZe</h3>
+                        <h3 class="artist-h3">SiZe</h3>
                         <a href="https://open.spotify.com/album/1fcqoQacUJGqBLOxb7UYN3" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
                         <a href="https://www.youtube.com/watch?v=RJqe9YqD2tM" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
                         <a href="https://samedsize.bandcamp.com/releases" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
                     </div><br>
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"></button>
+                    <button class="btn btn-link open-close" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"></button>
                 </div>
                 </div>
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion1">
@@ -367,13 +345,13 @@
                     <img src="assets/img/B.jpg" alt="a10sin" style="width:100%;height:auto;"/>
                 </div>
                 <div class="card-title artist-title">
-                    <h3>A10Sin</h3>
+                    <h3 class="artist-h3">A10Sin</h3>
                     <div class="card-icons">
                         <a href="https://open.spotify.com/album/1fcqoQacUJGqBLOxb7UYN3" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
                         <a href="https://www.youtube.com/watch?v=xOmWDutDSBk" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
                         <a href="https://a10sin.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
                     </div><br>
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"></button>
+                    <button class="btn btn-link open-close" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"></button>
                 </div>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion1">
@@ -393,13 +371,13 @@
                             <img src="assets/img/FL.jpg" alt="same" style="width:100%;height:auto;"/>
                         </div>
                         <div class="card-title artist-title">
-                            <h3>Same D4Eance</h3>
+                            <h3 class="artist-h3">Same D4Eance</h3>
                             <div class="card-icons">
                                 <a href="https://open.spotify.com/album/1fcqoQacUJGqBLOxb7UYN3" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
                                 <a href="https://www.youtube.com/watch?v=jF0hL1gcO9c" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
                                 <a href="https://samedmcb.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
                             </div><br>
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"></button>
+                            <button class="btn btn-link open-close" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"></button>
                         </div>
                 </div>
                 <div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion1">
@@ -419,13 +397,13 @@
                     <img src="assets/img/B.jpg" alt="mcb" style="width:100%;height:auto;"/>
                 </div>
                 <div class="card-title artist-title">
-                    <h3>MCB</h3>
+                    <h3 class="artist-h3">MCB</h3>
                     <div class="card-icons">
                         <a href="https://open.spotify.com/album/1fcqoQacUJGqBLOxb7UYN3" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
                         <a href="https://www.youtube.com/watch?v=jF0hL1gcO9c" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
                         <a href="https://samedmcb.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
                     </div><br>
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"></button>
+                    <button class="btn btn-link open-close" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"></button>
                 </div>
                 </div>
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
@@ -440,13 +418,13 @@
                         <img src="assets/img/G.jpg" alt="a10sin" style="width:100%;height:auto;"/>
                     </div>
                             <div class="card-title artist-title">
-                                <h3>DJ Green</h3>
+                                <h3 class="artist-h3">DJ Green</h3>
                                 <div class="card-icons">
                                     <a href="https://open.spotify.com/album/1fcqoQacUJGqBLOxb7UYN3" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
                                     <a href="https://www.youtube.com/watch?v=xOmWDutDSBk" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
                                     <a href="https://a10sin.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
                                 </div><br>
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"></button>
+                                <button class="btn btn-link open-close" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"></button>
                             </div>
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion2">
@@ -462,13 +440,13 @@
                     <img src="assets/img/T.jpg" alt="trust" style="width:100%;height:auto;"/>
                 </div>
                 <div class="card-title artist-title">
-                    <h3>Trust</h3>
+                    <h3 class="artist-h3">Trust</h3>
                     <div class="card-icons">
                         <a href="https://open.spotify.com/album/1fcqoQacUJGqBLOxb7UYN3" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
                         <a href="https://www.youtube.com/watch?v=jF0hL1gcO9c" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
                         <a href="https://samedmcb.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
                     </div><br>
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"></button>
+                    <button class="btn btn-link open-close" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"></button>
                 </div>
                 </div>
                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion2">
@@ -482,7 +460,7 @@
 
     <div class="col-md-4">
         <div class="container-fluid" id="event-container">
-        <div class="h2-box">
+            <div class="h2-box">
                 <h2 class="title-h2 text-center">Upcoming Events</h2>
             </div>
             <div class="card card-event">
@@ -595,7 +573,11 @@
   </div>
 
 </footer>
-
+<script>
+    $('.open-close').collapse({
+        toggle: true  /*not working*/
+    });
+</script>
 <script>
     jQuery(document).ready(function() {
         setTimeout(function() {
