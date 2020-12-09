@@ -60,77 +60,33 @@
   </div>
 </div>
 
-<div class="container-fluid">
-    <h3 class="text-center" id="contact-h3">Contact Us</h3>
-</div>
-
-    <div class="container-fluid" id="contact-details">
+<div class="wrapper">
+    <a href="shop.html"><u>Go back to shop</u></a>
+    <div class="container">
         <div class="row">
-             <!--Grid column-->
-            <div class="col-sm-7">
-                <div id="map"> 
+            <div class="col-md-6">
+                <div class="product1-img">
+                    <img src="assets/img/g.jpg" alt="product image"/>
                 </div>
             </div>
-
-            <div class="col-sm-5" id="contact-f">
-                <p id="contect-text"></p>
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                <!--Grid row-->
-                <div class="row">
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control" placeholder="Name" autocomplete="off" required>
-                            <label for="name" class="">Full Name</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control" placeholder="Email" autocomplete="off" required>
-                            <label for="email" class="">Email Address</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
+            <div class="col-md-6">
+                <div class="product-text">
+                    <h2><u>Test Product Title</u></h2><br>
+                    <span class="product-price">Was <s>24.99</s> Now 14.99 Save 35%</span><br><br>
+                    <p><u>Item Desription:</u><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, quis facilis id cum tempora nobis minus voluptas cumque consequatur ipsum. Quam, nobis voluptas. Asperiores consectetur amet, ab animi voluptate illum?</p>
+                    <form class="checkout" action="checkout.php" method="GET">
+                        <label for="size"><u>Size:</label></u><br>
+                        <input type="radio" value="small"/> S
+                        <input type="radio" value="medium"/> M
+                        <input type="radio" value="large"/> L
+                        <input type="radio" value="x-large"/> XL<br><br>
+                        <label for="qty">Quantity: </label>
+                        <input type="number" class="checkout-qty" name="qty" placeholder="1"/><br><br>
+                        <button class="btn btn-warning" type="submit">Add to cart</button>
+                    </form>
                 </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" autocomplete="off" required>
-                            <label for="subject" class="">Subject</label>
-                        </div>
-                    </div>
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Message..." autocomplete="off" required></textarea>
-                            <label for="message">Message</label>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-
-            </form>
-                <div class="text-center text-md-left">
-                    <a class="btn btn-sm" id="contact-button">Send</a>
-                </div>
-                <div class="status"></div>
+            </div>
         </div>
-        <!--Grid column-->
     </div>
 </div>
 
@@ -178,75 +134,8 @@
 
 </footer>
 </div>
-<script>
-    function initMap(){
-        const dIsland = {lat: 52.675525, lng: -8.626681};
-        var map = new google.maps.Map(document.getElementById("map"),{
-            zoom: 14,
-            center: dIsland,
-            mapId: "1c5ba11b36cd67b9"
-        });
 
-        const disland =
-        '<div id="disland">' +
-        '<h1 id="firstHeading" class="firstHeading">D\'Island Field</h1>' +
-        '<div id="bodyContent">' +
-        "<p>St. Mary's Park is one of the more impoverished areas in Limerick city and has suffered from high crime rates including gun and knife violence." +
-        "</div>" +
-        "</div>";
-
-        const infowindow = new google.maps.InfoWindow({
-                            content: disland,
-                            maxWidth: 250
-                            });
-
-        var marker = new google.maps.Marker({
-            position: dIsland,
-            map: map,
-            animation: google.maps.Animation.DROP
-        });
-
-        marker.addListener("click", () => {
-        infowindow.open(map, marker);
-        });
-    }
-
-
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMnlvVbjHUS7caLo2H_Kwm3cLPgp_tF1s&map_ids=1c5ba11b36cd67b9&callback=initMap"></script>
-<script>
-    $(document).ready(function(){
-      var date_input=$('input[name="date"]'); //our date input has the name "date"
-      var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
-      var options={
-        format: 'mm/dd/yyyy',
-        container: container,
-        todayHighlight: true,
-        autoclose: true,
-      };
-      date_input.datepicker(options);
-    });
-
-    $(document).ready(function(){
-      var time_input=$('input[name="time"]'); //our time input has the name "time"
-      var _container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
-      var options={
-        timeFormat: 'h:mm p',
-        interval: 60,
-        minTime: '10',
-        maxTime: '6:00pm',
-        defaultTime: '11',
-        startTime: '10:00',
-        dynamic: false,
-        dropdown: true,
-        scrollbar: true
-      };
-      time_input.timepicker(options);
-    });
-</script>
 <script src="https://kit.fontawesome.com/cfd5bd64a2.js" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ==" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
