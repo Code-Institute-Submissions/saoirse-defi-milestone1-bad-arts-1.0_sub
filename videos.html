@@ -18,29 +18,31 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-md sticky-top">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#other-items" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars fa-1x"></i></span>
         </button>
-    <div class="collapse navbar-collapse justify-content-left" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse justify-content-left">
         <ul class="nav">
-        <li class="nav-item active" id="logo">
-            <a class="navbar-brand" href="index.html"><img src="assets/img/logo4.jpg" alt="bad arts logo"/></a>
-        </li>
-        <li class="nav-item">
-            <a class="navbar-brand" href="test.html"><h2 class="nav-title">Bad Arts Entertainment</h2></a>
-        </li>
-        <li class="nav-item other-item">
-            <a class="nav-link" href="videos.html">Videos <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item other-item">
-            <a class="nav-link" href="shop.html">Shop <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item other-item">
-            <a class="nav-link" href="..." data-toggle="modal" data-target="#hackerModal">XXX<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item other-item">
-            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-        </li>
+            <li class="nav-item active" id="logo">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/logo4.jpg" alt="bad arts logo"/></a>
+            </li>
+            <li class="nav-item">
+                <a class="navbar-brand" href="test.html"><h2 class="nav-title">Bad Arts Entertainment</h2></a>
+            </li>
+        </ul>
+        <ul class="nav ml-lg-auto" id="other-items">
+            <li class="nav-item">
+                <a class="nav-link" href="videos.html">Videos <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="..." data-toggle="modal" data-target="#hackerModal">XXX<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            </li>
         </ul>
     </div>
 </nav>
@@ -95,14 +97,14 @@
   <div class="container-fluid" style="background: url(assets/img/pattern3.jpg);">
     <div class="row" style="background: url(assets/img/pattern3.jpg);">
       <div class="col-md-4 mb-4 text-center" id="left-col">
-        <h3>Join our mailing list</h3>
+        <h3><br>Join our mailing list</h3>
         <form id="mailing" name="mailing" action="mailing.php" method="POST">
             <label for="email">Please enter your email address:</label><br>
-            <input type="text" id="mailing-email" name="email" placeholder="Email Address" autocomplete="off" required><br>
+            <input type="text" class="mailing-email" name="email" placeholder="  Email Address" autocomplete="off" required><br>
             <label for="age">Are you over 18?</label>
-            <input type="radio" name="age" value="yes"/>Yes
-            <input type="radio" name="age" value="no"/>No<br>
-            <button class="btn btn-sm" id="mailing-button" type="submit">Join</button>
+            <input type="radio" name="age" value="yes"/> Yes
+            <input type="radio" name="age" value="no"/> No<br>
+            <button class="btn btn-sm" id="mailing-button2" type="submit">Join</button>
         </form>
       </div>
 
@@ -114,17 +116,17 @@
       </div>
 
       <div class="col-md-4 mb-4 text-center" id="right-col">
-        <h3>Find us on:</h3>
+        <h3 class="text-center"><br>Find us:</h3><br>
         <div class="footer-icons">
-        <a class="footer-links">
-            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <a class="footer-links">
-            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <a class="footer-links">
-            <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
+            <a class="footer-links">
+                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="footer-links">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="footer-links">
+                <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
         </div>
       </div>
     </div>
