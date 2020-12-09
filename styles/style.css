@@ -23,14 +23,11 @@ nav{
     background-image: url("../assets/img/pattern3.jpg");
     height: 100px;
     border-bottom: 1px solid orangered;
+    z-index: 10;
 }
 
 .nav{
     padding-top: 50px;
-}
-
-.nav ul{
-    float: left;
 }
 
 .nav-title{
@@ -52,6 +49,11 @@ nav{
     color: black;
 }
 
+#other-items{
+    position: relative;
+    bottom: 22px;
+}
+
 .other-item button{
    width: 100px;
    height: 66px;
@@ -63,9 +65,17 @@ nav{
     top: -25px;
 }
 
+.fa-bars{
+    color: orangered;
+}
 
 .modal-content{
     background-color: orangered;
+}
+
+#hacker-title{
+    color: black;
+    font-size: 1.25rem;
 }
 
 #flyoutModal{
@@ -185,7 +195,9 @@ footer{
 
 .footer-icons{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
+    left: 25px;
 }
 
 .footer-links{
@@ -196,10 +208,20 @@ footer{
     color: #0275d8;
 }
 
+#center-col{
+    position: relative;
+    top: 7px;
+}
+
 .mailing-email{
     width: 55%;
     background-color: black;
     box-sizing: border-box;
+    border-radius: 25px;
+}
+
+#carousel-h2{
+    text-align: center;
 }
 
 .jumbotron{
@@ -213,17 +235,21 @@ footer{
     font-family: "Grenze", serif;
 }
 
-.jumbotron .container{
-    background-color: rgba(0,0,0,0.5);
+.jumbo-text{
+    background-color: rgba(0,0,0,0.8);
     width: 40%;
     border: 2px solid orangered;
     position: relative;
-    left: -300px;
+    left: -400px;
     bottom: 0px;
 }
 
 .display-4{
-    font-size: 2.25rem;
+    font-size: 1.75rem;
+}
+
+.lead{
+    font-size: 1rem;
 }
 
 #carousel-releases{
@@ -326,6 +352,10 @@ footer{
 
 .fa-facebook-f{
     color: #3b5998;
+}
+
+.fa-instagram{
+    color: #7232bd;
 }
 
 .h2-box h2{
@@ -529,15 +559,19 @@ footer{
 
 @media only screen and (max-width: 1080px){
    .nav-title{
-    color: orangered;
-    font-size:1.75rem;
-    position: relative;
-    bottom: 0px;
+        color: orangered;
+        font-size:1.75rem;
+        position: relative;
+        bottom: 0px;
     }
 
     .nav-link{
-    color: orangered;
-    font-size: 1.25rem;
+        color: orangered;
+        font-size: 1.25rem;
+    }
+
+    #other-items{
+        bottom: 28px;
     }
 
     #video-wrapper{
@@ -553,6 +587,10 @@ footer{
         grid-gap: 5px;
         margin: 0 75px;
     }
+}
+
+@media only screen and (max-width: 800px){
+    
 }
 
 @media only screen and (max-width: 768px){
