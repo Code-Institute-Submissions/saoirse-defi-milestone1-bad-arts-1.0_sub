@@ -18,6 +18,10 @@ p{
     color: orangered; 
 }
 
+#content-wrapper{
+    min-height: calc(100vh-300px); /*not working to reduce footer size*/
+}
+
 nav{
     background-color: black;
     background-image: url("../assets/img/pattern3.jpg");
@@ -225,15 +229,9 @@ footer{
     text-align: center;
 }
 
-.jumbotron{
-    height: 600px;
-    margin-bottom: 0px;
-    background-image: url("../assets/img/1.jpg");
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: orangered;
-    font-family: "Grenze", serif;
+#carousel-main{
+    position: relative;
+    bottom: 23px;
 }
 
 .jumbo-text{
@@ -254,8 +252,12 @@ footer{
     font-size: 1rem;
 }
 
+.card-wrapper .content .face-front img{
+    
+}
+
 #carousel-releases{
-    margin-top: 15px;
+    margin-top: 0px;
 }
 
 #carousel-releases img{
@@ -334,6 +336,16 @@ footer{
     font-size: 2.75rem;
 }
 
+.card-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.card-icons i{
+    padding: 0 5px;
+}
+
+
 .accordion .artist-title .btn-link::after{
     font-family: 'FontAwesome';
     content: "\f067";
@@ -348,20 +360,47 @@ footer{
     color: #1DB954;
 }
 
+.fa-spotify:hover{
+    color: rgb(0, 255, 89);
+}
+
 .fa-youtube{
     color: #FF0000;
+}
+
+.fa-youtube:hover{
+    color: rgb(255, 85, 34);
 }
 
 .fa-bandcamp{
     color: #629aa9;
 }
 
-.fa-facebook-f{
+.fa-bandcamp:hover{
+    color: #13c2f3;
+}
+
+.fa-facebook{
     color: #3b5998;
+}
+
+.fa-facebook:hover{
+    color: #3773f5;
 }
 
 .fa-instagram{
     color: #7232bd;
+}
+
+.fa-instagram:hover{
+    color: #9c46ff;
+}
+
+.fa-arrow-left{
+    position: relative;
+    left: 50px;
+    top: 25px;
+    color: white;
 }
 
 .h2-box h2{
@@ -386,7 +425,7 @@ footer{
 
 .card-block .ticket{
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
 
 }
 
@@ -395,7 +434,7 @@ footer{
 }
 
 .card-event{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-image: url(../assets/img/ts.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -467,15 +506,14 @@ footer{
 .product1-img img{
     width: 100%;
     height: auto;
-    padding-top: 75px;
     padding-bottom: 150px;
 }
 
 .product-price{
     font-size: 1.25rem;
-    border: 1px solid orangered;
-    background-color: orangered;
-    color: black;
+    border: 3px solid orangered;
+    background-color: black;
+    color: white;
 }
 
 .product-text{
