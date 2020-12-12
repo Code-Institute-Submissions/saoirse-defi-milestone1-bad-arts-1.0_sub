@@ -19,7 +19,7 @@ p{
 }
 
 #content-wrapper{
-    min-height: calc(100vh-300px); /*not working to reduce footer size*/
+    min-height: calc(100vh-400px); /*not working to reduce footer size*/
 }
 
 nav{
@@ -75,11 +75,6 @@ nav{
 
 .modal-content{
     background-color: orangered;
-}
-
-#hacker-title{
-    color: black;
-    font-size: 1.25rem;
 }
 
 #flyoutModal{
@@ -176,6 +171,7 @@ nav{
 
 #mailing-button1:hover{
     color: white;
+    border: 1px solid white;
 }
 
 footer{
@@ -193,8 +189,9 @@ footer{
 }
 
 #mailing-button2:hover{
-    background-color: #0275d8;
+    background-color: orangered;
     color: white;
+    border: 1px solid white;
 }
 
 .footer-icons{
@@ -225,13 +222,10 @@ footer{
     border-radius: 25px;
 }
 
-#carousel-h2{
-    text-align: center;
-}
-
 #carousel-main{
     position: relative;
     bottom: 23px;
+    z-index: 1;
 }
 
 .jumbo-text{
@@ -252,10 +246,6 @@ footer{
     font-size: 1rem;
 }
 
-.card-wrapper .content .face-front img{
-    
-}
-
 #carousel-releases{
     margin-top: 0px;
 }
@@ -264,6 +254,7 @@ footer{
     width:100%;
     height:100%;
 }
+
 
 #carousel-slide{
     margin-top: 0px;
@@ -289,6 +280,11 @@ footer{
 
 .artist-releases-title{
     text-decoration: none;
+    color: orangered;
+}
+
+.card-body h2{
+    color: white;
 }
 
 #r2{
@@ -565,9 +561,8 @@ footer{
 }
 
 #contact-button:hover{
-    background-color: black;
-    color: orangered;
-    border: 1px solid orangered;
+    color: white;
+    border: 1px solid white;
 }
 
 #video-body{
@@ -594,6 +589,15 @@ footer{
         margin: 0 75px;
     }
 
+
+}
+
+@media only screen and (max-width: 1250px){
+    #carousel-releases img{
+        height: 250px;
+        width: 250px;
+    }
+
     .nav-title{
         color: orangered;
         font-size:1.75rem;
@@ -611,18 +615,17 @@ footer{
     }
 }
 
-@media only screen and (max-width: 1250px){
-    #carousel-releases img{
-        height: 250px;
-        width: 250px;
-    }
-}
-
 @media only screen and (max-width: 1080px){
 
     #video-wrapper{
         column-count: 2;
         width: 75%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .nav-title{
+        display: none;
     }
 }
 
@@ -636,7 +639,10 @@ footer{
 }
 
 @media only screen and (max-width: 800px){
-    
+    .navbar-brand img{
+        height: 75px;
+    }
+
 }
 
 @media only screen and (max-width: 768px){
