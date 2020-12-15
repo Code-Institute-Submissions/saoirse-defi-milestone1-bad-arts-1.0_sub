@@ -1,8 +1,8 @@
 Bad Arts Entertainment Webpage
 
 This webpage has been designed for a Limerick based rap label which represents 8 distinct artist/group of artists.
-The objective of the project is to create a one-stop shop for Bad Arts Entertainment which can pull their media from several different websites (tweets, music released on Bandcamp & videos from Youtube).
-It will also be used as a promotional tool to advertise album releases, merchandise and previous concerts they have done while also allowing the label to build a community of fans.
+The objective of the project is to create an all-in-one platform for Bad Arts Entertainment to connect their social media presence which is spread across multiple websites. This website would pull content from Twitter & Youtube while linking Spotify & Bandcamp.
+The website will also be used as a promotional tool for the label to advertise album releases and merchandise. Previous concerts they have done will also be on display.  This will help the label to build a community of fans.
 
 
 UX
