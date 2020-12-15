@@ -1,17 +1,18 @@
 Bad Arts Entertainment Webpage
 
 This webpage has been designed for a Limerick based rap label which represents 8 distinct artist/group of artists.
-The objective of the project is to create an all-in-one platform for Bad Arts Entertainment to connect their social media presence which is spread across multiple websites. This website would pull content from Twitter & Youtube while linking Spotify & Bandcamp.
-The website will also be used as a promotional tool for the label to advertise album releases and merchandise. Previous concerts they have done will also be on display.  This will help the label to build a community of fans.
+The objective of the project is to create an all-in-one platform for Bad Arts Entertainment to connect their social media presence which is spread across multiple websites. This website would pull content from Twitter & Youtube while also linking to Spotify & Bandcamp.
+The website will also be used as a promotional tool for the label to advertise album & merchandise releases. Previous concerts they have done will also be on display. This will help the label to build a community of fans.
 
 
 UX
 
-Bad Arts Entertainment already have a previously designed logo, an orange smiley face on a black background with red lettering.
-Before I started the design process, I wanted to create a user interface which worked in haromony with their logo & brand indentity.
+Before designing the wireframes and choosing the colour scheme, I reviewed the label's current online presence.
+Bad Arts Entertainment already had a logo, an orange smiley face on a black background with red lettering.
+When starting the design process, a major goal of mine was to design a UX which worked in haromony with their logo & brand indentity.
 Irish rap music is quite a niche genre and the UX had to engage this small target audience. 
-To reflect the tone of the music, I used a black background with the logo's bold orange colouring and an olive green as a secondary colour to balance out the colour scheme.
-The main font chosen was Grenze Gotisch which has been used on several prominent rap albums and is now considered to be a part of rap culture.
+To reflect the tone of the music, I used a black background paired with the logo's bold orange colouring. White was then used to highlight certain pieces of text, making the overall content more legible by creating contrast.
+For title within the navbar, I chose a dramatic font called Holtwood One SC. All other text was styled using thehighly legible Kanit font.
 
 
 
@@ -33,56 +34,15 @@ As a music venue promoter:
 2. A way to get in contact with the label in order to book one or several of their artists for concerts.
 
 
+As a music PR agent:
+
+
+
 Existing Features
 
 Homepage:
 
-A navigation bar containing 7 links and the company logo on either side allows users to traverse the website with ease.
 
-A carousel containing 8 items enabling fans to select a specific artist's profile.
-
-A row of 4 cards, each one containing an image, text and a link allows club promoters to view previous press releases.
-
-A footer containing 3 distinct sections: 
-Quick links (5 links) which gives site visitors another way of navigating the site without having to scroll to the top of the page, 
-The company bio (h2, paragraph & 4 button links) which allows users to find out more about the label as a whole & also giving them links to Bad Arts content on 4 external sites. 
-& a contact form (one email input & one text input) giving music promoters a way to reach out to the label.
-
-
-Artist's page:
-
-A grid layout using 3 columns and 5 rows.
-
-The top column contains an image then an h2 with a paragraph underneath and then an iframe.
-
-The second row contains an iframe across 2 columns and the rest of the bandcamp iframe.
-
-The third row is the same as the second.
-
-
-Shop:
-
-A H2 header
-
-A grid of image link, 3 columns & 3 rows with a text overlay on hover.
-
-
-Events:
-
-3 card, each card containing an image, a h2 header and a paragraph underneath.
-
-
-Social:
-
-An iframe.
-
-
-
-Features Left to Implement
-
-Working backend needs to be created for the contact form and merchandise page.
-
-Would like to make the footer collapsable so when there is no content, the footer moves up to meet the last visible piece of content.
 
 
 
@@ -123,21 +83,15 @@ Website used to source footer icons
 
 Bugs Discovered:
 
-Bug #1: Navbar on mobile - The navbar dropdown tile works on every page besides index.html
+Bug #1: Navbar on mobile - The navbar dropdown tile works on every page besides index.html [FIXED] Dropdown on index.html - After asking help from the tutor team at Code Institute, we found that the issue was arrising due to the z-index of the navbar in relation to the carousel. The navbar has now been given a z-index:10
 
-Bug #1: [FIXED] Dropdown on index.html - After asking help from the tutor team at Code Institute, we found that the issue was arrising due to the z-index of the navbar in relation to the carousel. The navbar has now been given a z-index:10
-
-Bug #2: Navbar on mobile - The navbar dropdown menu had a transparent background and was not pleasing to the eye of the viewer.
-
-Bug #2: [FIXED] Mobile navbar transparent background
+Bug #2: Navbar on mobile - The navbar dropdown menu had a transparent background and was not pleasing to the eye of the viewer. [FIXED] Mobile navbar transparent background
 
 Bug #3: Mobile event feed - Cannot get event-single elements to display as block which I believe will look more pleasing on mobile.
 
 Bug #4: All cards not behaving the same #accordion - BMD and Field don't have the expand icon.
 
-Bug #5: Connecting 2 carousels together not working video.html
-
-Bug #5: [FIXED] Wrote a JS script to connect carousel-video to carousel-video-info
+Bug #5: Connecting 2 carousels together not working video.html [FIXED] Wrote a JS script to connect carousel-video to carousel-video-info
 
 Bug #6: Cant stop the video-info carousel automatically transitioning even though "slides" was removed from class name
 
