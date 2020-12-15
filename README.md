@@ -78,6 +78,10 @@ Icons
 https://fontawesome.com/
 Website used to source footer icons
 
+Photo Editing Software:
+https://www.gimp.org/
+Used to create custom event ticket container
+
 
 
 
@@ -105,6 +109,9 @@ https://www.youtube.com/watch?v=jx5jmI0UlXU&t
 https://www.w3schools.com/cssref/css3_pr_background-size.asp
 https://www.w3schools.com/css/css_align.asp
 https://www.w3schools.com/css/css3_object-fit.asp
+https://www.w3schools.com/cssref/sel_before.asp
+https://www.w3schools.com/tags/tag_strike.asp
+https://css-tricks.com/snippets/sass/black-white-opacity-mixins/
 These videos and articles helped me understand certain cructial CSS properties such as position, background, object-fit and text-align.
 
 Form Styling:
@@ -112,28 +119,42 @@ Form Styling:
 https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/
 I don't believe that I copied any code directly from this site but it influenced my decisions relating to the footer contact form styling.
 
-CSS Grid:
-
-https://www.youtube.com/watch?v=wfXz8rW_fUs&list=PLOPo1bGrV4htxbQCS3CPZ59O1kpPdE7PK
-This video helped me get my head around CSS grid and its power to create more complex layouts. 
-Even though I didn't take code directly from this video, it influenced my project greatly.
-
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout
-https://stackoverflow.com/questions/43747185/force-css-grid-container-to-fill-full-screen-of-device
-These articles helped me with more nuanced issues that weren't covered in the youtube video mentioned above.
-
-
 Hover text effect associated with shop.html:
 
 https://www.youtube.com/watch?v=ltxxNidblts
 
 
-Bootstrap Navbar and issues Associated:
+Bootstrap Navbar and associated issues:
 
 https://stackoverflow.com/questions/44988543/bootstrap-navbar-transparent-on-mobile
 https://stackoverflow.com/questions/22383547/bootstrap-dropdown-menu-is-not-working
 https://stackoverflow.com/questions/19204937/div-doesnt-position-itself-below-bootstrap-fixed-navbar
 I used these stackoverflow articles to troubleshoot the bugs outlined in the above section.
+
+Video Gallery:
+
+https://fancyapps.com/fancybox/3/
+
+Bootstrap custom icon colour:
+
+https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel
+
+Customising the Google Map:
+
+https://developers.google.com/maps/documentation/javascript/styling
+https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+
+Text over image:
+
+https://css-tricks.com/design-considerations-text-images/
+
+Flyout Modal:
+
+https://www.solodev.com/blog/web-design/bootstrap/how-to-create-a-flyout-bootstrap-modal.stml
+
+Card Flip Carousel:
+https://www.youtube.com/watch?v=jVhwJgLOoGw
+https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600
 
 
 Internal Links:
