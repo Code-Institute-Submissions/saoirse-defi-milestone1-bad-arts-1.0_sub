@@ -32,6 +32,7 @@ nav{
 
 .nav{
     padding-top: 50px;
+    z-index: 10;
 }
 
 .nav-title{
@@ -56,6 +57,7 @@ nav{
 #other-items{
     position: relative;
     bottom: 26px;
+    z-index: 10;
 }
 
 .other-item button{
@@ -433,10 +435,6 @@ footer{
     margin: 0 auto;
     padding: 25px;
 
-}
-
-.card-block .card-date{
-    
 }
 
 .card-event{
