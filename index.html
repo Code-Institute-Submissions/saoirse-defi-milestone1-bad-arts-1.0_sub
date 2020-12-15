@@ -18,15 +18,15 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-md sticky-top">
+    <nav class="navbar navbar-expand-sm sticky-top">
         <a class="navbar-brand" href="index.html"><img src="assets/img/logo4.jpg" alt="bad arts logo"/></a>
         <a class="navbar-brand" href="index.html"><h2 class="nav-title">Bad Arts Entertainment</h2></a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#other-items" aria-controls="#bad-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars fa-1x"></i></span>
         </button>
     <div class="collapse navbar-collapse justify-content-left" id="bad-nav">
-        <ul class="nav ml-lg-auto" id="other-items">
-            <li class="nav-item">
+        <ul class="navbar-nav ml-lg-auto" id="other-items">
+            <li class="nav-item active">
                 <a class="nav-link" href="videos.html">Videos <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -116,7 +116,8 @@
   </div>
 </div>
 
-<div class="container-fluid" id="carousel-releases">
+<!--Desktop releases carousel, will be hidden for small and below-->
+<div class="container-fluid hidden-sm hidden-xs hidden-xxs" id="carousel-releases">
     <h2 class="text-center">Discography</h2>
     <div id="carousel3" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -324,6 +325,82 @@
         </a>
     </div>
 </div>
+
+<!--Mobile releases carousel, will be hidden for medium and above-->
+<div class="container-fluid hidden-md hidden-lg hidden-xl" id="carousel-releases-mobile">
+    <h2 class="text-center">Discography</h2>
+    <div id="carousel4" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card-wrapper mx-auto">
+                            <div class="content">
+                                <div class="face-front z-depth-2">
+                                    <img src="assets/img/crettin.png" class="img-responsive" alt="a10"/>
+                                </div>
+                                <div class="face-back z-depth-2">
+                                    <div class="card-body">
+                                        <h2>Common Rough LP</h2>
+                                        <h4 class="artist-releases-title">A10Sin</h4>
+                                        <p>Here we have the sequel to A10Sin's first album, "The Crettin LP" which tells a tale of satanic gangsterism and unruly drug abuse</p>
+                                        <a href="https://open.spotify.com/album/4Dzt2hKxVlMR2JHTpwrrPV" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            <div class="carousel-item">
+                <div class="card-wrapper mx-auto">
+                            <div class="content">
+                                <div class="face-front z-depth-2">
+                                    <img src="assets/img/coca.jpg" class="img-responsive" alt="a10"/>
+                                </div>
+                                <div class="face-back z-depth-2">
+                                    <div class="card-body">
+                                        <h2>Ralph Splifferetto</h2>
+                                        <h4 class="artist-releases-title">A10Sin</h4>
+                                        <p>Released October 17, 2020<br>
+                                            Vocals/lyrics : A10Sín<br>
+                                            Production/Mixing: DJ Green<br>
+                                            Mastering: Kafeen<br>
+                                            Artwork: Kon_Rtis</p>
+                                        <a href="https://open.spotify.com/album/4Dzt2hKxVlMR2JHTpwrrPV?highlight=spotify:track:79xoyQCSTe5CLT5KKus5pN" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            <div class="carousel-item">
+                <div class="card-wrapper mx-auto">
+                            <div class="content">
+                                <div class="face-front z-depth-2">
+                                    <img src="assets/img/aqua.jpg" class="img-responsive" alt="a10"/>
+                                </div>
+                                <div class="face-back z-depth-2">
+                                    <div class="card-body">
+                                        <h2>Mon Soon</h2>
+                                        <h4 class="artist-releases-title">A10Sin</h4>
+                                        <p>Released August 21, 2020<br>
+                                            Vocals/lyrics: A10Sín<br>
+                                            Production: DJ Green<br>
+                                            Mixing/Mastering: DJ Green x Kafeen<br>
+                                            Artwork: DJ Green</p>
+                                        <a href="https://open.spotify.com/album/3yqkxwTYn3plx06znXc7Kl" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
 
 <div class="container-fluid" id="artists">
 <div class="row" id="accordion-row">
