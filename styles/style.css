@@ -39,7 +39,7 @@ nav{
     color: orangered;
     font-size: 2.75rem;
     position: relative;
-    bottom: 8px;
+    bottom: 0px;
 }
 
 .nav-link{
@@ -55,7 +55,7 @@ nav{
 
 #other-items{
     position: relative;
-    bottom: 26px;
+    right: 25px;
 }
 
 .other-item button{
@@ -228,12 +228,16 @@ footer{
     z-index: 1;
 }
 
+#carousel-main .carousel-item{
+    height: 486px;
+}
+
 .jumbo-text{
     background-color: rgba(0,0,0,0.8);
-    width: 40%;
+    width: 25%;
     border: 2px solid orangered;
     position: relative;
-    left: -400px;
+    left: -300px;
     bottom: 0px;
 }
 
@@ -259,8 +263,9 @@ footer{
 #carousel-slide{
     margin-top: 0px;
 }
+
 .carousel-item{
-    height: 365px;
+    height: 486px;
 }
 
 .carousel-control-prev-icon,
@@ -271,6 +276,8 @@ footer{
   border-radius: 50%;
   border: 1px solid white;
   background-color: orangered;
+  position: relative;
+  bottom: 100px;
 }
 
 .card{
@@ -330,11 +337,17 @@ footer{
 }
 
 #artists{
-    margin-top: 0px;
+    position: relative;
+    bottom: 125px;
 }
 
 .artist-h3{
     font-size: 2.75rem;
+}
+
+.card-img img{
+    width: 100%;
+    height: auto;
 }
 
 .card-icons{
@@ -404,6 +417,11 @@ footer{
     color: white;
 }
 
+.open-close{
+    display: flex;
+    justify-content: center;
+}
+
 .h2-box h2{
     text-decoration: none;
 }
@@ -428,10 +446,6 @@ footer{
     margin: 0 auto;
     padding: 25px;
 
-}
-
-.card-block .card-date{
-    
 }
 
 .card-event{
@@ -587,6 +601,10 @@ footer{
     margin: 5px;
 }
 
+@media only screen and (max-width: 1400px){
+ 
+}
+
 @media only screen and (max-width: 1305px){
     #merch-cd{
         display: grid;
@@ -595,13 +613,22 @@ footer{
         margin: 0 75px;
     }
 
-
 }
 
 @media only screen and (max-width: 1250px){
     #carousel-releases img{
         height: 250px;
         width: 250px;
+    }
+
+    #artists{
+    position: relative;
+    bottom: 200px;
+    }
+
+    #artists .carousel-control-prev-icon,
+    #artists .carousel-control-next-icon{
+        
     }
 
     .nav-title{
@@ -659,6 +686,12 @@ footer{
    #contact-button{
        float: left;
    }
+
+   .card-img{
+    display: flex;
+    justify-content: center;
+   }
+
 }
 
 @media only screen and (max-width: 450px){
