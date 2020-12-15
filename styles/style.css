@@ -27,7 +27,7 @@ nav{
     background-image: url("../assets/img/pattern3.jpg");
     height: 100px;
     border-bottom: 1px solid orangered;
-    z-index: 10;
+    z-index: 9;
 }
 
 .nav{
@@ -35,12 +35,15 @@ nav{
     z-index: 10;
 }
 
+.navbar-collapse{
+    background-color: black;
+    color: orangered;
+}
+
 .nav-title{
     font-family: "Holtwood One SC", sans-serif;
     color: orangered;
     font-size: 2.75rem;
-    position: relative;
-    bottom: 8px;
 }
 
 .nav-link{
@@ -52,17 +55,6 @@ nav{
 .nav-link:hover{
     background-color: orangered;
     color: black;
-}
-
-#other-items{
-    position: relative;
-    bottom: 26px;
-    z-index: 10;
-}
-
-.other-item button{
-   width: 100px;
-   height: 66px;
 }
 
 #logo a img{
@@ -232,20 +224,24 @@ footer{
 
 .jumbo-text{
     background-color: rgba(0,0,0,0.8);
-    width: 40%;
+    width: 25%;
     border: 2px solid orangered;
     position: relative;
-    left: -400px;
-    bottom: 0px;
+    right: 300px;
 }
 
 .display-4{
-    font-size: 1.75rem;
-    color: white;
+    font-size: 1.5rem;
 }
 
 .lead{
     font-size: 1rem;
+    color: white;
+}
+
+#carousel4 img{
+    width: 100%;
+    height: 100%;
 }
 
 #carousel-releases{
@@ -266,6 +262,7 @@ footer{
 #carousel-slide{
     margin-top: 0px;
 }
+
 .carousel-item{
     height: 365px;
 }
@@ -620,6 +617,7 @@ footer{
     }
 
     #other-items{
+        position: relative;
         bottom: 28px;
     }
 }
