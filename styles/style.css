@@ -100,6 +100,8 @@ nav{
     color: black;
 }
 
+/* Flyout Modal code taken from https://www.solodev.com/blog/web-design/bootstrap/how-to-create-a-flyout-bootstrap-modal.stml */
+
 .fadeInRight {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
@@ -160,6 +162,8 @@ nav{
     box-shadow: -12px 0 38px -14px rgba(0, 0, 0, 0.25);
     background-clip: padding-box;
   }
+
+  /* End of Flyout Modal styling */
   
   .modal-backdrop {
     background-color: black;
@@ -216,14 +220,6 @@ footer{
     left: 25px;
 }
 
-.footer-links{
-    color: orangered;
-}
-
-.footer-links:hover{
-    color: #0275d8;
-}
-
 #center-col{
     position: relative;
     top: 7px;
@@ -269,11 +265,6 @@ footer{
 .lead{
     font-size: 1rem;
     color: white;
-}
-
-#carousel4 img{
-    width: 100%;
-    height: 100%;
 }
 
 #carousel-releases{
@@ -398,17 +389,6 @@ footer{
     padding: 0 2px;
 }
 
-
-.accordion .artist-title .btn-link::after{
-    font-family: 'FontAwesome';
-    content: "\f067";
-}
-
-.accordion .artist-title .btn-link .collapsed::after{
-    font-family: 'FontAwesome';
-    content: "\f068";
-}
-
 .fa-spotify{
     color: #1DB954;
 }
@@ -503,6 +483,7 @@ footer{
 .merch-gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    max-width: 1400px;
     grid-gap: 5px;
     margin: 0 75px;
 }
@@ -570,8 +551,16 @@ footer{
     color: white;
 }
 
+.product-description{
+    color: white;
+}
+
 .product-text{
     color: orangered;
+}
+
+.product-text h2{
+    color: white;
 }
 
 .checkout-qty{

@@ -17,7 +17,7 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-md sticky-top">
-        <a class="navbar-brand" href="index.html"><img src="assets/img/logo4.jpg" alt="bad arts logo"/></a>
+        <a class="navbar-brand" href="index.html"><img src="assets/img/logo4.jpg" alt="bad arts logo"/></a> 
         <a class="navbar-brand" href="index.html"><h2 class="nav-title">Bad Arts Entertainment</h2></a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#bad-nav" aria-controls="bad-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars fa-1x"></i></span>
@@ -39,6 +39,8 @@
 </header>
 
 <div class="wrapper" id="content-wrapper">
+
+<!--Flyout Modal code taken from https://www.solodev.com/blog/web-design/bootstrap/how-to-create-a-flyout-bootstrap-modal.stml-->
 
 <div class="col-sm-3 col-xl-2 order-1 order-sm-2 mt-4 float-right">
   <button id="flyout-button" data-toggle="modal" data-target="#flyoutmodal" class="btn btn-dark mt-2 w-md-100 text-center" style="display: none;">Launch Modal</button>
@@ -67,6 +69,10 @@
     </div>
   </div>
 </div>
+
+<!--End of Flyout Modal Code-->
+
+<!--Start of main carousel-->
 
 <div class="container-fluid" id="carousel-slide">
   <div id="carousel-main" class="carousel slide" data-ride="carousel" data-interval="15000">
@@ -112,7 +118,9 @@
   </div>
 </div>
 
-<!--Desktop releases carousel, will be hidden for small and below-->
+<!--End of main carousel-->
+
+<!--Desktop rotating card carousel, will be hidden for bootstrap sm breakpoint and below-->
 <div class="container-fluid" id="carousel-releases">
     <h2 class="text-center">Discography</h2>
     <div id="carousel3" class="carousel slide d-none d-md-block" data-ride="carousel">
@@ -322,7 +330,9 @@
     </div>
 </div>
 
-<!--Mobile releases carousel, will be hidden for medium and above-->
+<!--End of desktop rotating card carousel-->
+
+<!--Mobile releases carousel, will be hidden for bootstrap's md breakpoint and above-->
 
     <div class="carousel slide d-md-none" id="carousel4" data-ride="carousel">
         <div class="carousel-inner">
@@ -397,10 +407,14 @@
 </div>
 </div>
 
+<!--End of mobile rotating card carousel-->
+
+<!--Start of artist accordion, events and twitter container-->
 
 <div class="container-fluid" id="artists">
 <div class="row" id="accordion-row">
     <div class="col-md-4">
+        <!--Start of artist accordion 1-->
         <div class="accordion" id="accordion1">
             <div class="card">
                 <div class="card-header" id="headingOne">
@@ -415,7 +429,7 @@
                         <a href="https://samedsize.bandcamp.com/releases" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
                     </div>
                     <div class="open-close">
-                        <button class="btn btn-link open-close1" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"></button>
+                        <button class="btn btn-link open-close1" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><i class="fa fa-plus"></i></button>
                     </div>
                 </div>
                 </div>
@@ -442,7 +456,7 @@
                         <a href="https://a10sin.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
                     </div>
                     <div class="open-close">
-                        <button class="btn btn-link open-close1" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"></button>
+                        <button class="btn btn-link open-close1" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-plus"></i></button>
                     </div>
                 </div>
                 </div>
@@ -452,6 +466,7 @@
                         <video controls="controls" poster="assets/img/2.jpg" style="width:100%; height:auto;">
                             <source src="assets/video/ralph.mp4" type="video/mp4"/>
                         </video>
+                        <h5>Bio:</h5>
                         <p>Is an emcee originally from Galway, having lived in<br>Limerick for the last couple of years. He is 1/3 of the group Field Literature which includes himself, DJ Green and Trust. His previous full releases: The Crettin LP (2019), The Common Rough LP (2020), The Devil Was A Culchie (Field Literature, 2020) and Son Of Shylin E.P x Shy Son (2020). He has also released two mixtapes called "Deficit Disorder" (2019) and "Ladies & Gentlemen" (2020) which were both a compilation of unreleased tracks and features. A10Sín prefers the recluse of his studio and has yet to perform a live gig under his current emcee persona!</p>
                     </div>
                 </div>
@@ -470,18 +485,23 @@
                                 <a href="https://samedmcb.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
                         </div>
                         <div class="open-close">
-                        <button class="btn btn-link open-close1" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"></button>
+                        <button class="btn btn-link open-close1" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-plus"></i></button>
                         </div>
                     </div>
                 </div>
-                <div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion1">
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion1">
                 <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <h5>Bio:</h5>
+                    <p>Is a Galway native artist similar to A10Sín and has been producing since 2014. He is a member of the group Field Literature. Some of his production credits include: Kneecap, Stevo Timothy, Strange Boy, Same D, Wu-Tang Killa Beez, Project Pat, Jack Bashful, Upfront, Trust, Bigman Davey. His previous full releases include Sick Caint x Animal (2018), Kushlawn Cocá (2019) and San An Fiain (2020). He has been involved with the running of gigs including Breaking Down Borders 1 + 2 as well as a variety of other gigs held in Pharmacia and Costello's Milk Market. He has Djed for a long list of artists including Costello, Lazy Eyez, Upfront and so many more from all four corners of the country.</p>
                 </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!--End of artist accordion 1-->
+
+    <!--Start of artist accordion 2-->
 
     <div class="col-md-4">
         <div class="accordion" id="accordion2">
@@ -498,13 +518,16 @@
                         <a href="https://samedmcb.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
                     </div>
                     <div class="open-close">
-                    <button class="btn btn-link open-close2" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"></button>
+                    <button class="btn btn-link open-close2" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><i class="fa fa-plus"></i></button>
                     </div>
                 </div>
                 </div>
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
                 <div class="card-body">
-                    Known as the "Nate Dogg" of<br>Limerick City. He is 1/3 of Same D4Ence, a<br>Limerick group consisting of SiZe, MCB and PX music's Hazey Haze. They all originate from the famed Island Field,<br>Limerick City and have grown up together since. Some previous projects that SiZe has been a part of include - Same D4Ence: Basic Instinct, Exclamation Marks, Affiliation Part 1 and the most recent release, SiZe & MCB: Flood Ground. He has worked with a variety of renowned producers including Naive Ted, Mynameisjohn, Mankyy,BigMan Davey and DJ Green. SiZe has opened up for acts such as Ghostface Killah, Levelz & Beardyman and gigged at Electric Picnic, The Scratch Games, Dolans and More!                </div>
+                    <h5>Bio:</h5>
+                    <p>Known as the "Nate Dogg" of<br>Limerick City. He is 1/3 of Same D4Ence, a<br>Limerick group consisting of SiZe, MCB and PX music's Hazey Haze. They all originate from the famed Island Field,<br>Limerick City and have grown up together since. Some previous projects that SiZe has been a part of include - Same D4Ence: Basic Instinct, Exclamation Marks, Affiliation Part 1 and the most recent release, SiZe & MCB: Flood Ground. He has worked with a variety of renowned producers including Naive Ted, Mynameisjohn, Mankyy,BigMan Davey and DJ Green. SiZe has opened up for acts such as Ghostface Killah, Levelz & Beardyman and gigged at Electric Picnic, The Scratch Games, Dolans and More!                
+                    </p>
+                    </div>
                 </div>
             </div>
 
@@ -521,13 +544,15 @@
                                     <a href="https://a10sin.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
                                 </div>
                                 <div class="open-close">
-                                <button class="btn btn-link open-close2" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"></button>
+                                <button class="btn btn-link open-close2" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-plus"></i></button>
                                 </div>
                             </div>
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion2">
                 <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <h5>Bio:</h5>
+                    <p>Known as the "Nate Dogg" of<br>Limerick City. He is 1/3 of Same D4Ence, a<br>Limerick group consisting of SiZe, MCB and PX music's Hazey Haze. They all originate from the famed Island Field,<br>Limerick City and have grown up together since. Some previous projects that SiZe has been a part of include - Same D4Ence: Basic Instinct, Exclamation Marks, Affiliation Part 1 and the most recent release, SiZe & MCB: Flood Ground. He has worked with a variety of renowned producers including Naive Ted, Mynameisjohn, Mankyy,BigMan Davey and DJ Green. SiZe has opened up for acts such as Ghostface Killah, Levelz & Beardyman and gigged at Electric Picnic, The Scratch Games, Dolans and More!                
+                    </p>                
                 </div>
                 </div>
             </div>
@@ -545,12 +570,13 @@
                         <a href="https://samedmcb.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
                     </div>
                     <div class="open-close">
-                    <button class="btn btn-link open-close2" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"></button>
+                    <button class="btn btn-link open-close2" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><i class="fa fa-plus"></i></button>
                     </div>
                 </div>
                 </div>
                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion2">
                     <div class="card-body">
+                        <h5>Bio:</h5>
                         <p>Trust drew inspiration from Lunitic and working class records, much like A10Sín, which lead him to delve deep the down the path of the Irish and their history of poetry. He linked up with Steo Skitz, whom in his own words is the first person to believe in his abilities. They joined together for the album “Stranger Than Fiction” which is similar to the Field Literature music in regards to lyrical content, style and themes. Somewhere down the line he linked up with DJ Green and A10Sín to form Field Literature and they released their first album "The Devil Was A Cuclhie" in 2020.</p>
                     </div>
                 </div>
@@ -558,7 +584,12 @@
         </div>
     </div>
 
+    <!--End of artist accordion 2-->
+
+    <!--Start of event & twitter container-->
+
     <div class="col-md-4">
+        <!--Start of event container-->
         <div class="container-fluid" id="event-container">
             <div class="h2-box">
                 <h2 class="title-h2 text-center">Upcoming Events</h2>
@@ -633,18 +664,26 @@
                 </div>
             </div><br>
         </div>
+        <!--End of event container-->
+
+        <!--Start of twitter container-->
         <div class="container-fluid" id="twitter-container">
             <br><a class="twitter-timeline" data-lang="en" data-width="550" data-height="700" data-theme="dark" href="https://twitter.com/BadArtsEnterta1?ref_src=twsrc%5Etfw">Tweets by BadArtsEnterta1</a>
         </div>
+        <!--End of twitter container-->
     </div>
+    <!--End of event & twitter container-->
 </div>
 </div>
 </div>
 </div>
+<!--End of artist accordion, events and twitter container-->
 
+<!--Start of footer-->
 <footer class="page-footer sticky-footer font-small pt-4" style="background: url(assets/img/pattern3.jpg);">
   <div class="container-fluid" style="background: url(assets/img/pattern3.jpg);">
     <div class="row" style="background: url(assets/img/pattern3.jpg);">
+    <!--Start of left footer column-->
       <div class="col-md-4 mb-4 text-center" id="left-col">
         <h3><br>Join our mailing list</h3>
         <form id="mailing" name="mailing" action="mailing.php" method="POST">
@@ -656,14 +695,18 @@
             <button class="btn btn-sm" id="mailing-button2" type="submit">Join</button>
         </form>
       </div>
+    <!--End of left footer column-->
 
+    <!--Start of center column-->
       <div class="col-md-4 mb-4 text-center" id="center-col">
         <br>
         <h3>Bad Arts Entertainment</h3>
         <p>An independent hip hop label based in<br>Limerick City.</p>
         <a href="https://twitter.com/BadArtsEnterta1?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @BadArtsEnterta1</a>
       </div>
+    <!--End of center column-->
 
+    <!--Start of right footer column-->
       <div class="col-md-4 mb-4 text-center" id="right-col">
         <h3 class="text-center"><br>Find us:</h3><br>
         <div class="footer-icons">
@@ -680,10 +723,15 @@
       </div>
     </div>
   </div>
+  <!--End of right footer column-->
+
+  <!--Start of copyright banner-->
   <div class="footer-copyright text-center py-3">
   Copyright &#169; Bad Arts Entertainment 2020
   </div>
+  <!--End of copyright banner-->
 </footer>
+<!--End of footer-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -703,6 +751,19 @@
         setTimeout(function() {
             $('#flyout-button').click();
         }, 8000);
+
+        //Code taken from https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=accordion-with-plus-minus-icon
+        $(".collapse.show").each(function(){
+        	$(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+        });
+        
+        // Toggle plus minus icon on show hide of collapse element
+        $(".collapse").on('show.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+        }).on('hide.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+        });
+        //End of outsourced code
     }); 
 </script>
 <script src="../assets/js/app.js"></script>
