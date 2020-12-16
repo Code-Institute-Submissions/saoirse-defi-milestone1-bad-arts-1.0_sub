@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html, body{
+    height: 100%;
+}
+
 body{
     background-color: black;
     font-family: "Kanit", sans-serif;
@@ -38,6 +42,11 @@ nav{
 .navbar-collapse{
     background-color: black;
     color: orangered;
+}
+
+.navbar-collapse #other-items{
+    float: right;
+    width: 50%;
 }
 
 .nav-title{
@@ -238,6 +247,12 @@ footer{
     height: 486px;
 }
 
+#carousel-main .carousel-control-prev-icon,
+#carousel-main .carousel-control-next-icon{
+        position: relative;
+        top: 50px;
+    }
+
 .jumbo-text{
     background-color: rgba(0,0,0,0.8);
     width: 25%;
@@ -278,6 +293,14 @@ footer{
 
 #carousel-slide{
     margin-top: 0px;
+}
+
+#r1{
+    display: block;
+}
+
+#r1-mobile{
+    display: none;
 }
 
 .carousel-item{
@@ -642,9 +665,10 @@ footer{
     bottom: 200px;
     }
 
-    #artists .carousel-control-prev-icon,
-    #artists .carousel-control-next-icon{
-        
+    #carousel-main .carousel-control-prev-icon,
+    #carousel-main .carousel-control-next-icon{
+        position: relative;
+        top: 30px;
     }
 
     .nav-title{
@@ -661,7 +685,7 @@ footer{
 
     #other-items{
         position: relative;
-        bottom: 28px;
+        bottom: 0px;
     }
 }
 
@@ -671,12 +695,30 @@ footer{
         column-count: 2;
         width: 75%;
     }
+
+    .card-event{
+        width: 110%;
+        height: 110%;
+    }
+
+    .jumbo-text{
+    width: 33%;
+    position: relative;
+    left: -150px;
+    bottom: 0px;
+    }
+
+    .display-4{
+    font-size: 1.25rem;
+    }
+
+    .lead{
+    font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 900px){
-    .nav-title{
-        display: none;
-    }
+    
 }
 
 @media only screen and (max-width: 850px){
@@ -696,6 +738,7 @@ footer{
 }
 
 @media only screen and (max-width: 768px){
+
    #contact-form{
        width: 100%;
    }
@@ -709,10 +752,36 @@ footer{
     justify-content: center;
    }
 
+   .card-img img{
+    width: 365px;
+    height: auto;
+    }
+
+    #carousel-main .carousel-item{
+    height: 365px;
+    }
+
+    .jumbo-text{
+    width: 75%;
+    position: relative;
+    left: 0px;
+    top: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 660px){
+
+    .nav-title{
+        display: none;
+    }
+
+
 }
 
 @media only screen and (max-width: 450px){
     #video-wrapper{
         column-count: 1;
     }
+
 }
