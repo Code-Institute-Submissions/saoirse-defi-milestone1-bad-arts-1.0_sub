@@ -752,6 +752,11 @@ footer{
     top: 40px;
     }
 
+     .card-event{
+       position: relative;
+       right: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 660px){
@@ -766,6 +771,11 @@ footer{
 @media only screen and (max-width: 450px){
     #video-wrapper{
         column-count: 1;
+    }
+
+     .card-event{
+       position: relative;
+       right: 5px;
     }
 
 }
