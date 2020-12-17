@@ -16,25 +16,24 @@ For title within the navbar, I chose a dramatic font called Holtwood One SC. All
 
 
 
+1. As a fan of Bad Arts Entertainment I want:
 
-User Stories
-
-As a fan of Bad Arts Entertainment I want:
-
-1. The ability to easily find music and videos from each individual artist so that I can listen to a specific artist depending on what mood I'm in.
-2. A clearly defined navigation bar so that I can move around the site effectively.
-3. Information pertaining to each artist and their connections with each other to get a better understanding of the label as a whole.
-4. A place to be able to purchase physical merchandise/album releases or digital music files.
-5. A way to view their social feed without having to leave the webpage.
+    * The ability to easily find music and videos from each individual artist so that they can listen to a specific artist depending on what mood the site visitor is in.
+    * A clearly defined navigation bar so that I can move around the site effectively.
+    * Information pertaining to each artist and their connections with each other to get a better understanding of the label as a whole.
+    * A place to be able to purchase physical merchandise/album releases or digital music files.
+    * A way to view their social feed without having to leave the webpage.
+    * A method to interact with the label's social media content which is split across several external sites. 
 
 
-As a music venue promoter:
+2. As a music venue promoter:
 
-1. A place to review the label's music and videos to see if they are a suitable act for their venue.
-2. A way to get in contact with the label in order to book one or several of their artists for concerts.
+    * A place to review the label's music and videos to see if they are a suitable act for their venue.
+    * The ability to view previous events that the label has been a part of.
+    * A method to get in contact with the label in order to book their artists for concerts.
 
 
-As a music PR agent:
+3. As a music PR agent:
 
 
 
@@ -82,22 +81,6 @@ Photo Editing Software:
 https://www.gimp.org/
 Used to create custom event ticket container
 
-
-
-
-Bugs Discovered:
-
-Bug #1: Navbar on mobile - The navbar dropdown tile works on every page besides index.html [FIXED] Dropdown on index.html - After asking help from the tutor team at Code Institute, we found that the issue was arrising due to the z-index of the navbar in relation to the carousel. The navbar has now been given a z-index:10
-
-Bug #2: Navbar on mobile - The navbar dropdown menu had a transparent background and was not pleasing to the eye of the viewer. [FIXED] Mobile navbar transparent background
-
-Bug #3: Mobile event feed - Cannot get event-single elements to display as block which I believe will look more pleasing on mobile.
-
-Bug #4: All cards not behaving the same #accordion - BMD and Field don't have the expand icon.
-
-Bug #5: Connecting 2 carousels together not working video.html [FIXED] Wrote a JS script to connect carousel-video to carousel-video-info
-
-Bug #6: Cant stop the video-info carousel automatically transitioning even though "slides" was removed from class name
 
 
 Credit
@@ -214,3 +197,85 @@ git clone https://www.github.com/USERNAME/REPOSITORY
 
 
 Testing
+
+* W3C CSS validator
+* W3C Markup validator
+    *The developer used W3C CSS validation service and   W3C Markup validation service to check the validity of their code.
+  
+Client stories Testing
+
+Most common paths through the website:
+
+* Home > Videos
+
+* Home > Shop > Product
+* A back button was added to each product page to ensure that site visitors can easily return to the shop page. A link in the navbar also has this functionality, the second button was added as it follows modern online shopping conventions.
+
+Home > Contact
+
+
+
+
+Testing client's stories outlined in the readme:
+
+1. As a new visitor to the website, I want to be able to navigate the site easily and be able to find what I want quickly.
+    
+    i. No matter what page a new visitor lands on, they're able to easily find and use the navigation bar.
+    ii.The logo image is a link that always leads back to the Homepage.
+    iii.The landing section of the homepage contains a desription of the music label, their genre and location.
+
+
+2. As a new visitor to the site, I am interested in a specific artist on the label.
+
+    i. On the home page, all artist's profiles are grouped together in order to aid the site visitor find the indended artist quickly.
+
+
+3. As a new visitor to the website, I want to find some personal information for each artist so I can understand their lyrics better.
+
+    i. Each artist profile contains a concise biography and their latest video release.
+
+
+4. As a fan, I want the ability to purchase digital copies of their music.
+   
+    i. On the homepage, each artist's profile has a link to their bandcamp page where potential customers can purchase their music digitally.
+
+
+5. As a potential employer, I would like to see what previous events they have done in order to make a wise business decision.
+
+    i. The events section on the homepage outlines previous events that the label has taken part in as well as any upcoming gigs planned.
+
+
+6. As a potential customer, I would like to view their merchandise with clearly indicated pricing.
+
+    i. In the shop, prices are outlined for each product once you hover over them. Also within the product page, the current and previous product price is clearly outlined.
+
+
+Bugs Discovered:
+
+Solved bugs
+
+1. Z-index of navbar on mobile
+    
+    * The navbar dropdown tile worked on every page besides index.html [FIXED] Dropdown on index.html.
+    * After requesting help from the tutor team at Code Institute, we found that the issue was arrising due to the z-index of the navbar in relation to the carousel. 
+    * The navbar has now been given a z-index:10 and the problem has been resolved.
+
+
+2. Bootstrap accordion not collapsing
+
+    * The accordion wouldn't collapse once it had been opened. You could see the browser attempting to close the accordion looking almost like a glitch.
+    * After scouring the bootstrap documentation, I tried several potential solutions.
+    * A JS script was needed to close the accordion
+
+      $('.open-close1').collapse('toggle', {
+            parent: '#accordion1'
+        });  
+
+
+3. Rotating card carousel not mobile friendly
+
+    * As the browser window decreased to mobile size, a 3 card carousel wouldn't fit aesteticely.
+    * I created 2 separate carousels, a 3 card carousel for screens 768px and above & a single card carousel for screens 768px and below.
+    * The bootstrap class names used to achieve this; Desktop[ d-none d-md-block ] & Mobile [ d-md-none ].
+
+
