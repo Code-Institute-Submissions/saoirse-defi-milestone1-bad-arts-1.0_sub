@@ -1,14 +1,17 @@
-Bad Arts Entertainment Webpage
+# Bad Arts Entertainment Webpage
 
 This webpage has been designed for a Limerick based rap label which represents 8 distinct artist/group of artists.
 The objective of the project is to create an all-in-one platform for Bad Arts Entertainment to connect their social media presence which is spread across multiple websites. This website would pull content from Twitter & Youtube while also linking to Spotify & Bandcamp.
 The website will also be used as a promotional tool for the label to advertise album & merchandise releases. Previous concerts they have done will also be on display. This will help the label to build a community of fans.
 
 
-UX
+## UX
 
 Before designing the wireframes and choosing the colour scheme, I reviewed the label's current online presence.
 Bad Arts Entertainment already had a logo, an orange smiley face on a black background with red lettering.
+
+![alt text goes here](assets/img/logo4.jpg)
+
 When starting the design process, a major goal of mine was to design a UX which worked in haromony with their logo & brand indentity.
 Irish rap music is quite a niche genre and the UX had to engage this small target audience. 
 To reflect the tone of the music, I used a black background paired with the logo's bold orange colouring. White was then used to highlight certain pieces of text, making the overall content more legible by creating contrast.
@@ -37,7 +40,7 @@ For title within the navbar, I chose a dramatic font called Holtwood One SC. All
 
 
 
-Existing Features
+## Existing Features
 
 Homepage:
 
@@ -45,7 +48,7 @@ Homepage:
 
 
 
-Technologies Used
+## Technologies Used
 
 JQuery 
 https://jquery.com/ - The Jquery script tag is required in order to load Bootstrap.
@@ -83,7 +86,7 @@ Used to create custom event ticket container
 
 
 
-Credit
+## Credit
 
 
 General CSS knowledge:
@@ -147,16 +150,16 @@ I've implemented for one of the buttons on the navbar to bring you to the bottom
 
 
 
-Media
+## Media
 
 
-Bad Arts Entertainment Videos & Images:
+#### Bad Arts Entertainment Videos & Images:
 
 This section will cover the majority of videos and images used in this project. 
 As this site will be used by a real musical organisation, I was given permission to use any videos or images owned bt Bad Arts Entertainment.
 
 
-External Images:
+#### External Images:
 
 In shop.html I have used 5 external images sourced from google images using the search term 'merch'.
 
@@ -164,9 +167,9 @@ In shop.html I have used 5 external images sourced from google images using the 
 
 
 
-Deployment
+## Deployment
 
-How to run this project locally:
+#### How to run this project locally:
 
 To clone this project into Gitpod you will need:
 1. A Github account
@@ -196,7 +199,7 @@ git clone https://www.github.com/USERNAME/REPOSITORY
 
 
 
-Testing
+## Testing
 
 * W3C CSS validator
 * W3C Markup validator
@@ -216,7 +219,7 @@ Home > Contact
 
 
 
-Testing client's stories outlined in the readme:
+#### Testing client's stories outlined in the readme:
 
 1. As a new visitor to the website, I want to be able to navigate the site easily and be able to find what I want quickly.
     
@@ -250,9 +253,9 @@ Testing client's stories outlined in the readme:
     i. In the shop, prices are outlined for each product once you hover over them. Also within the product page, the current and previous product price is clearly outlined.
 
 
-Bugs Discovered:
+## Bugs Discovered:
 
-Solved bugs
+#### Solved bugs
 
 1. Z-index of navbar on mobile
     
