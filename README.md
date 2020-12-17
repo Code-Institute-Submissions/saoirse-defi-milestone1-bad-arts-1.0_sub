@@ -1,4 +1,4 @@
-# Bad Arts Entertainment Webpage
+# Bad Arts Entertainment Milestone Project
 
 This webpage has been designed for a Limerick based rap label which represents 8 distinct artist/group of artists.
 The objective of the project is to create an all-in-one platform for Bad Arts Entertainment to connect their social media presence which is spread across multiple websites. This website would pull content from Twitter & Youtube while also linking to Spotify & Bandcamp.
@@ -8,16 +8,18 @@ The website will also be used as a promotional tool for the label to advertise a
 ## UX
 
 Before designing the wireframes and choosing the colour scheme, I reviewed the label's current online presence.
-Bad Arts Entertainment already had a logo, an orange smiley face on a black background with red lettering.
+Bad Arts Entertainment already had a logo, an orange smiley face on a black background with red lettering(see below).
 
 ![alt text goes here](assets/img/logo4.jpg)
 
+### Project Goals
+
 When starting the design process, a major goal of mine was to design a UX which worked in haromony with their logo & brand indentity.
-Irish rap music is quite a niche genre and the UX had to engage this small target audience. 
+Irish rap music is quite a niche genre and the UX had to engage it's small but growing target audience. The color and font selection had to be edgy and dark while still being highly legible. 
 To reflect the tone of the music, I used a black background paired with the logo's bold orange colouring. White was then used to highlight certain pieces of text, making the overall content more legible by creating contrast.
 For title within the navbar, I chose a dramatic font called Holtwood One SC. All other text was styled using thehighly legible Kanit font.
 
-
+### User stories
 
 1. As a fan of Bad Arts Entertainment I want:
 
@@ -37,6 +39,36 @@ For title within the navbar, I chose a dramatic font called Holtwood One SC. All
 
 
 3. As a music PR agent:
+
+### Design Choices
+
+The overall feel of the webpage should appeal to the company's target demographic which is young men aged between 18-30. The following design choices were made with this target audience in mind.
+
+#### Fonts
+
+    * For the hero title within the navigation bar, a dramatic font called Holtwood One SC was chosen. I selected it due it's resemblence to certain movie posters titles such as Clockwork Orange & Pulp Fiction.
+    * All other text is presented in the Kanit font. This font was chosen for it's legibility but also reflects the hip-hop label's no-nonsense attitude.
+
+#### Icons
+
+    * Before I drew up the wireframes, the music label had sent me their pre-designed logo. This is used for the favicon and the navigation bar.
+    * All other icons were chosen for their obvious meaning and purpose so that they can be understood by everyone.
+
+#### Colours
+
+The primary color choices of black and orange were chosen work in harmony the previously designed Bad Arts Entertainment logo.
+
+The secondary color white was chosen for large blocks of text to provide contrast and increase legiblity.
+
+#### Styling
+
+##### Event Containers
+
+    * Event containers were given a custom image as a background in order to give them the resemblence of a ticket stub.
+
+#### Backgrounds
+
+
 
 
 
