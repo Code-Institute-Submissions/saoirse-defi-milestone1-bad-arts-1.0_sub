@@ -46,13 +46,13 @@ The overall feel of the webpage should appeal to the company's target demographi
 
 #### Fonts
 
-    * For the hero title within the navigation bar, a dramatic font called Holtwood One SC was chosen. I selected it due it's resemblence to certain movie posters titles such as Clockwork Orange & Pulp Fiction.
-    * All other text is presented in the Kanit font. This font was chosen for it's legibility but also reflects the hip-hop label's no-nonsense attitude.
+* For the hero title within the navigation bar, a dramatic font called Holtwood One SC was chosen. I selected it due it's resemblence to certain movie posters titles such as Clockwork Orange & Pulp Fiction.
+* All other text is presented in the Kanit font. This font was chosen for it's legibility but also reflects the hip-hop label's no-nonsense attitude.
 
 #### Icons
 
-    * Before I drew up the wireframes, the music label had sent me their pre-designed logo. This is used for the favicon and the navigation bar.
-    * All other icons were chosen for their obvious meaning and purpose so that they can be understood by everyone.
+* Before I drew up the wireframes, the music label had sent me their pre-designed logo. This is used for the favicon and the navigation bar.
+* All other icons were chosen for their obvious meaning and purpose so that they can be understood by everyone.
 
 #### Colours
 
@@ -62,15 +62,12 @@ The secondary color white was chosen for large blocks of text to provide contras
 
 #### Styling
 
-##### Event Containers
+* Event containers were given a custom image as a background in order to give them the resemblence of a ticket stub.
 
-    * Event containers were given a custom image as a background in order to give them the resemblence of a ticket stub.
-
-#### Backgrounds
+#### Carousel Images
 
 
-
-
+#### Videos
 
 ## Existing Features
 
