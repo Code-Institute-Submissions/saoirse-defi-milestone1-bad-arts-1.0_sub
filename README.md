@@ -78,33 +78,26 @@ The overall feel of the webpage should appeal to the company's target demographi
 * Custom carousel arrows were created using an orange and white color scheme to blend in with the previous chosen colours.
 
 
-## Media
-
-#### Carousel & Card Images
-
-* All carousel & Card images were provided by the label who are the sole owners of the copyright.
-
-#### Videos
-
-* All videos were taken from the Bad Arts Entertainment youtube channel.
-
-* I considered using local video files for the video gallery but during implementation, website performance became noticable issue.
-
-#### Icons 
-
-* All icons including social media, accordion plus/minus and product page's back button have all been sourced from [FontAwesome](https://www.fontawesome.com).
-
-
-#### External Images:
-
-In shop.html I have used 5 external images sourced from google images using the search term 'merch'.
-
 
 ## Existing Features
 
-Homepage:
+#### Mailing List Modal
 
+#### Rotating card carousel
 
+#### Artist profile accordion
+
+#### Custom event div
+
+#### Video Gallery
+
+#### Shop
+
+#### Product page
+
+#### Contact form
+
+#### Google Map iframe
 
 
 
@@ -132,9 +125,207 @@ Website used to source footer icons
 Used to create custom event ticket container
 
 
+## Testing
+
+* W3C CSS validator
+* W3C Markup validator
+  
+    * The developer used W3C CSS validation service and W3C Markup validation service to check the validity of their code.
+  
+#### Common paths
+
+Most common paths through the website:
+
+##### Home > Videos
+  
+##### Home > Shop > Product
+
+    * A back button was added to each product page to ensure that site visitors can easily return to the shop page. A link in the navbar also has this functionality, the second button was added as it follows modern online shopping conventions.
+
+##### Home > Contact
+
+
+#### Testing client's stories outlined in the UX section:
+
+1. As a new visitor to the website, I want to be able to navigate the site easily and be able to find what I want quickly.
+    
+    * No matter what page a new visitor lands on, they're able to easily find and use the navigation bar.
+    * The logo image and hero title are links that always lead back to the homepage.
+    * The landing section of the homepage contains a desription of the music label, their genre and location.
+
+
+2. As a new visitor to the site, I want to be able to find specific artists.
+
+    * On the home page, artist's profiles are grouped together in order to aid the site visitor find the indended artist quickly and provide the scope of the label.
+
+
+3. As a new visitor to the website, I want to be able read some personal information relating to each artist so I can understand their lyrics in context.
+
+    * Each artist profile contains a concise biography and their latest video release.
+
+
+4. As a fan, I want the ability to purchase physical/digital copies of their music.
+   
+    * On the homepage, each artist's profile has a link to their bandcamp page where potential customers can purchase their music digitally.
+    * Within shop.html , physical media will be available for sale once it is in stock.
+
+
+5. As a fan, I want to be able to interact with social media from their twitter account.
+
+    * Near the bottom of the homepage, there is an embedded twitter timeline where users can read the label's entire feed.
+    * A twitter follow button has also been placed within the footer, which has been syncronised across all pages.
+
+
+6. As a potential employer, I would like the ability to see previous events they have done in order to make a more calculated business decision on whether to hire one of the label's artists.
+
+    * The events section on the homepage outlines previous events that the label has taken part in as well as any upcoming gigs planned.
+
+
+7. As a potential customer, I would like the ability to view their merchandise with clearly indicated pricing.
+
+    * In the shop, prices are outlined for each product once you hover over them. Also within the product page, the current and previous product price is clearly outlined.
+
+
+8. As a potential customer, I want to be able to navigate between the shop and individual product pages with ease.
+
+    * At the top left of each product page, a left arrow icon allowd the user to return to the shop with ease.
+    * This icon was chosen for it's obvious meaning and purpose so that it can be understood by everyone.
+
+
+9. As a potential employer, I would like the ability to contact the label directly.
+
+    * On the contact page, there is a contact form in order to get in touch with Bad Arts Entertainment.
+  
+
+10. As a fan, I would like to know precisely where the music label is located.
+
+    * On the contact page, there contains a Google Map element showing where the label is based.
+    * If you click on the map marker, a small blurb of the area is provided.
+
+
+## Bugs Discovered:
+
+#### Solved bugs
+
+1. Z-index of navbar on mobile
+    
+    * The navbar dropdown tile worked on every page besides index.html.
+    * After requesting help from the tutor team at Code Institute, we found that the issue was arrising due to the z-index of the navbar in relation to the carousel. 
+    * The navbar has now been given a z-index:10 and the problem has been resolved.
+
+        .nav{
+            z-index: 10;
+        }
+
+
+2. Bootstrap accordion not collapsing
+
+    * The accordion wouldn't collapse once it had been opened. You could see the browser attempting to close the accordion, creating a glitching effect.
+    * I reviewed the bootstrap documentation and tried several potential solutions involving class names.
+    * After triple checking my code to ensure that it matched the Bootstrap documentation, I knew that a new solution was needed.
+    * A JS script was needed to close the accordion manually.
+
+      $('.open-close1').collapse('toggle', {
+            parent: '#accordion1'
+        });  
+
+
+3. Rotating card carousel not mobile friendly
+
+    * As the browser window decreased to mobile size, a 3 card carousel wouldn't fit aesteticely.
+    * I created 2 separate carousels, a 3 card carousel for screens 768px and above & a single card carousel for screens 768px and below.
+    * The bootstrap class names used to achieve this; Desktop[ d-none d-md-block ] & Mobile [ d-md-none ].
+
+        Class name for desktop carousel
+        <div class="carousel slide d-none d-md-block" id="carousel3" data-ride="carousel">
+
+        Class name for mobile carousel
+        <div class="carousel slide d-md-none" id="carousel4" data-ride="carousel">
+
+
+4. Index.html footer too long
+   
+    * After completing the design of the website, I noticed that there was ~700px of empty blackspace beneath where the footer ended.
+    * I tried to create a fixed height for the body but this had unwanted consequences.
+    * The current solution was to wrap the entire webpage in a div and set overflow to hidden.
+
+        #content-wrapper{
+            overflow: hidden; 
+        }
+
+
+## Deployment
+
+This project was was developed using Gitpod, commited to git and pushed to Github using the built in function with Gitpod.
+
+To deploy this page from Github pages from its Github repository, the following steps were taken.
+
+1. Log into Github.
+2. From the list of repositories on the screen, select saoirse-defi/milestone1-bad-arts-1.0.
+3. From the menu items near the top of the page, select Settings.
+4. Scroll down to the Github Pages section.
+5. Under source click the drop-down menu labelled None and select Master Branch.
+6. On selecting Master Branch, the page is automatically refreshed, the website is now deployed.
+   
+At the moment of submitting this milestone project, the default branch is version1.2 which is the latest version.
+
+#### How to run this project locally:
+
+To clone this project into Gitpod you will need:
+1. A Github account
+2. Use the Chrome browser
+
+Then follow these steps:
+1. Install the gitpod browser extensions for Chrome
+2. After installation, restart the browser
+3. Log into gitpod with your gitpod account
+4. Navigate to the github project repository
+5. Click the green 'gitpod' button at the top right corner of the repository
+6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally
+
+
+To work on the code within a local IDE such as VScode:
+1. Follow this link to the github repository
+2. Under the repository name, click 'clone' or 'download'
+3. In the clone with the https section, copy the clone URL for the repository
+4. In your local IDE, open the terminal
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type 'git clone', and then paste the URL copied in step 3
+
+git clone https://www.github.com/USERNAME/REPOSITORY
+
+7. Press enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository can be found here [Github](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
+
 
 ## Credit
 
+### Media
+
+#### Carousel & Card Images
+
+* All carousel & Card images were provided by the label who are the sole owners of the copyright.
+
+* As this site will be used by a real musical organisation, I was given permission to use any videos or images owned by Bad Arts Entertainment.
+
+#### Videos
+
+* All videos were taken from the Bad Arts Entertainment youtube channel.
+
+* I considered using local video files for the video gallery but during implementation, website performance became noticable issue.
+
+#### Icons 
+
+* All icons including social media, accordion plus/minus and product page's back button have all been sourced from [FontAwesome](https://www.fontawesome.com).
+
+
+#### External Images:
+
+* In shop.html I have used 5 external images sourced from google images using the search term 'merch'.
+
+### Code
 
 #### General CSS knowledge:
 
@@ -197,185 +388,3 @@ I've implemented for one of the buttons on the navbar to bring you to the bottom
 
 
 
-## Media
-
-
-#### Bad Arts Entertainment Videos & Images:
-
-This section will cover the majority of videos and images used in this project. 
-As this site will be used by a real musical organisation, I was given permission to use any videos or images owned bt Bad Arts Entertainment.
-
-
-#### External Images:
-
-In shop.html I have used 5 external images sourced from google images using the search term 'merch'.
-
-
-
-
-
-## Deployment
-
-This project was was developed using Gitpod, commited to git and pushed to Github using the built in function with Gitpod.
-
-To deploy this page from Github pages from its Github repository, the following steps were taken.
-
-1. Log into Github.
-2. From the list of repositories on the screen, select saoirse-defi/milestone1-bad-arts-1.0.
-3. From the menu items near the top of the page, select Settings.
-4. Scroll down to the Github Pages section.
-5. Under source click the drop-down menu labelled None and select Master Branch.
-6. On selecting Master Branch, the page is automatically refreshed, the website is now deployed.
-   
-At the moment of submitting this milestone project, the default branch is version1.2 which is the latest version.
-
-#### How to run this project locally:
-
-To clone this project into Gitpod you will need:
-1. A Github account
-2. Use the Chrome browser
-
-Then follow these steps:
-1. Install the gitpod browser extensions for Chrome
-2. After installation, restart the browser
-3. Log into gitpod with your gitpod account
-4. Navigate to the github project repository
-5. Click the green 'gitpod' button at the top right corner of the repository
-6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally
-
-
-To work on the code within a local IDE such as VScode:
-1. Follow this link to the github repository
-2. Under the repository name, click 'clone' or 'download'
-3. In the clone with the https section, copy the clone URL for the repository
-4. In your local IDE, open the terminal
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type 'git clone', and then paste the URL copied in step 3
-
-git clone https://www.github.com/USERNAME/REPOSITORY
-
-7. Press enter. Your local clone will be created.
-
-Further reading and troubleshooting on cloning a repository can be found here [Github](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-
-
-## Testing
-
-* W3C CSS validator
-* W3C Markup validator
-  
-    * The developer used W3C CSS validation service and W3C Markup validation service to check the validity of their code.
-  
-#### Common paths
-
-Most common paths through the website:
-
-##### Home > Videos
-  
-##### Home > Shop > Product
-
-    * A back button was added to each product page to ensure that site visitors can easily return to the shop page. A link in the navbar also has this functionality, the second button was added as it follows modern online shopping conventions.
-
-##### Home > Contact
-
-
-#### Testing client's stories outlined in the UX section:
-
-1. As a new visitor to the website, I want to be able to navigate the site easily and be able to find what I want quickly.
-    
-    * No matter what page a new visitor lands on, they're able to easily find and use the navigation bar.
-    * The logo image and hero title are links that always lead back to the homepage.
-    * The landing section of the homepage contains a desription of the music label, their genre and location.
-
-
-2. As a new visitor to the site, I want to be able to find specific artists.
-
-    * On the home page, artist's profiles are grouped together in order to aid the site visitor find the indended artist quickly and provide the scope of the label.
-
-
-3. As a new visitor to the website, I want to be able read some personal information relating to each artist so I can understand their lyrics in context.
-
-    * Each artist profile contains a concise biography and their latest video release.
-
-
-4. As a fan, I want the ability to purchase physical/digital copies of their music.
-   
-    * On the homepage, each artist's profile has a link to their bandcamp page where potential customers can purchase their music digitally.
-    * Within shop.html , physical media will be available for sale once it is in stock.
-
-
-5. As a potential employer, I would like the ability to see previous events they have done in order to make a more calculated business decision on whether to hire one of the label's artists.
-
-    * The events section on the homepage outlines previous events that the label has taken part in as well as any upcoming gigs planned.
-
-
-6. As a potential customer, I would like the ability to view their merchandise with clearly indicated pricing.
-
-    * In the shop, prices are outlined for each product once you hover over them. Also within the product page, the current and previous product price is clearly outlined.
-
-7. As a potential customer, I want to be able to navigate between the shop and individual product pages with ease.
-
-    * At the top left of each product page, 
-
-    ![alt-text](<i class="fas fa-arrow-left"></i>)
-
-8. As a potential employer, I would like the ability to contact the label directly.
-
-    * On the contact page, there is a contact form in order to get in touch with Bad Arts Entertainment.
-  
-
-9.  As a fan, I would like to know precisely where the music label is located.
-
-    * On the contact page, there contains a Google Map element showing where the label is based.
-    * If you click on the map marker, a small blurb of the area is provided.
-
-
-## Bugs Discovered:
-
-#### Solved bugs
-
-1. Z-index of navbar on mobile
-    
-    * The navbar dropdown tile worked on every page besides index.html.
-    * After requesting help from the tutor team at Code Institute, we found that the issue was arrising due to the z-index of the navbar in relation to the carousel. 
-    * The navbar has now been given a z-index:10 and the problem has been resolved.
-
-        .nav{
-            z-index: 10;
-        }
-
-
-2. Bootstrap accordion not collapsing
-
-    * The accordion wouldn't collapse once it had been opened. You could see the browser attempting to close the accordion, creating a glitching effect.
-    * I reviewed the bootstrap documentation and tried several potential solutions involving class names.
-    * After triple checking my code to ensure that it matched the Bootstrap documentation, I knew that a new solution was needed.
-    * A JS script was needed to close the accordion manually.
-
-      $('.open-close1').collapse('toggle', {
-            parent: '#accordion1'
-        });  
-
-
-3. Rotating card carousel not mobile friendly
-
-    * As the browser window decreased to mobile size, a 3 card carousel wouldn't fit aesteticely.
-    * I created 2 separate carousels, a 3 card carousel for screens 768px and above & a single card carousel for screens 768px and below.
-    * The bootstrap class names used to achieve this; Desktop[ d-none d-md-block ] & Mobile [ d-md-none ].
-
-        Class name for desktop carousel
-        <div class="carousel slide d-none d-md-block" id="carousel3" data-ride="carousel">
-
-        Class name for mobile carousel
-        <div class="carousel slide d-md-none" id="carousel4" data-ride="carousel">
-
-
-4. Index.html footer too long
-   
-    * After completing the design of the website, I noticed that there was ~700px of empty blackspace beneath where the footer ended.
-    * I tried to create a fixed height for the body but this had unwanted consequences.
-    * The current solution was to wrap the entire webpage in a div and set overflow to hidden.
-
-        #content-wrapper{
-            overflow: hidden; 
-        }
