@@ -23,7 +23,7 @@ p{
 }
 
 #content-wrapper{
-    overflow: hidden; /*not working to reduce footer size*/
+    overflow: hidden; 
 }
 
 nav{

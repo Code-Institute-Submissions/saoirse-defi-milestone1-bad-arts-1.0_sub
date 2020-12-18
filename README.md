@@ -72,13 +72,23 @@ The overall feel of the webpage should appeal to the company's target demographi
 
 #### Carousel & Card Images
 
-* All carousel & Card images were provided by the label
+* All carousel & Card images were provided by the label who are the sole owners of the copyright.
 
 #### Videos
+
+* All videos were taken from the Bad Arts Entertainment youtube channel.
+
+* I considered using local video files for the video gallery but during implementation, website performance became noticable issue.
 
 #### Icons 
 
 * All icons including social media, accordion plus/minus and product page's back button have all been sourced from [FontAwesome](https://www.fontawesome.com).
+
+
+#### External Images:
+
+In shop.html I have used 5 external images sourced from google images using the search term 'merch'.
+
 
 ## Existing Features
 
@@ -100,7 +110,7 @@ I decided to use this framework to implement several features on the site includ
 This technology was used to convert youtube videos into html iframe elements.
 
 [Image Resizer](https://picresize.com/)
-At times, working with images can be a difficult task. This free image resizing website has helped me tremendoulously with my milestone project.
+At times, working with images can be a difficult task. This free website was used mainly to crop images into square profile photos.
 
 [Google Fonts](https://fonts.google.com/)
 The site used to choose and implement custom fonts.
@@ -230,20 +240,19 @@ git clone https://www.github.com/USERNAME/REPOSITORY
 
 * W3C CSS validator
 * W3C Markup validator
-    *The developer used W3C CSS validation service and   W3C Markup validation service to check the validity of their code.
+  
+    * The developer used W3C CSS validation service and W3C Markup validation service to check the validity of their code.
   
 Client stories Testing
 
 Most common paths through the website:
 
 * Home > Videos
-
 * Home > Shop > Product
-* A back button was added to each product page to ensure that site visitors can easily return to the shop page. A link in the navbar also has this functionality, the second button was added as it follows modern online shopping conventions.
 
-Home > Contact
+    * A back button was added to each product page to ensure that site visitors can easily return to the shop page. A link in the navbar also has this functionality, the second button was added as it follows modern online shopping conventions.
 
-
+* Home > Contact
 
 
 #### Testing client's stories outlined in the readme:
@@ -293,9 +302,10 @@ Home > Contact
 
 2. Bootstrap accordion not collapsing
 
-    * The accordion wouldn't collapse once it had been opened. You could see the browser attempting to close the accordion looking almost like a glitch.
-    * After scouring the bootstrap documentation, I tried several potential solutions.
-    * A JS script was needed to close the accordion
+    * The accordion wouldn't collapse once it had been opened. You could see the browser attempting to close the accordion, creating a glitching effect.
+    * I reviewed the bootstrap documentation and tried several potential solutions involving class names.
+    * After triple checking my code to ensure that it matched the Bootstrap documentation, I knew that a new solution was needed.
+    * A JS script was needed to close the accordion manually.
 
       $('.open-close1').collapse('toggle', {
             parent: '#accordion1'
@@ -308,4 +318,19 @@ Home > Contact
     * I created 2 separate carousels, a 3 card carousel for screens 768px and above & a single card carousel for screens 768px and below.
     * The bootstrap class names used to achieve this; Desktop[ d-none d-md-block ] & Mobile [ d-md-none ].
 
+        Class name for desktop carousel
+        <div class="carousel slide d-none d-md-block" id="carousel3" data-ride="carousel">
 
+        Class name for mobile carousel
+        <div class="carousel slide d-md-none" id="carousel4" data-ride="carousel">
+
+
+4. Index.html footer too long
+   
+    * After completing the design of the website, I noticed that there was ~700px of empty blackspace beneath where the footer ended.
+    * I tried to create a fixed height for the body but this had unwanted consequences.
+    * The current solution was to wrap the entire webpage in a div and set overflow to hidden.
+
+        #content-wrapper{
+            overflow: hidden; 
+        }
