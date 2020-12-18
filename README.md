@@ -10,6 +10,7 @@ The website will also be used as a promotional tool for the label to advertise a
 Before designing the wireframes and choosing the colour scheme, I reviewed the label's current online presence.
 Bad Arts Entertainment already had a logo, an orange smiley face on a black background with red lettering(see below).
 
+
 ![alt text goes here](assets/img/logo4.jpg)
 
 ### Project Goals
@@ -77,7 +78,7 @@ The overall feel of the webpage should appeal to the company's target demographi
 
 #### Icons 
 
-* All icons including social media, accordion plus/minus and product page's back button have all been sourced from [FontAwesome](https://www.fontawesome.com)
+* All icons including social media, accordion plus/minus and product page's back button have all been sourced from [FontAwesome](https://www.fontawesome.com).
 
 ## Existing Features
 
@@ -89,38 +90,25 @@ Homepage:
 
 ## Technologies Used
 
-JQuery 
-https://jquery.com/ - The Jquery script tag is required in order to load Bootstrap.
+[JQuery](https://jquery.com/) - The Jquery script tag is required in order to load Bootstrap.
 
-Bootstrap
-https://getbootstrap.com/ 
+[Bootstrap](https://getbootstrap.com/)
 Bootstrap was one of the technologies that was requested for us to use for our milestone project. 
 I decided to use this framework to implement several features on the site including the navbar, a carousel and a grid containing 4 cards (each having an image, some text and a link).
 
-
-CSS grid
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
-Having learnt about grid layouts from the Bootstrap example, I decided that I wanted to learn how to implement them natively using CSS.
-All other grid layouts, such as the footer, artist's profile, shop and videos page have been programmed using CSS grid.
-
-Youtube Video Embedding tool
-https://www.classynemesis.com/projects/ytembed/
+[Youtube Video Embedding tool](https://www.classynemesis.com/projects/ytembed/)
 This technology was used to convert youtube videos into html iframe elements.
 
-Image Resizer
-https://picresize.com/
+[Image Resizer](https://picresize.com/)
 At times, working with images can be a difficult task. This free image resizing website has helped me tremendoulously with my milestone project.
 
-Google Fonts
-https://fonts.google.com/
+[Google Fonts](https://fonts.google.com/)
 The site used to choose and implement custom fonts.
 
-Icons
-https://fontawesome.com/
+[Icons](https://fontawesome.com/)
 Website used to source footer icons
 
-Photo Editing Software:
-https://www.gimp.org/
+[Photo Editing Software](https://www.gimp.org/)
 Used to create custom event ticket container
 
 
@@ -128,7 +116,7 @@ Used to create custom event ticket container
 ## Credit
 
 
-General CSS knowledge:
+#### General CSS knowledge:
 
 https://www.youtube.com/watch?v=jx5jmI0UlXU&t
 https://www.w3schools.com/cssref/css3_pr_background-size.asp
@@ -139,50 +127,50 @@ https://www.w3schools.com/tags/tag_strike.asp
 https://css-tricks.com/snippets/sass/black-white-opacity-mixins/
 These videos and articles helped me understand certain cructial CSS properties such as position, background, object-fit and text-align.
 
-Form Styling:
+#### Form Styling:
 
 https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/
 I don't believe that I copied any code directly from this site but it influenced my decisions relating to the footer contact form styling.
 
-Hover text effect associated with shop.html:
+#### Hover text effect associated with shop.html:
 
 https://www.youtube.com/watch?v=ltxxNidblts
 
 
-Bootstrap Navbar and associated issues:
+#### Bootstrap Navbar and associated issues:
 
 https://stackoverflow.com/questions/44988543/bootstrap-navbar-transparent-on-mobile
 https://stackoverflow.com/questions/22383547/bootstrap-dropdown-menu-is-not-working
 https://stackoverflow.com/questions/19204937/div-doesnt-position-itself-below-bootstrap-fixed-navbar
 I used these stackoverflow articles to troubleshoot the bugs outlined in the above section.
 
-Video Gallery:
+#### Video Gallery:
 
 https://fancyapps.com/fancybox/3/
 
-Bootstrap custom icon colour:
+#### Bootstrap custom icon colour:
 
 https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel
 
-Customising the Google Map:
+#### Customising the Google Map:
 
 https://developers.google.com/maps/documentation/javascript/styling
 https://developers.google.com/maps/documentation/javascript/adding-a-google-map
 
-Text over image:
+#### Text over image:
 
 https://css-tricks.com/design-considerations-text-images/
 
-Flyout Modal:
+#### Flyout Modal:
 
 https://www.solodev.com/blog/web-design/bootstrap/how-to-create-a-flyout-bootstrap-modal.stml
 
-Card Flip Carousel:
+#### Card Flip Carousel:
 https://www.youtube.com/watch?v=jVhwJgLOoGw
 https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600
 
 
-Internal Links:
+#### Internal Links:
 
 https://www.yourhtmlsource.com/text/internallinks.html
 I've implemented for one of the buttons on the navbar to bring you to the bottom of the page, to the contact section.
