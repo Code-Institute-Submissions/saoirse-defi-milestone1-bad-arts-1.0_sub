@@ -629,6 +629,7 @@ footer{
 }
 
 @media only screen and (max-width: 1305px){
+    
     #merch-cd{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
