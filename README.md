@@ -22,24 +22,34 @@ For title within the navbar, I chose a dramatic font called Holtwood One SC. All
 
 ### User stories
 
-1. As a fan of Bad Arts Entertainment I want:
+1. As a new fan of Bad Arts Entertainment I want:
 
-    * The ability to easily find music and videos from each individual artist so that they can listen to a specific artist depending on what mood the site visitor is in.
+    * The ability to easily find music and videos from each individual artist to enable me to learn more about the label.
     * A clearly defined navigation bar so that I can move around the site effectively.
     * Information pertaining to each artist and their connections with each other to get a better understanding of the label as a whole.
-    * A place to be able to purchase physical merchandise/album releases or digital music files.
     * A way to view their social feed without having to leave the webpage.
     * A method to interact with the label's social media content which is split across several external sites. 
 
 
-2. As a music venue promoter:
+2. As a fan that would like to purchase a specific artist's album I need:
+
+    * A music/video gallery to decide which ablum is right for me.
+    * An link to an internal/external shop where I can purchase the album for a reasonable price.
+
+
+3. As a music venue promoter I need:
 
     * A place to review the label's music and videos to see if they are a suitable act for their venue.
     * The ability to view previous events that the label has been a part of.
     * A method to get in contact with the label in order to book their artists for concerts.
 
 
-3. As a music PR agent:
+4. As a music PR agent I need:
+
+    * An area to review past and future events held by the label.
+    * A video gallery containing the majority of their releases.
+    * A gateway to the label's external socal media presence.
+
 
 ### Design Choices
 
@@ -206,6 +216,19 @@ In shop.html I have used 5 external images sourced from google images using the 
 
 ## Deployment
 
+This project was was developed using Gitpod, commited to git and pushed to Github using the built in function with Gitpod.
+
+To deploy this page from Github pages from its Github repository, the following steps were taken.
+
+1. Log into Github.
+2. From the list of repositories on the screen, select saoirse-defi/milestone1-bad-arts-1.0.
+3. From the menu items near the top of the page, select Settings.
+4. Scroll down to the Github Pages section.
+5. Under source click the drop-down menu labelled None and select Master Branch.
+6. On selecting Master Branch, the page is automatically refreshed, the website is now deployed.
+   
+At the moment of submitting this milestone project, the default branch is version1.2 which is the latest version.
+
 #### How to run this project locally:
 
 To clone this project into Gitpod you will need:
@@ -233,7 +256,7 @@ git clone https://www.github.com/USERNAME/REPOSITORY
 
 7. Press enter. Your local clone will be created.
 
-
+Further reading and troubleshooting on cloning a repository can be found here [Github](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 
 ## Testing
@@ -243,50 +266,52 @@ git clone https://www.github.com/USERNAME/REPOSITORY
   
     * The developer used W3C CSS validation service and W3C Markup validation service to check the validity of their code.
   
-Client stories Testing
+#### Common paths
 
 Most common paths through the website:
 
-* Home > Videos
-* Home > Shop > Product
+##### Home > Videos
+  
+##### Home > Shop > Product
 
     * A back button was added to each product page to ensure that site visitors can easily return to the shop page. A link in the navbar also has this functionality, the second button was added as it follows modern online shopping conventions.
 
-* Home > Contact
+##### Home > Contact
 
 
-#### Testing client's stories outlined in the readme:
+#### Testing client's stories outlined in the UX section:
 
 1. As a new visitor to the website, I want to be able to navigate the site easily and be able to find what I want quickly.
     
-    i. No matter what page a new visitor lands on, they're able to easily find and use the navigation bar.
-    ii.The logo image is a link that always leads back to the Homepage.
-    iii.The landing section of the homepage contains a desription of the music label, their genre and location.
+    * No matter what page a new visitor lands on, they're able to easily find and use the navigation bar.
+    * The logo image and hero title are links that always lead back to the homepage.
+    * The landing section of the homepage contains a desription of the music label, their genre and location.
 
 
-2. As a new visitor to the site, I am interested in a specific artist on the label.
+2. As a new visitor to the site, I want to be able to find specific artists.
 
-    i. On the home page, all artist's profiles are grouped together in order to aid the site visitor find the indended artist quickly.
-
-
-3. As a new visitor to the website, I want to find some personal information for each artist so I can understand their lyrics better.
-
-    i. Each artist profile contains a concise biography and their latest video release.
+    * On the home page, artist's profiles are grouped together in order to aid the site visitor find the indended artist quickly and provide the scope of the label.
 
 
-4. As a fan, I want the ability to purchase digital copies of their music.
+3. As a new visitor to the website, I want to be able read some personal information relating to each artist so I can understand their lyrics in context.
+
+    * Each artist profile contains a concise biography and their latest video release.
+
+
+4. As a fan, I want the ability to purchase physical/digital copies of their music.
    
-    i. On the homepage, each artist's profile has a link to their bandcamp page where potential customers can purchase their music digitally.
+    * On the homepage, each artist's profile has a link to their bandcamp page where potential customers can purchase their music digitally.
+    * Within shop.html , physical media will be available for sale once it is in stock.
 
 
-5. As a potential employer, I would like to see what previous events they have done in order to make a wise business decision.
+5. As a potential employer, I would like the ability to see previous events they have done in order to make a more calculated business decision on whether to hire one of the label's artists.
 
-    i. The events section on the homepage outlines previous events that the label has taken part in as well as any upcoming gigs planned.
+    * The events section on the homepage outlines previous events that the label has taken part in as well as any upcoming gigs planned.
 
 
-6. As a potential customer, I would like to view their merchandise with clearly indicated pricing.
+6. As a potential customer, I would like the ability to view their merchandise with clearly indicated pricing.
 
-    i. In the shop, prices are outlined for each product once you hover over them. Also within the product page, the current and previous product price is clearly outlined.
+    * In the shop, prices are outlined for each product once you hover over them. Also within the product page, the current and previous product price is clearly outlined.
 
 
 ## Bugs Discovered:
@@ -295,9 +320,13 @@ Most common paths through the website:
 
 1. Z-index of navbar on mobile
     
-    * The navbar dropdown tile worked on every page besides index.html [FIXED] Dropdown on index.html.
+    * The navbar dropdown tile worked on every page besides index.html.
     * After requesting help from the tutor team at Code Institute, we found that the issue was arrising due to the z-index of the navbar in relation to the carousel. 
     * The navbar has now been given a z-index:10 and the problem has been resolved.
+
+        .nav{
+            z-index: 10;
+        }
 
 
 2. Bootstrap accordion not collapsing
