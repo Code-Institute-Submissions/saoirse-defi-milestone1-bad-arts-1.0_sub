@@ -56,18 +56,28 @@ The overall feel of the webpage should appeal to the company's target demographi
 
 #### Colours
 
-The primary color choices of black and orange were chosen work in harmony the previously designed Bad Arts Entertainment logo.
+* The primary color choices of black and orange were chosen work in harmony the previously designed Bad Arts Entertainment logo.
 
-The secondary color white was chosen for large blocks of text to provide contrast and increase legiblity.
+* The secondary color white was chosen for large blocks of text to provide contrast and increase legiblity.
 
 #### Styling
 
 * Event containers were given a custom image as a background in order to give them the resemblence of a ticket stub.
 
-#### Carousel Images
+* Custom carousel arrows were created using an orange and white color scheme to blend in with the previous chosen colours.
 
+
+## Media
+
+#### Carousel & Card Images
+
+* All carousel & Card images were provided by the label
 
 #### Videos
+
+#### Icons 
+
+* All icons including social media, accordion plus/minus and product page's back button have all been sourced from [FontAwesome](https://www.fontawesome.com)
 
 ## Existing Features
 

@@ -619,7 +619,7 @@ footer{
 }
 
 .grid-item img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     margin: 5px;
 }
@@ -756,6 +756,8 @@ footer{
        position: relative;
        right: 20px;
     }
+
+    
 
 }
 
