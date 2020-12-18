@@ -313,6 +313,22 @@ Most common paths through the website:
 
     * In the shop, prices are outlined for each product once you hover over them. Also within the product page, the current and previous product price is clearly outlined.
 
+7. As a potential customer, I want to be able to navigate between the shop and individual product pages with ease.
+
+    * At the top left of each product page, 
+
+    ![alt-text](<i class="fas fa-arrow-left"></i>)
+
+8. As a potential employer, I would like the ability to contact the label directly.
+
+    * On the contact page, there is a contact form in order to get in touch with Bad Arts Entertainment.
+  
+
+9.  As a fan, I would like to know precisely where the music label is located.
+
+    * On the contact page, there contains a Google Map element showing where the label is based.
+    * If you click on the map marker, a small blurb of the area is provided.
+
 
 ## Bugs Discovered:
 
