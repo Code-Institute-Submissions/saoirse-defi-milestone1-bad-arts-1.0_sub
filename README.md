@@ -140,7 +140,7 @@ Most common paths through the website:
   
 ##### Home > Shop > Product
 
-    * A back button was added to each product page to ensure that site visitors can easily return to the shop page. A link in the navbar also has this functionality, the second button was added as it follows modern online shopping conventions.
+  * A back button was added to each product page to ensure that site visitors can easily return to the shop page. A link in the navbar also has this functionality, the second button was added as it follows modern online shopping conventions.
 
 ##### Home > Contact
 
