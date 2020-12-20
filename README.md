@@ -312,9 +312,9 @@ Further reading and troubleshooting on cloning a repository can be found here [G
 
 #### Videos
 
-* All videos were taken from the Bad Arts Entertainment youtube channel.
+* All videos were taken from the Bad Arts Entertainment Youtube channel.
 
-* I considered using local video files for the video gallery but during implementation, website performance became noticable issue.
+* I considered using local video files for the video gallery but during implementation, website performance became noticeable issue.
 
 #### Icons 
 
@@ -336,7 +336,7 @@ https://www.w3schools.com/css/css3_object-fit.asp
 https://www.w3schools.com/cssref/sel_before.asp
 https://www.w3schools.com/tags/tag_strike.asp
 https://css-tricks.com/snippets/sass/black-white-opacity-mixins/
-These videos and articles helped me understand certain cructial CSS properties such as position, background, object-fit and text-align.
+These videos and articles helped me understand certain crucial CSS properties such as position, background, object-fit and text-align.
 
 #### Form Styling:
 
@@ -353,7 +353,7 @@ https://www.youtube.com/watch?v=ltxxNidblts
 https://stackoverflow.com/questions/44988543/bootstrap-navbar-transparent-on-mobile
 https://stackoverflow.com/questions/22383547/bootstrap-dropdown-menu-is-not-working
 https://stackoverflow.com/questions/19204937/div-doesnt-position-itself-below-bootstrap-fixed-navbar
-I used these stackoverflow articles to troubleshoot the bugs outlined in the above section.
+I used these Stackoverflow articles to troubleshoot the bugs outlined in the above section.
 
 #### Video Gallery:
 
