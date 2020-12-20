@@ -33,8 +33,8 @@ For title within the navbar, I chose a dramatic font called Holtwood One SC. All
 
 2. As a fan that would like to purchase a specific artist's album I need:
 
-    * A music/video gallery to decide which ablum is right for me.
-    * An link to an internal/external shop where I can purchase the album for a reasonable price.
+    * A music/video gallery to decide which album is right for me.
+    * A link to an internal/external shop where I can purchase the album for a reasonable price.
 
 
 3. As a music venue promoter I need:
@@ -48,7 +48,7 @@ For title within the navbar, I chose a dramatic font called Holtwood One SC. All
 
     * An area to review past and future events held by the label.
     * A video gallery containing the majority of their releases.
-    * A gateway to the label's external socal media presence.
+    * A gateway to the label's external social media presence.
 
 
 ### Design Choices
@@ -57,8 +57,8 @@ The overall feel of the webpage should appeal to the company's target demographi
 
 #### Fonts
 
-* For the hero title within the navigation bar, a dramatic font called Holtwood One SC was chosen. I selected it due it's resemblence to certain movie posters titles such as Clockwork Orange & Pulp Fiction.
-* All other text is presented in the Kanit font. This font was chosen for it's legibility but also reflects the hip-hop label's no-nonsense attitude.
+* For the hero title within the navigation bar, a dramatic font called Holtwood One SC was chosen. I selected it due it's resemblance to certain movie posters titles such as Clockwork Orange & Pulp Fiction.
+* All other text is presented in the Kanit font. This font was chosen for its legibility but also reflects the hip-hop label's no-nonsense attitude.
 
 #### Icons
 
@@ -69,11 +69,11 @@ The overall feel of the webpage should appeal to the company's target demographi
 
 * The primary color choices of black and orange were chosen work in harmony the previously designed Bad Arts Entertainment logo.
 
-* The secondary color white was chosen for large blocks of text to provide contrast and increase legiblity.
+* The secondary color white was chosen for large blocks of text to provide contrast and increase legibility.
 
 #### Styling
 
-* Event containers were given a custom image as a background in order to give them the resemblence of a ticket stub.
+* Event containers were given a custom image as a background in order to give them the resemblance of a ticket stub.
 
 * Custom carousel arrows were created using an orange and white color scheme to blend in with the previous chosen colours.
 
@@ -110,7 +110,7 @@ Bootstrap was one of the technologies that was requested for us to use for our m
 I decided to use this framework to implement several features on the site including the navbar, a carousel and a grid containing 4 cards (each having an image, some text and a link).
 
 [Youtube Video Embedding tool](https://www.classynemesis.com/projects/ytembed/)
-This technology was used to convert youtube videos into html iframe elements.
+This technology was used to convert Youtube videos into html iframe elements.
 
 [Image Resizer](https://picresize.com/)
 At times, working with images can be a difficult task. This free website was used mainly to crop images into square profile photos.
@@ -151,29 +151,29 @@ Most common paths through the website:
     
     * No matter what page a new visitor lands on, they're able to easily find and use the navigation bar.
     * The logo image and hero title are links that always lead back to the homepage.
-    * The landing section of the homepage contains a desription of the music label, their genre and location.
+    * The landing section of the homepage contains a description of the music label, their genre and location.
 
 
 2. As a new visitor to the site, I want to be able to find specific artists.
 
-    * On the home page, artist's profiles are grouped together in order to aid the site visitor find the indended artist quickly and provide the scope of the label.
+    * On the home page, artist's profiles are grouped together in order to aid the site visitor find the intended artist quickly and provide the scope of the label.
 
 
-3. As a new visitor to the website, I want to be able read some personal information relating to each artist so I can understand their lyrics in context.
+3. As a new visitor to the website, I want the ability to read personal information relating to each artist, so I can understand their lyrics in context.
 
     * Each artist profile contains a concise biography and their latest video release.
 
 
 4. As a fan, I want the ability to purchase physical/digital copies of their music.
    
-    * On the homepage, each artist's profile has a link to their bandcamp page where potential customers can purchase their music digitally.
+    * On the homepage, each artist's profile has a link to their Bandcamp page where potential customers can purchase their music digitally.
     * Within shop.html , physical media will be available for sale once it is in stock.
 
 
-5. As a fan, I want to be able to interact with social media from their twitter account.
+5. As a fan, I want to be able to interact with social media from their Twitter account.
 
     * Near the bottom of the homepage, there is an embedded twitter timeline where users can read the label's entire feed.
-    * A twitter follow button has also been placed within the footer, which has been syncronised across all pages.
+    * A twitter follow button has also been placed within the footer, which has been synchronised across all pages.
 
 
 6. As a potential employer, I would like the ability to see previous events they have done in order to make a more calculated business decision on whether to hire one of the label's artists.
@@ -183,13 +183,13 @@ Most common paths through the website:
 
 7. As a potential customer, I would like the ability to view their merchandise with clearly indicated pricing.
 
-    * In the shop, prices are outlined for each product once you hover over them. Also within the product page, the current and previous product price is clearly outlined.
+    * In the shop, prices are outlined for each product once you hover over them. Also, within the product page, the current and previous product price is clearly outlined.
 
 
 8. As a potential customer, I want to be able to navigate between the shop and individual product pages with ease.
 
-    * At the top left of each product page, a left arrow icon allowd the user to return to the shop with ease.
-    * This icon was chosen for it's obvious meaning and purpose so that it can be understood by everyone.
+    * At the top left of each product page, a left arrow icon allows the user to return to the shop with ease.
+    * This icon was chosen for its obvious meaning and purpose so that it can be understood by everyone.
 
 
 9. As a potential employer, I would like the ability to contact the label directly.
@@ -232,7 +232,7 @@ Most common paths through the website:
 
 3. Rotating card carousel not mobile friendly
 
-    * As the browser window decreased to mobile size, a 3 card carousel wouldn't fit aesteticely.
+    * As the browser window decreased to mobile size, a 3 card carousel wouldn't fit aesthetically.
     * I created 2 separate carousels, a 3 card carousel for screens 768px and above & a single card carousel for screens 768px and below.
     * The bootstrap class names used to achieve this; Desktop[ d-none d-md-block ] & Mobile [ d-md-none ].
 
@@ -256,7 +256,7 @@ Most common paths through the website:
 
 ## Deployment
 
-This project was was developed using Gitpod, commited to git and pushed to Github using the built in function with Gitpod.
+This project was developed using Gitpod, committed to git and pushed to Github using the built-in function with Gitpod.
 
 To deploy this page from Github pages from its Github repository, the following steps were taken.
 
@@ -276,27 +276,27 @@ To clone this project into Gitpod you will need:
 2. Use the Chrome browser
 
 Then follow these steps:
-1. Install the gitpod browser extensions for Chrome
+1. Install the Gitpod browser extensions for Chrome
 2. After installation, restart the browser
-3. Log into gitpod with your gitpod account
-4. Navigate to the github project repository
-5. Click the green 'gitpod' button at the top right corner of the repository
-6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally
+3. Log into Gitpod with your Gitpod account
+4. Navigate to the Github project repository
+5. Click the green 'Gitpod' button in the top right corner of the repository
+6. This will trigger a new Gitpod workspace to be created from the code in Github where you can work locally
 
 
 To work on the code within a local IDE such as VScode:
-1. Follow this link to the github repository
+1. Follow this link to the Github repository
 2. Under the repository name, click 'clone' or 'download'
 3. In the clone with the https section, copy the clone URL for the repository
 4. In your local IDE, open the terminal
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type 'git clone', and then paste the URL copied in step 3
 
-git clone https://www.github.com/USERNAME/REPOSITORY
+git clone https://www.Github.com/USERNAME/REPOSITORY
 
 7. Press enter. Your local clone will be created.
 
-Further reading and troubleshooting on cloning a repository can be found here [Github](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+Further reading and troubleshooting on cloning a repository can be found here [Github](https://docs.Github.com/en/free-pro-team@latest/Github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 
 
