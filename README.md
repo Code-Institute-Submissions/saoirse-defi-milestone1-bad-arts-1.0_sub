@@ -1,8 +1,8 @@
 # Bad Arts Entertainment Milestone Project
 
-This webpage has been designed for a Limerick based rap label which represents 8 distinct artist/group of artists.
+This webpage has been designed for a Limerick based rap label which represents several artists.
 The objective of the project is to create an all-in-one platform for Bad Arts Entertainment to connect their social media presence which is spread across multiple websites. This website would pull content from Twitter & Youtube while also linking to Spotify & Bandcamp.
-The website will also be used as a promotional tool for the label to advertise album & merchandise releases. Previous concerts they have done will also be on display. This will help the label to build a community of fans.
+The website will also be used as a promotional tool for the label to advertise album & merchandise releases. Previous concerts they have done will also be on display. This will help the label build a community of fans.
 
 
 ## UX
@@ -15,10 +15,10 @@ Bad Arts Entertainment already had a logo, an orange smiley face on a black back
 
 ### Project Goals
 
-When starting the design process, a major goal of mine was to design a UX which worked in haromony with their logo & brand indentity.
-Irish rap music is quite a niche genre and the UX had to engage it's small but growing target audience. The color and font selection had to be edgy and dark while still being highly legible. 
+When starting the design process, a major goal of mine was to design a UX which worked in harmony with their logo & brand identity.
+Irish rap music is quite a niche genre and the UX had to engage it's small but growing target audience. The colour and font selection had to be edgy and dark while still being highly legible. 
 To reflect the tone of the music, I used a black background paired with the logo's bold orange colouring. White was then used to highlight certain pieces of text, making the overall content more legible by creating contrast.
-For title within the navbar, I chose a dramatic font called Holtwood One SC. All other text was styled using thehighly legible Kanit font.
+For title within the navbar, I chose a dramatic font called Holtwood One SC. All other text was styled using the highly legible Kanit font.
 
 ### User stories
 
@@ -67,15 +67,15 @@ The overall feel of the webpage should appeal to the company's target demographi
 
 #### Colours
 
-* The primary color choices of black and orange were chosen work in harmony the previously designed Bad Arts Entertainment logo.
+* The primary colour choices of black and orange were chosen work in harmony the previously designed Bad Arts Entertainment logo.
 
-* The secondary color white was chosen for large blocks of text to provide contrast and increase legibility.
+* The secondary colour white was chosen for large blocks of text to provide contrast and increase legibility.
 
 #### Styling
 
 * Event containers were given a custom image as a background in order to give them the resemblance of a ticket stub.
 
-* Custom carousel arrows were created using an orange and white color scheme to blend in with the previous chosen colours.
+* Custom carousel arrows were created using an orange and white colour scheme to blend in with the previous chosen colours.
 
 
 
@@ -83,21 +83,43 @@ The overall feel of the webpage should appeal to the company's target demographi
 
 #### Mailing List Modal
 
+* Allows users to join the Bad Arts Entertainment mailing list.
+* This feature appears only appears on index.html 15 seconds after the page has finished loading.
+
 #### Rotating card carousel
+
+* This component provides a rotating card for each new release the label would like to present to the user.
+* The card's front contains the song artwork and the card's back contains a blurb and a link to Spotify where the user can listen to the track.
 
 #### Artist profile accordion
 
+* This component displays information on several artists while minimising the space required.
+* The user clicks the plus icon expanding the accordion to display the artist's bio.
+* This icon changes to a minus symbol once the component has expanded.
+
 #### Custom event div
+
+* A custom background image was created from a Google image source using a photo editing software called Gimp.
+* The container image resembles a ticket stub giving visual context to the webpage's event section.
 
 #### Video Gallery
 
+* This component was created using the Bootstrap grid and a plugin called Fancybox.
+
 #### Shop
+
+* This page allows the user to view an array of products, each of which links to a separate product page.
+* Bootstrap grid was also used here.
 
 #### Product page
 
+* Here the user can add their desired product to their cart.
+* Only 2 unique product pages were created to reduce code duplication and uneccessary work.
+
 #### Contact form
 
-#### Google Map iframe
+* This page gives the user information on where the music label is based by using an embedded Google Maps iframe.
+* It also contains a contact form allowing the user to email Bad Arts Entertainment directly.
 
 
 
