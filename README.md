@@ -203,6 +203,13 @@ Most common paths through the website:
     * If you click on the map marker, a small blurb of the area is provided.
 
 
+
+## Wireframes
+
+##### Home(desktop)
+
+![alt text goes here](assets/wireframes/index2.html.png)
+
 ## Bugs Discovered:
 
 #### Solved bugs

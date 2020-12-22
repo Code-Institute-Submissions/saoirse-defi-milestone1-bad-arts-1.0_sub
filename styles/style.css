@@ -389,11 +389,11 @@ footer{
 }
 
 .fa-youtube{
-    color: #FF0000;
+    color: rgb(190, 0, 0);
 }
 
 .fa-youtube:hover{
-    color: rgb(255, 85, 34);
+    color: rgb(255, 0, 0);
 }
 
 .fa-bandcamp{
@@ -405,19 +405,19 @@ footer{
 }
 
 .fa-facebook{
-    color: #3b5998;
+    color: #0051ff;
 }
 
 .fa-facebook:hover{
-    color: #3773f5;
+    color: #6d9bfd;
 }
 
 .fa-instagram{
-    color: #7232bd;
+    color: #e00ba0;
 }
 
 .fa-instagram:hover{
-    color: #9c46ff;
+    color: #e00b64;
 }
 
 .fa-arrow-left{
