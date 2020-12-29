@@ -709,6 +709,22 @@ footer{
     }
 }
 
+@media only screen and (max-width: 825px){
+   
+    #event-container .event-title{
+    font-size: 1rem;
+    }
+
+    #event-container .card-date{
+    font-size: 0.75rem;
+    }
+
+    #event-container .card-text{
+        font-size: 0.75rem;
+    }
+
+}
+
 @media only screen and (max-width: 800px){
     .navbar-brand img{
         height: 75px;
@@ -751,8 +767,6 @@ footer{
        position: relative;
        right: 20px;
     }
-
-    
 
 }
 
