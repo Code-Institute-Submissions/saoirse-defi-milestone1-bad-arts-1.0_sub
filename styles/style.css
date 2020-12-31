@@ -470,6 +470,9 @@ footer{
     height: 100%;
 }
 
+.shop-container{
+    width: 100%;
+}
 
 .merch-gallery{
     display: grid;
@@ -529,7 +532,7 @@ footer{
 }
 
 .product-img img{
-    width: 480px;
+    width: 90%;
     height: auto;
 }
 
@@ -768,6 +771,7 @@ footer{
        right: 20px;
     }
 
+ 
 }
 
 @media only screen and (max-width: 660px){
@@ -777,6 +781,13 @@ footer{
     }
 
 
+}
+
+@media only screen and (max-width: 500px){
+
+    .merch .merch-img{
+        width: 75%;
+    }
 }
 
 @media only screen and (max-width: 450px){
@@ -789,4 +800,18 @@ footer{
        right: 5px;
     }
 
+}
+
+@media only screen and (max-width: 380px){
+
+    .merch .merch-img{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 275px){
+
+    .merch .merch-img{
+        width: 25%;
+    }
 }
