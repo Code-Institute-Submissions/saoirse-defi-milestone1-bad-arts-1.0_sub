@@ -683,11 +683,11 @@ footer{
         height: 110%;
     }
 
-    .jumbo-text{
-    width: 33%;
+     .jumbo-text{
+    width: 75%;
     position: relative;
-    right: 150px;
-    bottom: 0px;
+    left: 0px;
+    top: 0px;
     }
 
     .display-4{
@@ -759,12 +759,7 @@ footer{
     height: 365px;
     }
 
-    .jumbo-text{
-    width: 75%;
-    position: relative;
-    left: 0px;
-    top: 40px;
-    }
+   
 
      .card-event{
        position: relative;
