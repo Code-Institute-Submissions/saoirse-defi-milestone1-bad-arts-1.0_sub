@@ -305,18 +305,18 @@ footer{
     color: orangered;
 }
 
+.artist-releases-song-title{
+    color: orangered;
+}
+
 .artist-releases-title{
     text-decoration: none;
     color: orangered;
 }
 
-.card-body h2{
-    color: orangered;
-    text-decoration: underline;
-}
-
 .card-body p{
     color: white;
+    border: 1px solid orangered;
 }
 
 #r2{
