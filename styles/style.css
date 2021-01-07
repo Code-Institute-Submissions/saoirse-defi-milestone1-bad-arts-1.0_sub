@@ -216,7 +216,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    left: 25px;
+    left: 0px;
 }
 
 #center-col{
@@ -230,6 +230,11 @@ footer{
     color: white;
     box-sizing: border-box;
     border-radius: 25px;
+}
+
+#right-col h3{
+    position: relative;
+    right: 20px;
 }
 
 #carousel-main{
@@ -314,9 +319,13 @@ footer{
     color: orangered;
 }
 
-.card-body p{
+.artist-p{
     color: white;
     border: 1px solid orangered;
+}
+
+.card-body p{
+    color: white;
 }
 
 #r2{
@@ -766,6 +775,10 @@ footer{
        right: 20px;
     }
 
+    #right-col h3{
+        position: relative;
+        right: 0px;
+    }
  
 }
 
