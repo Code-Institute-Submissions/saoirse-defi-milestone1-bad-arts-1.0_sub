@@ -121,7 +121,12 @@ The overall feel of the webpage should appeal to the company's target demographi
 * This page gives the user information on where the music label is based by using an embedded Google Maps iframe.
 * It also contains a contact form allowing the user to email Bad Arts Entertainment directly.
 
+## Performance
 
+#### Image Resizing & Compression
+
+* Full size images were resized using Gimp to 1600px maintaining the same aspect ratio.
+* Then the images were passed through the TinyJPG compression tool to further reduce the application weight.
 
 ## Technologies Used
 
@@ -137,6 +142,9 @@ This technology was used to convert Youtube videos into html iframe elements.
 [Image Resizer](https://picresize.com/)
 At times, working with images can be a difficult task. This free website was used mainly to crop images into square profile photos.
 
+[Image Compression](https://tinyjpg.com/)
+Used to decrease Time to Live & application weight.
+
 [Google Fonts](https://fonts.google.com/)
 The site used to choose and implement custom fonts.
 
@@ -149,10 +157,13 @@ Used to create custom event ticket container
 
 ## Testing
 
-* W3C CSS validator
-* W3C Markup validator
-  
-    * The developer used W3C CSS validation service and W3C Markup validation service to check the validity of their code.
+#### Validation
+
+* The developer used W3C CSS validation service and W3C Markup validation service to check the validity of their code.
+
+#### Performance Testing
+
+* Lighthouse within Chrome developer tools was used to observe areas where application performance could be improved.
   
 #### Common paths
 
@@ -227,7 +238,6 @@ Most common paths through the website:
 
 
 ## Wireframes
-
 
 ### Home(desktop)
 
