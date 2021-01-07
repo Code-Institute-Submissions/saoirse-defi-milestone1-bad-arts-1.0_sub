@@ -237,69 +237,6 @@ Most common paths through the website:
 
 
 
-## Wireframes
-
-### Home(desktop)
-
-![alt text goes here](assets/wireframes/index2.html.png)
-
-### Home(tablet)
-
-![alt text goes here](assets/wireframes/index(tablet).html.png)
-
-### Home(mobile)
-
-![alt text goes here](assets/wireframes/index(mobile).html.png)
-
-### Videos(desktop)
-
-![alt text goes here](assets/wireframes/videos.html.png)
-
-### Videos(tablet)
-
-![alt text goes here](assets/wireframes/videos(tablet).html.png)
-
-### Videos(mobile)
-
-![alt text goes here](assets/wireframes/videos(mobile).html.png)
-
-### Shop(desktop)
-
-![alt text goes here](assets/wireframes/shop.html.png)
-
-### Shop(tablet)
-
-![alt text goes here](assets/wireframes/shop(tablet).html.png)
-
-### Shop(mobile)
-
-![alt text goes here](assets/wireframes/shop(mobile).html.png)
-
-### Product(desktop)
-
-![alt text goes here](assets/wireframes/product.html.png)
-
-### Product(tablet)
-
-![alt text goes here](assets/wireframes/product(tablet).html.png)
-
-### Product(mobile)
-
-![alt text goes here](assets/wireframes/product(mobile).html.png)
-
-### Contact(desktop)
-
-![alt text goes here](assets/wireframes/contact.html.png)
-
-### Contact(tablet)
-
-![alt text goes here](assets/wireframes/contact(tablet).html.png)
-
-### Contact(mobile)
-
-![alt text goes here](assets/wireframes/contact(mobile).html.png)
-
-
 ## Bugs Discovered:
 
 #### Solved bugs
@@ -484,4 +421,65 @@ https://www.yourhtmlsource.com/text/internallinks.html
 I've implemented for one of the buttons on the navbar to bring you to the bottom of the page, to the contact section.
 
 
+## Wireframes
+
+### Home(desktop)
+
+![alt text goes here](assets/wireframes/index2.html.png)
+
+### Home(tablet)
+
+![alt text goes here](assets/wireframes/index(tablet).html.png)
+
+### Home(mobile)
+
+![alt text goes here](assets/wireframes/index(mobile).html.png)
+
+### Videos(desktop)
+
+![alt text goes here](assets/wireframes/videos.html.png)
+
+### Videos(tablet)
+
+![alt text goes here](assets/wireframes/videos(tablet).html.png)
+
+### Videos(mobile)
+
+![alt text goes here](assets/wireframes/videos(mobile).html.png)
+
+### Shop(desktop)
+
+![alt text goes here](assets/wireframes/shop.html.png)
+
+### Shop(tablet)
+
+![alt text goes here](assets/wireframes/shop(tablet).html.png)
+
+### Shop(mobile)
+
+![alt text goes here](assets/wireframes/shop(mobile).html.png)
+
+### Product(desktop)
+
+![alt text goes here](assets/wireframes/product.html.png)
+
+### Product(tablet)
+
+![alt text goes here](assets/wireframes/product(tablet).html.png)
+
+### Product(mobile)
+
+![alt text goes here](assets/wireframes/product(mobile).html.png)
+
+### Contact(desktop)
+
+![alt text goes here](assets/wireframes/contact.html.png)
+
+### Contact(tablet)
+
+![alt text goes here](assets/wireframes/contact(tablet).html.png)
+
+### Contact(mobile)
+
+![alt text goes here](assets/wireframes/contact(mobile).html.png)
 
