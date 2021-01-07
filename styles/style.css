@@ -583,8 +583,9 @@ footer{
 }
 
 #map{
-    width: 100%;
+    width: 85%;
     height: 400px;
+    float: right;
 }
 
 #contact-form{
@@ -778,6 +779,10 @@ footer{
     #right-col h3{
         position: relative;
         right: 0px;
+    }
+
+    #map{
+        width: 100%;
     }
  
 }
