@@ -1,24 +1,24 @@
 # Bad Arts Entertainment Milestone Project
 
-This webpage has been designed for a Limerick based rap label which represents several artists.
-The objective of the project is to create an all-in-one platform for Bad Arts Entertainment to connect their social media presence which is spread across multiple websites. This website would pull content from Twitter & Youtube while also linking to Spotify & Bandcamp.
-The website will also be used as a promotional tool for the label to advertise album & merchandise releases. Previous concerts they have done will also be on display. This will help the label build a community of fans.
+This webpage has been designed for a Limerick based rap label which represents several hip-hop artists.
+The objective of the project is to create an all-in-one platform for Bad Arts Entertainment to connect their social media presence which is spread across multiple websites. This website will pull content from Twitter & Youtube while also linking to Spotify & Bandcamp.
+The website will also be used as a promotional tool for the label to advertise future albums & merchandise. Information about previous concerts they have preformed at will also be on display. This will help the label engage with their audience and build a community of fans.
 
 
 ## UX
 
-Before designing the wireframes and choosing the colour scheme, I reviewed the label's current online presence.
-Bad Arts Entertainment already had a logo, an orange smiley face on a black background with red lettering(see below).
+Before beginning the design process (ie. creating wireframes and choosing the colour scheme), I reviewed Bad Arts Entertainment's current online presence.
+The company had already designed a logo, an orange smiley face on a black background with red lettering(see below).
 
 
 ![alt text goes here](assets/img/logo4.jpg)
 
 ### Project Goals
 
-When starting the design process, a major goal of mine was to design a UX which worked in harmony with their logo & brand identity.
-Irish rap music is quite a niche genre and the UX had to engage it's small but growing target audience. The colour and font selection had to be edgy and dark while still being highly legible. 
-To reflect the tone of the music, I used a black background paired with the logo's bold orange colouring. White was then used to highlight certain pieces of text, making the overall content more legible by creating contrast.
-For title within the navbar, I chose a dramatic font called Holtwood One SC. All other text was styled using the highly legible Kanit font.
+When starting the design process, a major goal was to design a UX which worked in harmony with their logo & brand identity.
+Irish rap music is a niche genre and the UX has to engage it's small but growing target audience. The colour and font selection had to be edgy while still being highly legible. 
+To reflect the tone of the music, I used a black background paired with the logo's bold orange colouring [#ff4500]. White was then used to highlight certain pieces of text, making the overall content more legible by the user of contrast.
+For the title within the navbar, I chose a dramatic font called Holtwood One SC. All other text was styled using the highly legible Kanit font.
 
 ### User stories
 
@@ -53,7 +53,8 @@ For title within the navbar, I chose a dramatic font called Holtwood One SC. All
 
 ### Design Choices
 
-The overall feel of the webpage should appeal to the company's target demographic which is young men aged between 18-30. The following design choices were made with this target audience in mind.
+As the company's target demographic is young men aged 18-30, design choices were made with this audience in mind. 
+
 
 #### Fonts
 
@@ -84,12 +85,13 @@ The overall feel of the webpage should appeal to the company's target demographi
 #### Mailing List Modal
 
 * Allows users to join the Bad Arts Entertainment mailing list.
-* This feature appears only appears on index.html 15 seconds after the page has finished loading.
+* This feature appears only appears on index.html 45 seconds after the page has finished loading.
 
 #### Rotating card carousel
 
 * This component provides a rotating card for each new release the label would like to present to the user.
 * The card's front contains the song artwork and the card's back contains a blurb and a link to Spotify where the user can listen to the track.
+* A separate mobile version of this feature was developed containing 1 card instead of 3 due to the decrease in screen size.
 
 #### Artist profile accordion
 
@@ -114,7 +116,7 @@ The overall feel of the webpage should appeal to the company's target demographi
 #### Product page
 
 * Here the user can add their desired product to their cart.
-* Only 2 unique product pages were created to reduce code duplication and uneccessary work.
+* Only 2 unique product pages were created to reduce uneccessary code duplication.
 
 #### Contact form
 
@@ -173,7 +175,7 @@ Most common paths through the website:
   
 ##### Home > Shop > Product
 
-  * A back button was added to each product page to ensure that site visitors can easily return to the shop page. A link in the navbar also has this functionality, the second button was added as it follows modern online shopping conventions.
+  * A back button represented by a white leftwards arrow was added to each product page to ensure that site visitors can easily return to the shop page. A link in the navbar also has this functionality, the second button was added as it follows modern online shopping conventions.
 
 ##### Home > Contact
 
