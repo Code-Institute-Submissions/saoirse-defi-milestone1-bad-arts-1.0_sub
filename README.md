@@ -115,8 +115,7 @@ As the company's target demographic is young men aged 18-30, design choices were
 
 #### Product page
 
-* Here the user can add their desired product to their cart.
-* Only 2 unique product pages were created to reduce uneccessary code duplication.
+* Here the user can add their desired product to their cart while viewing item prices and current discounts.
 
 #### Contact form
 

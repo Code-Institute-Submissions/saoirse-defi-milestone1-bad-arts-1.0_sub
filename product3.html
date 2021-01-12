@@ -14,7 +14,7 @@
     <link rel="shortcut icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
     <link rel="shortcut icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
     <link href="styles/style.css" rel="stylesheet">
-    <title>Bad Arts Entertainment - Shop</title>
+    <title>Bad Arts Entertainment - Product</title>
 </head>
 <body>
 <header>
@@ -39,86 +39,36 @@
     </div>
 </nav>
 </header>
-<div class="container-fluid shop-container">
 
-    <div class="h2-box">
-        <h2 class="title-h2 text-center">Physical Media</h2>
+<div class="wrapper">
+    <a href="shop.html"><i class="fas fa-arrow-left"></i></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="product-img">
+                    <img class="img-responsive" src="assets/img/m4.png" alt="product image"/>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="product-text">
+                    <h2>Big Man Davey t-shirt</h2><br>
+                    <span class="product-price">Was <s>24.99</s> Now 14.99 Save 35%</span><br><br>
+                    <p>Item Desription:<br>One year on, here's A10Sín's follow up to his first album "The Crettin LP" which was released last Hallowe'en. Here we have the sequel, "The Common Rough LP" which tells a tale of satanic gangsterism and unruly drug abuse instilled with the soul of A10Sín. Once more, fully produced by DJ Green we get a guest starring role from Dublin's underground phantom "Ghostee", a sea urchin from the bowels of the towers. This package also includes all of the instrumentals too so you're really get bang for your buck here! This is also the first official badarts entertainment full project! </p>
+                    <form class="checkout" action="product3.html" method="GET">
+                        <label for="qty" style="color:white;">Quantity: </label>
+                        <input type="number" class="checkout-qty" name="qty" placeholder="0" required/><br><br>
+                        <button class="btn btn-warning" type="submit">Add to cart</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-
-<div class="merch-gallery" id="merch-cd">
-    <div class="merch">
-        <img class="img-responsive merch-img" src="assets/img/m2small.jpg" alt="merch1"/>
-        <a class="merch-text" href="product1.html">
-            <p>Kushlawn Cocá CD (SOLD OUT)</p>
-        </a>
-    </div>
-    <div class="merch">
-        <img class="img-responsive merch-img" src="assets/img/merch3.jpg" alt="merch2"/>
-        <a class="merch-text" href="product.html">
-            <p>Sick Caint CD (SOLD OUT)</p>
-        </a>
-    </div>
-</div>
-
-    <div class="h2-box">
-        <h2 class="title-h2 text-center">Clothing</h2>
-    </div>
-
-<div class="merch-gallery" id="merch-clothes">
-    <div class="merch">
-        <img class="img-responsive merch-img" src="assets/img/merch1small.jpg" alt="merch3"/>
-        <a class="merch-text" href="product2.html">
-            <p>DJ Green t-shirt (SOLD OUT)</p>
-        </a>
-    </div>
-    <div class="merch">
-        <img class="img-responsive merch-img" src="assets/img/m4.png" alt="merch4"/>
-        <a class="merch-text" href="product3.html">
-            <p>Big Man Davey t-shirt(15e)</p>
-        </a>
-    </div><div class="merch">
-        <img class="img-responsive merch-img" src="assets/img/m5.jpg" alt="merch5"/>
-        <a class="merch-text" href="product4.html">
-            <p>Trust t-shirt(15e)</p>
-        </a>
-    </div><div class="merch">
-        <img class="img-responsive merch-img" src="assets/img/m11.jpg" alt="merch6"/>
-        <a class="merch-text" href="product5.html">
-            <p>Calum t-shirt(15e)</p>
-        </a>
-    </div><div class="merch">
-        <img class="img-responsive merch-img" src="assets/img/m7.jpg" alt="merch7"/>
-        <a class="merch-text" href="product6.html">
-            <p>Same D4Ence t-shirt(15e)</p>
-        </a>
-    </div><div class="merch">
-        <img class="img-responsive merch-img" src="assets/img/m12.jpg" alt="merch8"/>
-        <a class="merch-text" href="product7.html">
-            <p>MCB t-shirt(15e)</p>
-        </a>
-    </div><div class="merch">
-        <img class="img-responsive merch-img" src="assets/img/m3.png" alt="merch9"/>
-        <a class="merch-text" href="product8.html">
-            <p>Green t-shirt(15e)</p>
-        </a>
-    </div><div class="merch">
-        <img class="img-responsive merch-img" src="assets/img/m9.jpg" alt="merch10"/>
-        <a class="merch-text" href="product9.html">
-            <p>Cali t-shirt(15e)</p>
-        </a>
-    </div><div class="merch">
-        <img class="img-responsive merch-img" src="assets/img/m10.jpg" alt="merch11"/>
-        <a class="merch-text" href="product10.html">
-            <p>Haze t-shirt(15e)</p>
-        </a>
-    </div>
-</div>
 </div>
 
 <!--Start of footer-->
-<footer class="page-footer sticky-footer font-small pt-4">
-  <div class="container-fluid">
-    <div class="row">
+<footer class="page-footer sticky-footer font-small pt-4" style="background: url(assets/img/pattern3.jpg);">
+  <div class="container-fluid" style="background: url(assets/img/pattern3.jpg);">
+    <div class="row" style="background: url(assets/img/pattern3.jpg);">
     <!--Start of left footer column-->
       <div class="col-md-4 mb-4 text-center" id="left-col">
         <h3><br>Join our mailing list</h3>
@@ -168,10 +118,7 @@
   <!--End of copyright banner-->
 </footer>
 <!--End of footer-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/cfd5bd64a2.js" crossorigin="anonymous"></script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
 </body>
 </html>
