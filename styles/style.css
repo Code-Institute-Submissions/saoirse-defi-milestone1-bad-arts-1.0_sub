@@ -44,6 +44,7 @@ nav{
 }
 
 .navbar-collapse #other-items{
+    text-align: center;
     float: right;
     width: 50%;
 }
