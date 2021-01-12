@@ -129,6 +129,10 @@ As the company's target demographic is young men aged 18-30, design choices were
 * Full size images were resized using Gimp to 1600px maintaining the same aspect ratio.
 * Then the images were passed through the TinyJPG compression tool to further reduce the application weight.
 
+#### Autoprefixing
+
+* As no autoprefixing extension existed for Gitpod, an external extension was added to the repository [Autoprefixer](https://www.vsixhub.com/vsix/7708/)
+
 ## Technologies Used
 
 [JQuery](https://jquery.com/) - The Jquery script tag is required in order to load Bootstrap.
