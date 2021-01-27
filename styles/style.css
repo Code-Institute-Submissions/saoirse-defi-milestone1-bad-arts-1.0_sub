@@ -371,6 +371,7 @@ footer{
 
 
 .face-front{
+    backface-visibility: hidden;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -380,6 +381,7 @@ footer{
 }
 
 .face-back{
+    backface-visibility: hidden;
     position: absolute;
     width: 100%;
     height: 100%;
