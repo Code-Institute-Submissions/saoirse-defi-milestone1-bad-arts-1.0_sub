@@ -333,7 +333,6 @@ footer{
 
 .artist-p{
     color: white;
-    border: 1px solid orangered;
 }
 
 .card-body p{
@@ -387,6 +386,7 @@ footer{
     height: 100%;
     background-color: black;
     color: orangered;
+    border: 1px solid orangered;
     z-index: 3;
     transform: rotateY(180deg);
 }
