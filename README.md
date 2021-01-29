@@ -1,6 +1,6 @@
 # Bad Arts Entertainment Milestone Project
 
-##### Live URL: [Bad Arts Entertainment](https://badartsentertainment.com/)
+## Live URL: [badartsentertainment.com](https://badartsentertainment.com/)
 
 ## Introduction
 
