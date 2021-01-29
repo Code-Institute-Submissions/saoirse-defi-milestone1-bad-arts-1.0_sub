@@ -31,10 +31,12 @@ For the title within the navbar, I chose a dramatic font called Holtwood One SC.
     * The ability to easily find music and videos from each individual artist to enable me to learn more about the label.
     * A clearly defined navigation bar so that I can move around the site effectively.
     * Information pertaining to each artist and their connections with each other to get a better understanding of the label as a whole.
-  ![Artist Bio](assets/img/Capture8.PNG)
     * A way to view their social feed without having to leave the webpage.
     * A method to interact with the label's social media content which is split across several external sites. 
 
+##### Artist Bio 
+
+![Artist Bio](assets/img/Capture8.PNG)
 
 2. As a fan that would like to purchase a specific artist's album I need:
 
