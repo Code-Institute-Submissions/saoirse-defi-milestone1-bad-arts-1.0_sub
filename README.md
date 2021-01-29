@@ -76,6 +76,8 @@ For the title within the navbar, I chose a dramatic font called Holtwood One SC.
     * A video gallery containing the majority of their releases.
     * A gateway to the label's external social media presence.
 
+##### Twitter Iframe
+
 ![Twitter Iframe](assets/img/Capture3.PNG)
 
 ### Design Choices
