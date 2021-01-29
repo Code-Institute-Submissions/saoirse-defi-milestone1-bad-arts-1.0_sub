@@ -33,16 +33,28 @@ For the title within the navbar, I chose a dramatic font called Holtwood One SC.
     * Information pertaining to each artist and their connections with each other to get a better understanding of the label as a whole.
     * A way to view their social feed without having to leave the webpage.
     * A method to interact with the label's social media content which is split across several external sites. 
+    * To be subscribed to a mailing list in order to be kept up to date with any future releases or events.
 
 ##### Artist Bio 
 
 ![Artist Bio](assets/img/Capture8.PNG)
+
+##### Mailing List
+
+![Mailing List](assets/img/Capture.PNG)
 
 2. As a fan that would like to purchase a specific artist's album I need:
 
     * A music/video gallery to decide which album is right for me.
     * A link to an internal/external shop where I can purchase the album for a reasonable price.
 
+##### Bandcamp link
+
+![Bandcamp Link](assets/img/Capture6.PNG)
+
+##### Video Gallery
+
+![Video Gallery](assets/img/Capture7.PNG)
 
 3. As a music venue promoter I need:
 
@@ -50,6 +62,13 @@ For the title within the navbar, I chose a dramatic font called Holtwood One SC.
     * The ability to view previous events that the label has been a part of.
     * A method to get in contact with the label in order to book their artists for concerts.
 
+##### Events Page
+
+![Event Page](assets/img/Capture2.PNG)
+
+##### Contact 
+
+![Contact](assets/img/Capture5.PNG)
 
 4. As a music PR agent I need:
 
@@ -57,6 +76,7 @@ For the title within the navbar, I chose a dramatic font called Holtwood One SC.
     * A video gallery containing the majority of their releases.
     * A gateway to the label's external social media presence.
 
+![Twitter Iframe](assets/img/Capture3.PNG)
 
 ### Design Choices
 
