@@ -83,12 +83,21 @@ For the title within the navbar, I chose a dramatic font called Holtwood One SC.
 ### Design Choices
 
 As the company's target demographic is young men aged 18-30, design choices were made with this audience in mind. 
+The font and colour choice had to appear authentic in relation to the source material.
 
 
 #### Fonts
 
 * For the hero title within the navigation bar, a dramatic font called Holtwood One SC was chosen. I selected it due it's resemblance to certain movie posters titles such as Clockwork Orange & Pulp Fiction.
 * All other text is presented in the Kanit font. This font was chosen for its legibility but also reflects the hip-hop label's no-nonsense attitude.
+
+##### Hero Title Font
+
+![Hero Title Font](assets/img/Capture9.PNG)
+
+##### Secondary Font
+
+![Secondary Font](assets/img/Capture10.PNG)
 
 #### Icons
 
