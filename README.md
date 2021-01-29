@@ -1,6 +1,6 @@
 # Bad Arts Entertainment Milestone Project
 
-## Live URL: [badartsentertainment.com](https://badartsentertainment.com/)
+## [badartsentertainment.com](https://badartsentertainment.com/)
 
 ## Introduction
 
@@ -39,7 +39,7 @@ For the title within the navbar, I chose a dramatic font called Holtwood One SC.
 
 ![Artist Bio](assets/img/Capture8.PNG)
 
-##### Mailing List
+##### Email List Modal
 
 ![Mailing List](assets/img/Capture.PNG)
 
@@ -330,6 +330,12 @@ Most common paths through the website:
             overflow: hidden; 
         }
 
+
+5. Rotating card image not displaying correctly on Firefox
+    
+    * This bug was discovered when testing the website on a range of browsers & devices.
+    * After realising that this bug wouldn't be fixed by running the stylesheet through a CSS prefixer.
+    * The solution to this bug was to add (backface-visibility: hidden) to both the front & back of the card.
 
 ## Deployment
 
