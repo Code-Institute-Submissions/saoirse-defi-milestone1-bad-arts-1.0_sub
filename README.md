@@ -1,6 +1,10 @@
 # Bad Arts Entertainment Milestone Project
 
-This webpage has been designed for a Limerick based rap label which represents several hip-hop artists.
+##### Live URL: [Bad Arts Entertainment](https://badartsentertainment.com/)
+
+## Introduction
+
+This webpage has been designed for a Limerick based rap label which represents several local hip-hop artists.
 The objective of the project is to create an all-in-one platform for Bad Arts Entertainment to connect their social media presence which is spread across multiple websites. This website will pull content from Twitter & Youtube while also linking to Spotify & Bandcamp.
 The website will also be used as a promotional tool for the label to advertise future albums & merchandise. Information about previous concerts they have preformed at will also be on display. This will help the label engage with their audience and build a community of fans.
 
@@ -27,6 +31,7 @@ For the title within the navbar, I chose a dramatic font called Holtwood One SC.
     * The ability to easily find music and videos from each individual artist to enable me to learn more about the label.
     * A clearly defined navigation bar so that I can move around the site effectively.
     * Information pertaining to each artist and their connections with each other to get a better understanding of the label as a whole.
+  ![Artist Bio](assets/img/Capture8.PNG)
     * A way to view their social feed without having to leave the webpage.
     * A method to interact with the label's social media content which is split across several external sites. 
 
@@ -39,7 +44,7 @@ For the title within the navbar, I chose a dramatic font called Holtwood One SC.
 
 3. As a music venue promoter I need:
 
-    * A place to review the label's music and videos to see if they are a suitable act for their venue.
+    * A place to review the label's music and videos to see if they're a suitable act for their venue.
     * The ability to view previous events that the label has been a part of.
     * A method to get in contact with the label in order to book their artists for concerts.
 
