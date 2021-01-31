@@ -207,19 +207,19 @@ Used to create custom event ticket container
 #### Performance Testing
 
 * Lighthouse within Chrome developer tools was used to observe areas where application performance could be improved.
+* Uncompressed images were causing a very slow TTL, using MS Paint & TinyJPG I was able to reduce the TTL significantly.
   
-#### Common paths
+#### Common paths though the website
 
-Most common paths through the website:
+* From the home page, each path outlined below is accessible through the navigation bar using clearly defined buttons.
 
 ##### Home > Videos
   
 ##### Home > Shop > Product
 
-  * A back button represented by a white leftwards arrow was added to each product page to ensure that site visitors can easily return to the shop page. A link in the navbar also has this functionality, the second button was added as it follows modern online shopping conventions.
+* A back button represented by a white leftwards arrow was added to each product page to ensure that site visitors can easily return to the shop page. A link in the navbar also has this functionality, the second button was added as it follows modern online shopping conventions.
 
 ##### Home > Contact
-
 
 #### Testing client's stories outlined in the UX section:
 
@@ -232,34 +232,37 @@ Most common paths through the website:
 
 2. As a new visitor to the site, I want to be able to find specific artists.
 
-    * On the home page, artist's profiles are grouped together in order to aid the site visitor find the intended artist quickly and provide the scope of the label.
+    * Artist's profiles are grouped together on the homepage to ensure that the user can find a specific artist quickly. 
 
 
 3. As a new visitor to the website, I want the ability to read personal information relating to each artist, so I can understand their lyrics in context.
 
-    * Each artist profile contains a concise biography and their latest video release.
+    * Each artist profile contains a short biography and their latest video release.
 
 
 4. As a fan, I want the ability to purchase physical/digital copies of their music.
    
-    * On the homepage, each artist's profile has a link to their Bandcamp page where potential customers can purchase their music digitally.
-    * Within shop.html , physical media will be available for sale once it is in stock.
+    * Each artist's profile has a link to their Bandcamp page where users can purchase music from Bad Arts Entertainment digitally.
+    * Physical media such as CDs and clothing will be available for sale when in stock.
 
 
 5. As a fan, I want to be able to interact with social media from their Twitter account.
 
-    * Near the bottom of the homepage, there is an embedded twitter timeline where users can read the label's entire feed.
-    * A twitter follow button has also been placed within the footer, which has been synchronised across all pages.
+    * On the homepage, an embedded twitter timeline allows users to scroll though the Bad Arts Entertainment twitter feed.
+    * A twitter follow button has also added within the footer, which has been synchronised across all pages.
 
 
-6. As a potential employer, I would like the ability to see previous events they have done in order to make a more calculated business decision on whether to hire one of the label's artists.
+6. As a music venue coordinator, I would like the ability to see previous events they have done in order to make a more calculated business decision on whether to hire one of the label's artists.
 
     * The events section on the homepage outlines previous events that the label has taken part in as well as any upcoming gigs planned.
+    * A video gallery can be used to review recent content and determine if the label is the right fit for the venue.
 
 
 7. As a potential customer, I would like the ability to view their merchandise with clearly indicated pricing.
 
-    * In the shop, prices are outlined for each product once you hover over them. Also, within the product page, the current and previous product price is clearly outlined.
+    * In the shop, prices are outlined clearly for each product once you hover over the item. Also, within the product page, the current and previous product price is clearly outlined.
+    * The user is then brought to the individual product page where they can read the product information.
+    * A call-to-action button allows the user to add the item to the checkout.
 
 
 8. As a potential customer, I want to be able to navigate between the shop and individual product pages with ease.
@@ -275,8 +278,8 @@ Most common paths through the website:
 
 10. As a fan, I would like to know precisely where the music label is located.
 
-    * On the contact page, there contains a Google Map element showing where the label is based.
-    * If you click on the map marker, a small blurb of the area is provided.
+    * The contact page contains a Google Map element containing a pin to show where the label is based.
+    * If you click on the map marker, a small blurb of the area is provided to give the user more context about the location.
 
 
 
@@ -290,10 +293,11 @@ Most common paths through the website:
     * After requesting help from the tutor team at Code Institute, we found that the issue was arrising due to the z-index of the navbar in relation to the carousel. 
     * The navbar has now been given a z-index:10 and the problem has been resolved.
 
+    <style>
         .nav{
             z-index: 10;
         }
-
+    </style>
 
 2. Bootstrap accordion not collapsing
 
@@ -302,9 +306,11 @@ Most common paths through the website:
     * After triple checking my code to ensure that it matched the Bootstrap documentation, I knew that a new solution was needed.
     * A JS script was needed to close the accordion manually.
 
+    <script>
       $('.open-close1').collapse('toggle', {
             parent: '#accordion1'
         });  
+    </script>
 
 
 3. Rotating card carousel not mobile friendly
@@ -326,9 +332,11 @@ Most common paths through the website:
     * I tried to create a fixed height for the body but this had unwanted consequences.
     * The current solution was to wrap the entire webpage in a div and set overflow to hidden.
 
+    <style>
         #content-wrapper{
             overflow: hidden; 
         }
+    </style>
 
 
 5. Rotating card image not displaying correctly on Firefox
