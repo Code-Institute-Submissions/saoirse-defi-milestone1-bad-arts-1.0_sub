@@ -21,6 +21,7 @@
 <body>
 <div class="wrapper" id="content-wrapper">
 <header>
+    <!--Start of navigation bar-->
     <nav class="navbar navbar-expand-md sticky-top">
         <a class="navbar-brand" href="index.html"><img src="assets/img/logo4.jpg" alt="bad arts logo"/></a> 
         <a class="navbar-brand" href="index.html"><h2 class="nav-title">Bad Arts Entertainment</h2></a>
@@ -41,14 +42,13 @@
         </ul>
     </div>
 </nav>
+<!--End of Navigation bar-->
 </header>
 
 <!--Flyout Modal code taken from https://www.solodev.com/blog/web-design/bootstrap/how-to-create-a-flyout-bootstrap-modal.stml-->
-
 <div class="col-sm-3 col-xl-2 order-1 order-sm-2 mt-4 float-right">
   <button id="flyout-button" data-toggle="modal" data-target="#flyoutmodal" class="btn btn-dark mt-2 w-md-100 text-center" style="display: none;">Launch Modal</button>
 </div>
-
 <div class="modal" id="flyoutmodal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog fadeInRight animated ml-auto" role="document">
     <div class="modal-content">
@@ -74,11 +74,9 @@
     </div>
   </div>
 </div>
-
 <!--End of Flyout Modal Code-->
 
 <!--Start of main carousel-->
-
 <div class="container-fluid" id="carousel-slide">
   <div id="carousel-main" class="carousel slide" data-ride="carousel" data-interval="15000">
     <div class="carousel-inner">
@@ -121,10 +119,9 @@
   </div>
 </div>
 </div>
-
 <!--End of main carousel-->
 
-<!--Desktop rotating card carousel, will be hidden for bootstrap sm breakpoint and below-->
+<!--Start of desktop rotating card carousel, will be hidden for bootstrap sm breakpoint and below-->
 <div class="container-fluid" id="carousel-releases">
     <h2 class="text-center">Discography</h2>
     <div id="carousel3" class="carousel slide d-none d-md-block" data-ride="carousel">
@@ -306,7 +303,6 @@
                     </div>
                 </div>
             </div>
-        
         <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -317,11 +313,9 @@
         </a>
     </div>
 </div>
-
 <!--End of desktop rotating card carousel-->
 
-<!--Mobile releases carousel, will be hidden for bootstrap's md breakpoint and above-->
-
+<!--Start of mobile releases carousel, will be hidden for bootstrap's md breakpoint and above-->
     <div class="carousel slide d-md-none" id="carousel4" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -387,11 +381,9 @@
     </div>
 </div>
 </div>
-
 <!--End of mobile rotating card carousel-->
 
 <!--Start of artist accordion, events and twitter container-->
-
 <div class="container-fluid" id="artists">
 <div class="row" id="accordion-row">
     <div class="col-md-4">
@@ -424,7 +416,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="card">
                 <div class="card-header" id="headingTwo">
                 <div class="card-img">
@@ -452,7 +443,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="card">
                 <div class="card-header" id="headingThree">
                     <div class="card-img">
@@ -482,11 +472,9 @@
             </div>
         </div>
     </div>
-
     <!--End of artist accordion 1-->
 
     <!--Start of artist accordion 2-->
-
     <div class="col-md-4">
         <div class="accordion" id="accordion2">
             <div class="card">
@@ -516,23 +504,22 @@
                     </div>
                 </div>
             </div>
-
             <div class="card">
                 <div class="card-header" id="headingFour">
                 <div class="card-img">
-                        <img src="assets/img/G.jpg" alt="a10sin"/>
+                    <img src="assets/img/G.jpg" alt="a10sin"/>
+                </div>
+                    <div class="card-title artist-title">
+                        <h3 class="artist-h3 text-center">DJ Green</h3>
+                        <div class="card-icons">
+                            <a href="https://open.spotify.com/album/1fcqoQacUJGqBLOxb7UYN3" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
+                            <a href="https://www.youtube.com/watch?v=xOmWDutDSBk" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                            <a href="https://a10sin.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
+                        </div>
+                        <div class="open-close">
+                            <button class="btn btn-link open-close2" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-plus"></i></button>
+                        </div>
                     </div>
-                            <div class="card-title artist-title">
-                                <h3 class="artist-h3 text-center">DJ Green</h3>
-                                <div class="card-icons">
-                                    <a href="https://open.spotify.com/album/1fcqoQacUJGqBLOxb7UYN3" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
-                                    <a href="https://www.youtube.com/watch?v=xOmWDutDSBk" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
-                                    <a href="https://a10sin.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-2x"></i></a>
-                                </div>
-                                <div class="open-close">
-                                <button class="btn btn-link open-close2" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-plus"></i></button>
-                                </div>
-                            </div>
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion2">
                 <div class="card-body">
@@ -544,7 +531,6 @@
                 </div>
                 </div>
             </div>
-
             <div class="card">
                 <div class="card-header" id="headingEight">
                 <div class="card-img">
@@ -574,11 +560,9 @@
             </div>
         </div>
     </div>
-
     <!--End of artist accordion 2-->
 
     <!--Start of event & twitter container-->
-
     <div class="col-md-4">
         <!--Start of event container-->
         <div class="container-fluid" id="event-container">
