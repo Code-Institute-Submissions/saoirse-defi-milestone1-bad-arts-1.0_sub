@@ -293,11 +293,11 @@ Used to create custom event ticket container
     * After requesting help from the tutor team at Code Institute, we found that the issue was arrising due to the z-index of the navbar in relation to the carousel. 
     * The navbar has now been given a z-index:10 and the problem has been resolved.
 
-    <style>
+    `<style>
         .nav{
             z-index: 10;
         }
-    </style>
+    </style>`
 
 2. Bootstrap accordion not collapsing
 
