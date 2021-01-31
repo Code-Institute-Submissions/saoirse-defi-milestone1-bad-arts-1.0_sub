@@ -306,11 +306,11 @@ Used to create custom event ticket container
     * After triple checking my code to ensure that it matched the Bootstrap documentation, I knew that a new solution was needed.
     * A JS script was needed to close the accordion manually.
 
-    <script>
+    `<script>
       $('.open-close1').collapse('toggle', {
             parent: '#accordion1'
         });  
-    </script>
+    </script>`
 
 
 3. Rotating card carousel not mobile friendly
@@ -332,11 +332,11 @@ Used to create custom event ticket container
     * I tried to create a fixed height for the body but this had unwanted consequences.
     * The current solution was to wrap the entire webpage in a div and set overflow to hidden.
 
-    <style>
+    `<style>
         #content-wrapper{
             overflow: hidden; 
         }
-    </style>
+    </style>`
 
 
 5. Rotating card image not displaying correctly on Firefox
