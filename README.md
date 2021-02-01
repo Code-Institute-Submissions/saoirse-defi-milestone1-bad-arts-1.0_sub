@@ -306,11 +306,7 @@ Used to create custom event ticket container
     * After triple checking my code to ensure that it matched the Bootstrap documentation, I knew that a new solution was needed.
     * A JS script was needed to close the accordion manually.
 
-    `<script>
-      $('.open-close1').collapse('toggle', {
-            parent: '#accordion1'
-        });  
-    </script>`
+    `$('.open-close1').collapse('toggle', {parent: '#accordion1'});`
 
 
 3. Rotating card carousel not mobile friendly
@@ -332,18 +328,23 @@ Used to create custom event ticket container
     * I tried to create a fixed height for the body but this had unwanted consequences.
     * The current solution was to wrap the entire webpage in a div and set overflow to hidden.
 
-    `<style>
-        #content-wrapper{
-            overflow: hidden; 
-        }
-    </style>`
+    `#content-wrapper {overflow: hidden;}`
 
 
 5. Rotating card image not displaying correctly on Firefox
     
     * This bug was discovered when testing the website on a range of browsers & devices.
     * After realising that this bug wouldn't be fixed by running the stylesheet through a CSS prefixer.
-    * The solution to this bug was to add (backface-visibility: hidden) to both the front & back of the card.
+    * The solution to this bug was to add `backface-visibility: hidden` to the stylesheet for both the front & back of the card.
+
+6. Broken footer mailing form
+
+    * Submitting the mailing list form at the footer of each page would take the user away from their current page.
+    * This was due to the POST method being applied.
+    * By changing the method to GET and setting the action to the user's current page I was able to fix the issue.
+  
+    `<form id="mailing" name="mailing" action="index.html" method="GET">`
+
 
 ## Deployment
 
